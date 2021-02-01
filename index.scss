@@ -35,7 +35,7 @@
     --toast-border: var(--background-tertiary) !important;
 }
 
-html.theme-dark::before {
+html.liehgt-dark::before {
     content: "This theme is specifically for light mode, A dark theme will not be in development, If you dislike this color scheme, please find another theme, or modify this theme to your liking.";
     font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
     color: rgb(255, 0, 0);
