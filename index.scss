@@ -1,0 +1,50 @@
+@import "./src/import.scss";
+
+.theme-dark, 
+.theme-light, 
+:root {
+    --background-primary: #f0f4ff !important;
+    --background-secondary: #34383e !important;
+    --background-secondary-alt: #2d3137 !important;
+    --background-tertiary: #212528 !important;
+    --background-accent: #2d3137 !important;
+    --background-extra: #dbdff2;
+    --background-floating: var(--background-tertiary) !important;
+    --background-modifier-hover: rgba(255,255,255,0.01) !important;	
+    --background-modifier-active: rgba(255,255,255,0.03) !important;
+    --background-modifier-selected: rgba(255,255,255,0.04) !important;	
+    --background-modifier-accent: hsla(0,0%,100%,0.06) !important;
+    --channeltextarea-background: var(--background-secondary) !important;
+    --focus-primary: rgba(0, 0, 0, 0.219) !important;
+    --deprecated-card-bg: rgba(0, 0, 0, 0.2) !important;
+    --deprecated-card-editable-bg: rgba(0,0,0,0.1) !important;
+    --deprecated-text-input-border-disabled: var(--background-tertiary) !important;
+    --activity-card-background: var(--background-primary) !important;
+    --channels-default: #9f9f9f !important;
+    --text-muted: #b6b6b6 !important;
+    --text-normal: #ffffff !important;
+    --interactive-normal: #c8c8c8 !important;
+    --interactive-hover: #c4c4c4 !important;
+    --interactive-active: var(--background-primary) !important;
+    --interactive-muted: #747474 !important;
+    --header-secondary: #c9c9c9 !important;
+    --toast-background: var(--background-primary) !important;
+    --toast-header: var(--background-tertiary) !important;
+    --toast-contents: var(--background-secondary) !important;
+    --toast-box-shadow: rgba(0, 0, 0, .2) !important;
+    --toast-border: var(--background-tertiary) !important;
+}
+
+html.theme-dark::before {
+    content: "This theme is specifically for light mode, A dark theme will not be in development, If you dislike this color scheme, please find another theme, or modify this theme to your liking.";
+    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: rgb(255, 0, 0);
+    background-color:var(--background-extra);
+    text-align: center;
+    position: absolute;
+    z-index: 10001;
+    height:50px;
+    top:1px;
+    right: 0;
+    left: 0;
+}
