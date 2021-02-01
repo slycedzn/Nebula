@@ -49,7 +49,9 @@ html.light-dark::before {
     left: 0;
 }
 
+:root {
     --burple: var(--background-tertiary);
+    --scrollbar-thumb-dark: #f8f9fa00 !important;
     --scrollbar-track-dark: --burple !important;
   }
   
