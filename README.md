@@ -6,4 +6,4 @@
 
 <h1 align="center">Installation</h1>
 <p align="center">To install this themes latest version, cd into your themes folder user your Terminal or Command prompt and enter the following</p>
-<p align="center">git clone https://github.com/Euphorianic/Discord-Plus </p>
+<p align="center">git clone hhttps://github.com/Euphorianic/Nebula/ </p>
