@@ -1,3 +1,5 @@
+@import "./src/import.scss";
+
 .theme-dark, 
 .theme-light, 
 :root {
@@ -5,7 +7,7 @@
     --background-secondary: #202442 !important;
     --background-secondary-alt: #202442 !important;
     --background-tertiary: #202442 !important;
-    --background-accent: #2d3137 !important;
+    --background-accent: #e8eaf8 !important;
     --background-extra: #dbdff2;
     --background-floating: var(--background-tertiary) !important;
     --background-modifier-hover: rgba(255,255,255,0.01) !important;	
@@ -20,7 +22,7 @@
     --activity-card-background: var(--background-primary) !important;
     --channels-default: #9f9f9f !important;
     --text-muted: #b6b6b6 !important;
-    --text-normal: #ffffff !important;
+    --text-normal: #e8eaf8 !important;
     --interactive-normal: #c8c8c8 !important;
     --interactive-hover: #c4c4c4 !important;
     --interactive-active: var(--background-primary) !important;
@@ -46,3 +48,21 @@ html.light-dark::before {
     right: 0;
     left: 0;
 }
+
+    --burple: var(--background-tertiary);
+    --scrollbar-track-dark: --burple !important;
+  }
+  
+  
+  ::-webkit-scrollbar {
+      width: 10px;
+      border-radius: 25px;
+      background-color: transparent !important;
+  }
+  ::-webkit-scrollbar-thumb {
+      border-radius: 25px;
+      background-color: var(--burple) !important;
+  }
+  ::-webkit-scrollbar-track {
+      display: none;
+  }
