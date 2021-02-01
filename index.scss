@@ -1,12 +1,10 @@
-@import "./src/import.scss";
-
 .theme-dark, 
 .theme-light, 
 :root {
-    --background-primary: #f0f4ff !important;
-    --background-secondary: #34383e !important;
-    --background-secondary-alt: #2d3137 !important;
-    --background-tertiary: #212528 !important;
+    --background-primary: #2d325a !important;
+    --background-secondary: #202442 !important;
+    --background-secondary-alt: #202442 !important;
+    --background-tertiary: #202442 !important;
     --background-accent: #2d3137 !important;
     --background-extra: #dbdff2;
     --background-floating: var(--background-tertiary) !important;
