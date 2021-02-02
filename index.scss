@@ -3,12 +3,13 @@
 .theme-dark, 
 .theme-light, 
 :root {
-    --background-primary: #2d325a !important;
+    --background-primary: #25294a !important;
     --background-secondary: #202442 !important;
-    --background-secondary-alt: #202442 !important;
+    --background-secondary-alt: #2d325a !important;
     --background-tertiary: #202442 !important;
     --background-accent: var(--background-secondary) !important;
     --background-extra: #dbdff2;
+    --background-extra-alt:#2d325a;
     --background-floating: var(--background-tertiary) !important;
     --background-modifier-hover: rgba(255,255,255,0.01) !important;	
     --background-modifier-active: rgba(255,255,255,0.03) !important;
