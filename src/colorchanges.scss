@@ -9,9 +9,17 @@
 .unread-2lAfLh {
     background-color: var(--text-normal) !important;
 }
-.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6 {
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6,
+.jumpToPresentBar-G1R9s6 {
     background-color: var(--background-secondary);
 }
 .theme-dark .headerNormal-T_seeN {
     background-color: var(--background-primary);
+}
+.newMessagesBar-265mhP{
+    background-color: var(--background-primary);
+    border-bottom:solid 1px var(--background-secondary);
+}
+.jumpToPresentBar-G1R9s6{
+    opacity: 1;
 }
