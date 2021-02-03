@@ -1,4 +1,4 @@
-@import "./src/import.scss";
+@use "./src/import.scss";
 
 .theme-dark, 
 .theme-light, 
@@ -6,7 +6,7 @@
     --background-primary: #25294a !important;
     --background-secondary: #202442 !important;
     --background-secondary-alt: #2d325a !important;
-    --background-tertiary: #202442 !important;
+    --background-tertiary: #0f1120 !important;
     --background-accent: var(--background-secondary) !important;
     --background-extra: #dbdff2;
     --background-extra-alt:#2d325a;
