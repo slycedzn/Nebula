@@ -32,15 +32,21 @@
     transition-duration:600ms;
 }
 .search-2oPWTC .searchBar-3dMhjb:hover {
-    width:200px !important;
+    width:168px !important;
+    background-color: var(--background-secondary-alt);
+    border: solid 1px var(--interactive-normal);
 }
 .search-2oPWTC.open-6_Y_aH .searchBar-3dMhjb {
-    width: 200px !important;
+    width: 150px !important;
 }
 .searchBar-3dMhjb{
     background-color: var(--background-secondary);
     width:60px;
 }
+.icon-3cZ1F_{
+    color:var(--interactive-normal);
+}
+
 
 .powercord-codeblock-copy-btn{
     border-radius: 20px;
@@ -51,5 +57,27 @@
     border:solid 2px var(--background-tertiary);
     border-radius: 15px;
 }
-
-
+.container-2fRDfG{
+    position: relative;
+    border-radius: 15px;
+    bottom:5px;
+    width:250px;
+}
+.markup-2BOw-j code.inline{
+    background-color: var(--background-tertiary);
+    border-radius: 3px;
+}
+.mention.wrapper-3WhCwL{
+    color:var(--interactive-normal);
+}
+.wrapper-3WhCwL{
+    color:var(--background-secondary);
+}
+.colorBrand-3pXr91:not(.buttonColor-7qQbGO).lookGhost-2Fn_0-,
+.colorBrand-3pXr91:not(.buttonColor-7qQbGO).lookOutlined-3sRXeN{
+    color:var(--interactive-normal) !important;
+    border:solid 1px var(--interactive-normal);
+}
+.powercord-toast .contents .inner{
+    border-color:var(--interactive-normal);
+}

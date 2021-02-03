@@ -1,9 +1,15 @@
 .iconWrapper-2OrFZ1:last-child,
 .iconWrapper-2OrFZ1[aria-label="Inbox"],
-.iconWrapper-2OrFZ1[aria-label="Announcement Channel"]{
+.iconWrapper-2OrFZ1[aria-label="Announcement Channel"],
+.iconWrapper-2OrFZ1[aria-label="Direct Message"],
+.searchBar-6Kv8R2 .searchBarComponent-32dTOx,
+.iconWrapper-2OrFZ1[aria-label="Start Video Call"],
+.topic-TCb_qw.expandable-9fI_e3{
     display:none;
 }
 .title-29uC1r{
     text-transform: capitalize;
+    height:50px;
     font-size: 21px;
 }
+

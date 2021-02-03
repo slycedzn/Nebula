@@ -6,12 +6,36 @@
       font-size: 16px;
   }
   .layout-2DM8Md{
-      border-radius: 50px;
+      border-radius: 10px;
+      height: 45px;
+      transition-duration: 500ms ;
       width:268px
   }
-  .content-1x5b-n{
-      border-radius: 50px;
+  .bannerImage-3KhIJ6{
+      width:300px;
   }
+  .layer-v9HyYc{
+      position: relative;
+      border-radius: 20px;
+  }
+  .menu-3sdvDG{
+      border-radius: 20px;
+  }
+  .colorDefault-2K3EoJ:hover,
+  .colorDefault-2K3EoJ.focused-3afm-j{
+      background-color: var(--background-primary);
+      border-radius: 20px;
+  }
+  .name-uJV0GL{
+      color:var(--interactive-normal);
+  }
+  .name-uJV0GL:hover{
+      color:var(--interactive-hover);
+  }
+
+
+
+
   $unread-badge: rgba(255, 255, 255, 0);
   $unread-bg: #0f1120;
   $selected-badge: #0f112000;
