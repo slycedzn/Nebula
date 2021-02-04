@@ -4,12 +4,16 @@
   }
   .name-23GUGE{
       font-size: 16px;
+      text-transform: capitalize;
   }
   .layout-2DM8Md{
       border-radius: 10px;
       height: 45px;
       transition-duration: 500ms ;
       width:268px
+  }
+  .childWrapper-anI2G9{
+      background-color: var(--background-secondary) !important;
   }
   .bannerImage-3KhIJ6{
       width:300px;
@@ -32,7 +36,6 @@
   .name-uJV0GL:hover{
       color:var(--interactive-hover);
   }
-
 
 
 
@@ -103,9 +106,30 @@
   }
   
   
-  /* Hovering on channels */
-  .containerDefault--pIXnN .modeUnread-1qO3K1 .content-1x5b-n:hover,
-  .containerDefault--pIXnN:hover .modeUnread-1qO3K1 .content-1x5b-n,
-  .channel-2QD9_O:not(.selected-aXhQR6) .layout-2DM8Md:hover {
+/* Hovering on channels */
+.containerDefault--pIXnN .modeUnread-1qO3K1 .content-1x5b-n:hover,
+.containerDefault--pIXnN:hover .modeUnread-1qO3K1 .content-1x5b-n,
+.channel-2QD9_O:not(.selected-aXhQR6) .layout-2DM8Md:hover {
       background: $hovered-bg;
+  }
+  .name-1jkAdW{
+      position: relative;
+      left:-5px;
+      font-size:20px;
+      top:0px;
+  }
+  .header-2V-4Sw .powercord-badge{
+      display: none;
+  }.guildIconContainer-2FW_iA{
+      position: relative;
+      right:10px;
+  }
+    .input-2A_zIr:focus, .outer-o9SjPm:hover .input-2A_zIr{
+    max-width:200px;
+  }
+  .input-2A_zIr{
+      width:105px;
+  }
+  .channelName-qsg_a_{
+      max-width: 200px;
   }

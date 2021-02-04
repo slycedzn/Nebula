@@ -17,37 +17,24 @@
         padding-bottom:15px;
     }
 }
+.mentioned-xhSam7{
+    background-color: var(--background-secondary-alt);
+}
+.mentioned-xhSam7:hover{
+    background-color: var(--background-secondary) !important;
+}
+.mentioned-xhSam7:before{
+    background-color:white;
+}
 .sidebar-2K8pFh{
     z-index: 1;
 }
 .channelTextArea-2VhZ6z{
     transition-duration: 600ms;
 }
-
-.search-2oPWTC .DraftEditor-root .public-DraftEditorPlaceholder-root{
-    display:none;
+.reactions-12N0jA div .reactionMe-wv5HKu .reactionCount-2mvXRV{
+    color:white !important;
 }
-.search-2oPWTC .searchBar-3dMhjb {
-    width:25px;
-    transition-duration:600ms;
-}
-.search-2oPWTC .searchBar-3dMhjb:hover {
-    width:168px !important;
-    background-color: var(--background-secondary-alt);
-    border: solid 1px var(--interactive-normal);
-}
-.search-2oPWTC.open-6_Y_aH .searchBar-3dMhjb {
-    width: 150px !important;
-}
-.searchBar-3dMhjb{
-    background-color: var(--background-secondary);
-    width:60px;
-}
-.icon-3cZ1F_{
-    color:var(--interactive-normal);
-}
-
-
 .powercord-codeblock-copy-btn{
     border-radius: 20px;
     margin-right:5px;
@@ -80,4 +67,7 @@
 }
 .powercord-toast .contents .inner{
     border-color:var(--interactive-normal);
+}
+.barButtonMain-3K-jeJ{
+    opacity:1px;
 }

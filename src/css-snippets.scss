@@ -14,3 +14,28 @@
 }
 /* Center server name */
 .name-3YKhmS{ text-align: center; }
+
+/* Better roles */
+.role-2irmRk {
+  position: relative;
+  overflow: hidden;
+  border: none;
+  padding: 5px;
+}
+.roleCircle-3xAZ1j::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: inherit;
+  opacity: .2;
+  pointer-events: none;
+}
+.footer-1fjuF6 {
+  border-top: none;
+}
+/* Center profile tabs */
+.tabBar-2MuP6-{ justify-content: center; }
+.top-28JiJ-:last-child .item-PXvHYJ:last-child { margin-right: 0; }
