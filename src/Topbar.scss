@@ -26,8 +26,9 @@
 
 .children-19S4PO{
     position: fixed;
-    left:195px;
-    border-left:solid 1px rgba(255, 255, 255, 0.06);
+    left:85px;
+    border-right:solid 1px rgba(255, 255, 255, 0.06);
+    padding-right:145px;
    }
    .icon-22AiRD{
        color:var(--interactive-normal);
@@ -36,6 +37,9 @@
        font-size: 20px;
        margin: 0 4px 0 0;
        text-transform: capitalize;
+   }
+   .divider-3FBTu8{
+       display: none;
    }
    .theme-dark .children-19S4PO:after{
        display:none;

@@ -23,6 +23,8 @@
       border-radius: 20px;
   }
   .menu-3sdvDG{
+      position: relative;
+      left:29px;
       border-radius: 20px;
   }
   .colorDefault-2K3EoJ:hover,
@@ -112,11 +114,10 @@
 .channel-2QD9_O:not(.selected-aXhQR6) .layout-2DM8Md:hover {
       background: $hovered-bg;
   }
-  .name-1jkAdW{
+  .button-1w5pas{
       position: relative;
-      left:-14px;
-      font-size:20px;
-      top:0px;
+      left:248px;
+      top:2px;
   }
   .header-2V-4Sw .powercord-badge{
       display: none;
@@ -132,4 +133,7 @@
   }
   .channelName-qsg_a_{
       max-width: 200px;
+  }
+  .name-1jkAdW{
+ display: none;
   }
