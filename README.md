@@ -2,6 +2,8 @@
 <p align="center">A redesign of Discord.</p>
 <p align="center">Enjoy!.</p>
 
+![Preview]
+
 <p align="center">Installation</p>
 To install this theme, if you dont have the Theme Downloader Plugin, cd into your Powercord themes folder using your Terminal, Command prompt, or Git Bash. Then copy and past the text below:
 ```

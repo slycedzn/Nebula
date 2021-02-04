@@ -1,0 +1,26 @@
+/* Profile Icon */
+  .title-eS5yk3 {
+    position: relative;
+    font-size: 18px;
+  }
+  .subtext-3CDbHg {
+      display: none;
+  }
+
+  .nameTag-3uD-yy.canCopy-2VBT7N {
+    position: relative;
+    top: 0px;
+  }
+  /* Fly in Voice Chat buttons fix */
+  .panels-j1Uci_ .container-3baos1 button[aria-checked="false"], .panels-j1Uci_ .container-3baos1 button:not([role="switch"]) {
+      transition: 0.2s ease-in-out;
+      width: 0px !important;
+      overflow: hidden !important;
+      opacity: 0 !important;
+  }
+  .panels-j1Uci_ .container-3baos1:hover button.button-14-BFJ {
+      transition: 0.2s ease-in-out;
+      width: 32px !important;
+      overflow: visible !important;
+      opacity: 1 !important;
+  }
