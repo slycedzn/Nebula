@@ -115,9 +115,10 @@
       background: $hovered-bg;
   }
   .button-1w5pas{
-      position: fixed;
-      left:328px;
-      top:18px;
+      position: relative;
+      left:223px;
+      z-index: 12;
+      top:5px;
   }
   .header-2V-4Sw .powercord-badge{
       display: none;
