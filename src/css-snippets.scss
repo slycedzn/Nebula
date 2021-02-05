@@ -188,9 +188,6 @@
   background-color: transparent !important;
   border-top-left-radius: 0;
 }
-#app-mount .powercord-toast .progress-2XXRYo .progressBar-3u8FBM {
-  background: linear-gradient(36deg, #1D976C, #93F9B9) !important;
-}
 
 #app-mount .powercord-toast#powercord-updater .header span {
   color: var(--text-default);
@@ -245,4 +242,6 @@
 }
 #app-mount .powercord-toast .progress-2XXRYo .progressBar-3u8FBM{
   background:rgb(255, 255, 255) !important;
+  position: relative;
+  border-radius: 15px;
 }

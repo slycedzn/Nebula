@@ -129,12 +129,21 @@
     .input-2A_zIr:focus, .outer-o9SjPm:hover .input-2A_zIr{
     max-width:200px;
   }
-  .input-2A_zIr{
-      width:105px;
-  }
   .channelName-qsg_a_{
       max-width: 200px;
   }
   .name-1jkAdW{
  display: none;
+  }
+  .circleIconButton-jET_ig{
+      color:white;
+  }
+  .circleIconButton-jET_ig.selected-ugP_am{
+      background-color: var(--background-primary);
+  }
+  .channelName-qsg_a_{
+      max-width: 600px;
+  }
+  .container-3FPLD3{
+      min-width: 600px;
   }
