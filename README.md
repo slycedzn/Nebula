@@ -4,12 +4,13 @@
 
 ![Preview]
 
-<p align="center">Installation</p>
+<h1 align="center">Installation</h1>
 To install this theme, if you dont have the Theme Downloader Plugin, cd into your Powercord themes folder using your Terminal, Command prompt, or Git Bash. Then copy and past the text below:
+
 ```
 git clone https://github.com/Euphorianic/Nebula
 ```
-<p align="center">Updating</p>
+<h1 align="center">Updating</h1>
 
 Since Powercord's updater is currently broken, you have to update the theme manually. In order to do this, **Open your CMD / Powershell / Terminal / Gitbash, CD into the Nebula folder, and enter the following:**
 ```

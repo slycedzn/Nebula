@@ -38,6 +38,7 @@
 .reactions-12N0jA div .reactionMe-wv5HKu .reactionCount-2mvXRV{
     color:white !important;
 }
+/* Coding part of messages*/
 .powercord-codeblock-copy-btn{
     border-radius: 20px;
     margin-right:5px;
@@ -51,6 +52,7 @@
     background-color: var(--background-tertiary);
     border-radius: 3px;
 }
+/*Mentions*/
 .mention.wrapper-3WhCwL{
     color:var(--interactive-normal);
 }
@@ -65,9 +67,18 @@
 .powercord-toast .contents .inner{
     border-color:var(--interactive-normal);
 }
-.barButtonMain-3K-jeJ{
-    opacity:1px;
-}
 .emoji.jumboable{
     border-radius: 10px;
 }
+
+.container-2fRDfG{
+    width:500px;
+    margin-bottom: 5px;
+    border-radius: 50px;
+   }
+   .colorBrand-2tjs5J{
+       color:var(--background-extra)
+   }
+   .name-hpTFiv{
+       max-width: 100px;
+   }

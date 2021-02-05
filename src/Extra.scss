@@ -7,7 +7,8 @@
 .thin-1ybCId{
     border-right:solid 1px var(--background-secondary-alt);
 }
-.lookFilled-1Gx00P.colorGrey-2DXtkV{
+.lookFilled-1Gx00P.colorGrey-2DXtkV,
+.theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3{
     background-color: var(--background-secondary-alt);
 }
 .contents-18-Yxp,
@@ -18,11 +19,17 @@
 .css-12hk9yc-control {
 background-color: var(--background-tertiary);
 }
-
+.searchResultsWrap-3-pOjs{
+    border-top-left-radius: 20px;
+    border-bottom-left-radius:20px;
+    border-bottom:solid 15px var(--background-secondary);
+    margin-bottom: 20px;
+}
 
 .groupStart-23k01U.cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j {
     border-top-left-radius: 0px;
 }
+/*Chat Bubbles*/
 .cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j:not(:empty) {
     background-color: rgb(56, 61, 104);
     display: inline-block;
