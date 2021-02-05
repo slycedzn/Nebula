@@ -18,7 +18,7 @@ git pull
 ```
 If you've found any bugs, and issues with this theme, please DM my discord.
 
-# Credits
+<h1 align="center">Credits</h1>
 Thank you **SlippityGitty(Vozy)** for testing this theme and finding bugs!
 
 Thank you LuckFire for allowing me to use your themes.
