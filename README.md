@@ -23,6 +23,8 @@ Thank you **SlippityGitty(Vozy)** for testing this theme and finding bugs!
 
 Thank you LuckFire for allowing me to use your themes.
 
+# Disclaimer
 
+Please refrain from making changes to this theme yourself unless you know 100% what your doing. The code in this theme is really messy and unorganized. Multiple elements positions and size depend on other elements. Please ask me if you'd like to change anything at all to this theme and your not sure how to do it.
 
 *Original Concept from TMdesign*

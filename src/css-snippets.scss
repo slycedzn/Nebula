@@ -276,3 +276,15 @@
   position: relative;
   border-radius: 15px;
 }
+
+/*Theme Toggler to top*/
+.side-8zPYf6 > div {
+  order: -1;
+}
+.side-8zPYf6 > div[data-item-id="pc-general"],
+.side-8zPYf6 > div[data-item-id="pc-general"] ~ div {
+  order: 2;
+}
+.side-8zPYf6 > div[data-item-id="theme-toggler"] {
+  order: 1 !important;
+}
