@@ -39,6 +39,8 @@
     --toast-contents: var(--background-secondary) !important;
     --toast-box-shadow: rgba(0, 0, 0, .2) !important;
     --toast-border: var(--background-tertiary) !important;
+    --background-mentioned-hover: #383d6836 !important;
+    --background-mentioned:#383d685e;
 }
 
 html.light-dark::before {

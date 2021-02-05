@@ -29,7 +29,8 @@
     background-color: var(--background-secondary);
 }
 .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O),
-.theme-dark .autocomplete-1vrmpx{
+.theme-dark .autocomplete-1vrmpx,
+.theme-dark .message-2qRu38{
     background-color: var(--background-secondary) !important;
 }
 .lookInverted-2D7oAl.colorBrand-3pXr91{
@@ -40,5 +41,6 @@
     background-color: var(--background-tertiary);
 }
 .lookFilled-1Gx00P.colorWhite-rEQuAQ:disabled{
-    background-color: var(--background-primary);
+    background-color: var(--background-tertiary);
+    border-radius: 15px;
 }

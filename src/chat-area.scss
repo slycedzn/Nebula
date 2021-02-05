@@ -1,84 +1,13 @@
-.content-yTz4x3{
-    &::before{
-        display:none;
+.chatContent-a9vAAp{
+    .form-2fGMdU{
+        .scrollableContainer-2NUZem{
+            border-radius: 50px;
+        }
     }
-    .scrollableContainer-2NUZem{
-        border-radius: 30px;
+    .wrapper-3WhCwL{
+        color:var(--background-extra);
     }
-    .wrapper-2Gsate{
-        background-color: var(--background-secondary-alt);
-    }
-    .members-1998pB, .members-1998pB>div{
-        border-top-left-radius: 15px;
-        border-bottom-left-radius: 15px;
-    }
-    .membersWrap-2h-GB4{
-        padding-top: 20px;
-        padding-bottom:15px;
+    .mentioned-xhSam7:before{
+        background-color: var(--background-mentioned-hover);
     }
 }
-.mentioned-xhSam7{
-    background-color: var(--background-secondary-alt);
-}
-.mentioned-xhSam7:hover{
-    background-color: var(--background-secondary) !important;
-}
-.mentioned-xhSam7:before{
-    background-color:rgba(255, 255, 255, 0.247);
-}
-.sidebar-2K8pFh{
-    z-index: 1;
-}
-.header-23xsNx{
-    user-select:none;
-  }
-.channelTextArea-2VhZ6z{
-    transition-duration: 600ms;
-}
-.reactions-12N0jA div .reactionMe-wv5HKu .reactionCount-2mvXRV{
-    color:white !important;
-}
-/* Coding part of messages*/
-.powercord-codeblock-copy-btn{
-    border-radius: 20px;
-    margin-right:5px;
-    margin-bottom: 5px;
-}
-.markup-2BOw-j code{
-    border:solid 2px var(--background-tertiary);
-    border-radius: 15px;
-}
-.markup-2BOw-j code.inline{
-    background-color: var(--background-tertiary);
-    border-radius: 3px;
-}
-/*Mentions*/
-.mention.wrapper-3WhCwL{
-    color:var(--interactive-normal);
-}
-.wrapper-3WhCwL{
-    color:var(--background-secondary);
-}
-.colorBrand-3pXr91:not(.buttonColor-7qQbGO).lookGhost-2Fn_0-,
-.colorBrand-3pXr91:not(.buttonColor-7qQbGO).lookOutlined-3sRXeN{
-    color:var(--interactive-normal) !important;
-    border:solid 1px var(--interactive-normal);
-}
-.powercord-toast .contents .inner{
-    border-color:var(--interactive-normal);
-}
-.emoji.jumboable{
-    border-radius: 10px;
-}
-
-.container-2fRDfG{
-    width:500px;
-    margin-bottom: 5px;
-    border-radius: 50px;
-   }
-   .colorBrand-2tjs5J{
-       color:var(--background-extra)
-   }
-   .name-hpTFiv{
-       max-width: 100px;
-   }

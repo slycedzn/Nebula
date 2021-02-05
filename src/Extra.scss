@@ -4,9 +4,6 @@
 .theme-dark .pageWrapper-1PgVDX{
     background-color: var(--background-secondary);
 }
-.thin-1ybCId{
-    border-right:solid 1px var(--background-secondary-alt);
-}
 .lookFilled-1Gx00P.colorGrey-2DXtkV,
 .theme-dark .searchAnswer-3Dz2-q, .theme-dark .searchFilter-2ESiM3{
     background-color: var(--background-secondary-alt);
@@ -31,9 +28,9 @@ background-color: var(--background-tertiary);
 }
 /*Chat Bubbles*/
 .cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j:not(:empty) {
-    background-color: rgb(56, 61, 104);
+    background-color: #383d68;
     display: inline-block;
-    max-width: 460px;
+    max-width: 560px;
     margin: 0;
     padding: 5px 10px ;
     border-radius: 15px;
