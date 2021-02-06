@@ -10,6 +10,7 @@
       position: relative;
       background-color: var(--background-tertiary);
       top:14px;
+      width:38px;
       height:30px;
       right:16px;
   }
@@ -25,6 +26,9 @@
     color:rgba(255, 0, 0, 0.795);
   }
   .winButton-iRh8-Z[aria-label="Minimize"]:hover{
-      color:rgb(166, 255, 0);
+      color:rgb(255, 255, 0);
+  }
+  .winButton-iRh8-Z[aria-label="Maximize"]:hover{
+      color:rgb(0, 153, 255);
   }
 }
