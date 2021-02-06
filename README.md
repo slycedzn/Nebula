@@ -13,7 +13,7 @@ git clone https://github.com/Euphorianic/Nebula
 ```
 <h1 align="center">Updating</h1>
 
-Since Powercord's updater is currently broken, you have to update the theme manually. In order to do this, **Open your CMD / Powershell / Terminal / Gitbash, CD into the Nebula folder, and enter the following:**
+**Since Powercord's updater is currently broken, you have to update the theme manually. In order to do this, Open your CMD / Powershell / Terminal / Gitbash, CD into the Nebula folder, and enter the following:**
 ```
 git pull
 ```
@@ -21,9 +21,9 @@ git pull
 
 <h1 align="center">Credits</h1>
 
-Thank you **SlippityGitty(Vozy)** for testing this theme and finding bugs!
+**Thank you SlippityGitty(Vozy) for testing this theme and finding bugs!**
 
-Thank you LuckFire for allowing me to use your themes.
+**Thank you LuckFire for allowing me to use your themes.**
 
 <h1 align="center">Bugs</h1>
 
