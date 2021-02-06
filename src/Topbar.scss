@@ -1,48 +1,51 @@
-.iconWrapper-2OrFZ1:last-child,
-.iconWrapper-2OrFZ1[aria-label="Start Video Call"],
-.iconWrapper-2OrFZ1[aria-label="Inbox"],
-.iconWrapper-2OrFZ1[aria-label="Direct Message"],
-.searchBar-6Kv8R2 .searchBarComponent-32dTOx,
-.topic-TCb_qw,
-.akaBadge-1M-1Gw,
-.nicknames-1XK4Zt{
-    display:none;
-}
-.toolbar-1t6TWx{
-    position: relative;
-    right:0px;
-    z-index: 10;
-    padding-left:5px;
-    padding-right:5px;
-    display:flex;
-    flex-direction: row-reverse;
-}
-.searchBar-3dMhjb{
-    display: flex;
-    flex-direction: row-reverse;
-}
-/* Compressed Search Bar */
-.search-2oPWTC .searchBar-3dMhjb {width:150px;transition-duration:600ms;}
-.search-2oPWTC .searchBar-3dMhjb:hover {width:150px !important;}
-.search-2oPWTC.open-6_Y_aH .searchBar-3dMhjb {width: 150px !important;}
-
-.children-19S4PO{
+.container-1r6BKw.themed-ANHk51{
+    background-color: rgba(0, 0, 0, 0);
+ }
+ .container-1r6BKw{
+    height:0px;
+  }
+  .children-19S4PO,
+  .toolbar-1t6TWx{
+      position: relative;
+      top:25px;
+  }
+  .children-19S4PO{
+      background-color: var(--background-tertiary);
+      text-transform: capitalize;
+      position: fixed;
+      top:10px;
+      border-radius: 10px;
+      min-width:auto;
+      flex: 0 0 auto;
+      padding:3px 1px;
+     }
+     .children-19S4PO:after,
+     .topic-TCb_qw.expandable-9fI_e3,
+     .divider-3FBTu8{
+         display: none;
+     }
+     .nicknames-1XK4Zt, .spacer-3kEb8l{
+         padding-right:5px;
+     }
+ .toolbar-1t6TWx{
     position: fixed;
-    left:84px;
-    max-width: 280px;
-    padding-right:10px;
+    right:120px;
+    min-width: none;
+    top:10px;
+    background-color: var(--background-tertiary);
+    border-radius: 10px;
+    flex: 0 0 auto;
+    padding:3px 1px;
    }
-   .icon-22AiRD{
-       color:var(--interactive-normal);
-   }
-   .title-29uC1r{
-       font-size: 20px;
-       margin: 0 4px 0 0;
-       text-transform: capitalize;
-   }
-   .divider-3FBTu8{
+   .iconWrapper-2OrFZ1:last-child,
+   .iconWrapper-2OrFZ1[aria-label="Inbox"]{
        display: none;
    }
-   .theme-dark .children-19S4PO:after{
-       display:none;
-   }
+   .searchBar-3dMhjb{
+       background-color: var(--background-secondary);
+       border-radius: 10px;
+     }
+     .search-2oPWTC .DraftEditor-root .DraftEditor-editorContainer{
+         position: relative;
+         left:2px;
+     }

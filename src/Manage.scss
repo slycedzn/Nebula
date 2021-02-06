@@ -1,11 +1,30 @@
-.typeWindows-1za-n7{
-    position: relative;
-    top:18px;
-}
-.withFrame-haYltI{
-    margin-top: -18px;
-   }
-   .wordmarkWindows-1v0lYD {
-       display:none;
-   }
 
+  .withFrame-haYltI{
+      position: relative;
+      top:14px;
+       margin-top: -18px;
+    .wordmarkWindows-1v0lYD{
+      display:none;
+  }
+  .winButton-iRh8-Z{
+      position: relative;
+      background-color: var(--background-tertiary);
+      top:14px;
+      height:30px;
+      right:16px;
+  }
+  .winButton-iRh8-Z[aria-label="Close"]{
+      border-top-right-radius: 10px;
+      border-bottom-right-radius: 10px;
+  }
+  .winButton-iRh8-Z[aria-label="Minimize"]{
+      border-bottom-left-radius: 10px;
+      border-top-left-radius: 10px;
+  }
+  .winButton-iRh8-Z[aria-label="Close"]:hover{
+    color:rgba(255, 0, 0, 0.795);
+  }
+  .winButton-iRh8-Z[aria-label="Minimize"]:hover{
+      color:rgb(166, 255, 0);
+  }
+}

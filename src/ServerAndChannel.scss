@@ -1,46 +1,3 @@
-.sidebar-2K8pFh{
-    border-radius: 0px !important; 
-    width:300px;
-  }
-  .name-23GUGE{
-      font-size: 16px;
-      text-transform: capitalize;
-  }
-  .layout-2DM8Md{
-      border-radius: 10px;
-      height: 45px;
-      transition-duration: 500ms ;
-      width:268px
-  }
-  .childWrapper-anI2G9{
-      background-color: var(--background-secondary) !important;
-  }
-  .bannerImage-3KhIJ6{
-      width:300px;
-  }
-  .layer-v9HyYc{
-      position: relative;
-      border-radius: 20px;
-  }
-  .menu-3sdvDG{
-      position: relative;
-      left:29px;
-      border-radius: 20px;
-  }
-  .colorDefault-2K3EoJ:hover,
-  .colorDefault-2K3EoJ.focused-3afm-j{
-      background-color: var(--background-primary);
-      border-radius: 20px;
-  }
-  .name-uJV0GL{
-      color:var(--interactive-normal);
-  }
-  .name-uJV0GL:hover{
-      color:var(--interactive-hover);
-  }
-
-
-
   $unread-badge: rgba(255, 255, 255, 0);
   $unread-bg: #0f1120;
   $selected-badge: #0f112000;
@@ -113,37 +70,29 @@
 .containerDefault--pIXnN:hover .modeUnread-1qO3K1 .content-1x5b-n,
 .channel-2QD9_O:not(.selected-aXhQR6) .layout-2DM8Md:hover {
       background: $hovered-bg;
-  }
-  .button-1w5pas{
-      position: relative;
-      left:223px;
-      z-index: 12;
-      top:3px;
-  }
-  .header-2V-4Sw .powercord-badge{
-      display: none;
-  }.guildIconContainer-2FW_iA{
-      position: relative;
-      right:10px;
-  }
-    .input-2A_zIr:focus, .outer-o9SjPm:hover .input-2A_zIr{
-    max-width:200px;
-  }
-  .channelName-qsg_a_{
-      max-width: 200px;
-  }
-  .name-1jkAdW{
- display: none;
-  }
-  .circleIconButton-jET_ig{
-      color:white;
-  }
-  .circleIconButton-jET_ig.selected-ugP_am{
-      background-color: var(--background-primary);
-  }
-  .channelName-qsg_a_{
-      max-width: 600px;
-  }
-  .container-3FPLD3{
-      min-width: 600px;
-  }
+}
+.circleIconButton-jET_ig{
+    color:white;
+}
+.circleIconButton-jET_ig.selected-ugP_am{
+    background-color: var(--background-secondary-alt);
+}
+
+.platform-win .sidebar-2K8pFh{
+    border-radius: 0px;
+    width:300px;
+ }
+ .bannerImage-3KhIJ6{
+     width:300px;
+ }
+ .layout-2DM8Md{
+     transition-duration: 600ms;
+     border-radius: 10px;
+     width:266px;
+ }
+ .hoverRoll-YK53gQ{
+     display: none;
+ }
+ .name-23GUGE{
+     text-transform: capitalize;
+ }

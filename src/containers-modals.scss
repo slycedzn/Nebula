@@ -22,6 +22,14 @@
 .messagesPopoutWrap-1MQ1bW{
     border-radius: 10px;
 }
+.uploadModal-2ifh8j .inner-3nWsbo .file-34mY5K .icon-kyxXVr.image-2yrs5j{
+    height:200px !important;
+    width:200px !important;
+}
+.theme-dark .body-2iXqIL,
+.theme-dark .footer-2aTx0s{
+    background-color: var(--background-secondary);
+}
 .theme-dark .option-96V44q:after{
     display:none;
 }
@@ -43,5 +51,8 @@
 }
 .lookFilled-1Gx00P.colorWhite-rEQuAQ:disabled{
     background-color: var(--background-tertiary);
-    border-radius: 15px;
+    border-radius: 3px;
+}
+.lookFilled-1Gx00P.colorGrey-2DXtkV:hover{
+    background-color: var(--background-primary);
 }

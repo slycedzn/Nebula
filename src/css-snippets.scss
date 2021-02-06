@@ -42,41 +42,6 @@
 .top-28JiJ-:last-child .item-PXvHYJ:last-child { margin-right: 0; }
 
 
-
-/*Jump to present*/
-.newMessagesBar-265mhP.barBase-1c2Rfb {
-  width:364px;
-  border-radius: 50px;
-  padding:0px;
-  top:5px;
-}
-.newMessagesBar-265mhP.barBase-1c2Rfb .barButtonAlt-mYL1lj.barButtonBase-2uLO1z {
-  width: 132px;
-}
-.jumpToPresentBar-G1R9s6.barBase-1c2Rfb {
-  width:364px;
-  top: 3px;
-  background-color: var(--background-secondary-alt);
-  padding: 0.5px;
-  border-radius: 50px;
-  bottom: auto;
-  right: 16px;
-  left: auto;
-}
-.jumpToPresentBar-G1R9s6.barBase-1c2Rfb .barButtonAlt-mYL1lj.barButtonBase-2uLO1z {
-  width: 148px;
-}
-.barBase-1c2Rfb{
-  min-height: 20px;
-  background-color: var(--background-secondary-alt);
-  height:25px;
-  box-shadow: var(--elevation-low);
-}
-.barButtonMain-3K-jeJ{
-  opacity:1px;
-}
-
-
 [aria-label="Online"]::after {
   content: 'ONLINE';
   font-weight: bold;

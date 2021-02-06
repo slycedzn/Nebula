@@ -1,7 +1,7 @@
 .chatContent-a9vAAp{
     .form-2fGMdU{
         .scrollableContainer-2NUZem{
-            border-radius: 50px;
+            border-radius: 30px;
         }
     }
     .wrapper-3WhCwL{
@@ -10,4 +10,38 @@
     .mentioned-xhSam7:before{
         background-color: var(--background-mentioned-hover);
     }
+    .textAreaWithoutAttachmentButton-qiaiTB{
+        background-color: var(--background-tertiary);
+        border-radius: 50px;
+    }
+    .slateTextArea-1Mkdgw{
+        position: relative;
+        left:10px;
+    }
+}
+.members-1998pB{
+    margin-top: 60px;
+    margin-bottom: 30px;
+    border-radius:10px;
+    margin-right: 10px;
+}
+.members-1998pB, .members-1998pB>div ::-webkit-scrollbar{
+    position: relative;
+    top:11px;
+}
+.jumpToPresentBar-G1R9s6{
+    background-color: var(--background-tertiary); 
+    opacity: 1;
+    border-radius: 10px;
+    width:355px;
+    padding:2px 1px;
+    left:380px;
+    bottom:757px;
+    position: fixed;
+}
+.reactions-12N0jA div .reactionMe-wv5HKu .reactionCount-2mvXRV{
+    color: white !important;
+}
+.reactions-12N0jA div .reactionMe-wv5HKu{
+    background-color: var(--background-tertiary) !important;
 }

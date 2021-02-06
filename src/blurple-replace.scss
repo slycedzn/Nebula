@@ -132,5 +132,23 @@ $blurple-replace: var(--background-secondary-alt);
 }
 
 .newMessagesBar-265mhP { /* New Messages */
-    background-color: $blurple-replace; 
+    background-color: var(--background-tertiary); 
+    opacity: 1;
+    padding: 2px 1px;
+    border-radius: 10px;
+    top:45px;
+    position: fixed;
+    width:355px;
+    left:380px;
+}
+.barButtonBase-2uLO1z{
+    padding:0px;
+}
+.barButtonMain-3K-jeJ, .span-1mKrMp{
+    padding-left:10px !important;
+}
+.barButtonAlt-mYL1lj{
+    margin-left: 5px;
+    border-left: solid 2px rgba(211, 211, 211, 0.158);
+    padding: 0 10px;
 }
