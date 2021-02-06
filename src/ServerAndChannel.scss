@@ -74,8 +74,9 @@
 .circleIconButton-jET_ig{
     color:white;
 }
-.circleIconButton-jET_ig.selected-ugP_am{
-    background-color: var(--background-secondary-alt);
+.circleIconButton-jET_ig.selected-ugP_am,
+.childWrapper-anI2G9{
+    background-color: var(--background-secondary-alt) !important;
 }
 
 .platform-win .sidebar-2K8pFh{

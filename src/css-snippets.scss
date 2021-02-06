@@ -258,7 +258,7 @@
 
 /*Custom Tags*/
 .avatar-1BDn8e[src*="359175647257690113"] + h2 .username-1A8OIy::after {
-  content: 'Tester';
+  content: 'Contributer';
   color: rgb(255, 255, 255);
   background: linear-gradient(90deg, hsla(180, 100%, 50%, 1) 0%, hsla(330, 100%, 50%, 1) 100%);
   display: inline-block;
@@ -273,7 +273,7 @@
 .avatar-1BDn8e[src*="597072695875600385"] + h2 .username-1A8OIy::after {
   content: 'Developer';
   color: rgb(255, 255, 255);
-  background: linear-gradient(90deg, hsla(234, 30%, 31%, 1) 0%, rgb(88, 96, 160) 100%);
+  background: linear-gradient(90deg, #373c67 , #5860a0);
   display: inline-block;
   font-size: 15px;
   font-weight: 500;

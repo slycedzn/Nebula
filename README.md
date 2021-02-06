@@ -26,7 +26,9 @@ If you've found any bugs, and issues with this theme, please DM my discord.
 
 # Known Bugs
 
-- The floating bars will go back up, then down to its modified position when leaving the settings tab.
+- **The floating bars will go back up, then down to its modified position when leaving the settings tab.**
+
+**If you find any bugs or elements with uncolored parts, please notify me.**
 
 # Disclaimer
 
