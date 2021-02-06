@@ -5,7 +5,8 @@
 ![Preview]
 
 <h1 align="center">Installation</h1>
-To install this theme, if you dont have the Theme Downloader Plugin, cd into your Powercord themes folder using your Terminal, Command prompt, or Git Bash. Then copy and past the text below:
+
+**To install this theme, if you dont have the Theme Downloader Plugin, cd into your Powercord themes folder using your Terminal, Command prompt, or Git Bash. Then copy and past the text below:**
 
 ```
 git clone https://github.com/Euphorianic/Nebula
@@ -16,23 +17,22 @@ Since Powercord's updater is currently broken, you have to update the theme manu
 ```
 git pull
 ```
-If you've found any bugs, and issues with this theme, please DM my discord.
+**If you've found any bugs, and issues with this theme, please DM my discord.**
 
 <h1 align="center">Credits</h1>
-Thank you SlippityGitty(Vozy) for testing this theme and finding bugs!
+
+Thank you **SlippityGitty(Vozy)** for testing this theme and finding bugs!
 
 Thank you LuckFire for allowing me to use your themes.
 
 <h1 align="center">Bugs</h1>
 
-- I havent yet added support for Operating Systems such as Linux and MacOS.
+- **The floating bars will go back up, then down to its modified position when leaving the settings tab.**
 
-- The floating bars will go back up, then down to its modified position when leaving the settings tab.
-
-- For some users, the animated picture for servers, will have a smaller width.
+- **For some users, the animated picture for servers, will have a smaller width.**
 
 <h1 align="center">Disclaimer</h1>
 
-Please refrain from making changes to this theme yourself unless you know 100% what your doing. The code in this theme is really messy and unorganized. Multiple elements positions and size depend on other elements. Please ask me if you'd like to change anything at all to this theme and your not sure how to do it.
+**Please refrain from making changes to this theme yourself unless you know 100% what your doing. The code in this theme is really messy and unorganized. Multiple elements positions and size depend on other elements. Please ask me if you'd like to change anything at all to this theme and your not sure how to do it.**
 
 *Original Concept from TMdesign*
