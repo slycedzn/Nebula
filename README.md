@@ -19,11 +19,11 @@ git pull
 If you've found any bugs, and issues with this theme, please DM my discord.
 
 <h1 align="center">Credits</h1>
-Thank you **SlippityGitty(Vozy)** for testing this theme and finding bugs!
+Thank you SlippityGitty(Vozy) for testing this theme and finding bugs!
 
 Thank you LuckFire for allowing me to use your themes.
 
-# Bugs
+<h1 align="center">Bugs</h1>
 
 - I havent yet added support for Operating Systems such as Linux and MacOS.
 
@@ -31,7 +31,7 @@ Thank you LuckFire for allowing me to use your themes.
 
 - For some users, the animated picture for servers, will have a smaller width.
 
-# Disclaimer
+<h1 align="center">Disclaimer</h1>
 
 Please refrain from making changes to this theme yourself unless you know 100% what your doing. The code in this theme is really messy and unorganized. Multiple elements positions and size depend on other elements. Please ask me if you'd like to change anything at all to this theme and your not sure how to do it.
 
