@@ -1,5 +1,5 @@
 <h1 align="center">Nebula</h1>
-<p align="center">A redesign of Discord.</p>
+<p align="center">A complete overhaul of Discord.</p>
 <p align="center">Enjoy!</p>
 
 ![Preview](https://i.imgur.com/oquNERB.png)
@@ -30,6 +30,8 @@ git pull
 - **Some Linux users will see elements in the wrong position or may look very morphed**
 
 **If you find any bugs or elements with uncolored parts, please notify me.**
+
+
 
 # Disclaimer
 
