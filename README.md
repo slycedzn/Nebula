@@ -5,18 +5,17 @@
 ![Preview](https://i.imgur.com/oquNERB.png)
 
 # Installation
-To install this theme, if you dont have the Theme Downloader Plugin, cd into your Powercord themes folder using your Terminal, Command prompt, or Git Bash. Then copy and past the text below:
+**To install this theme, if you dont have the Theme Downloader Plugin, cd into your Powercord themes folder using your Terminal, Command prompt, or Git Bash. Then copy and past the text below:**
 
 ```
 git clone https://github.com/Euphorianic/Nebula
 ```
 # Updating
 
-Since Powercord's updater is currently broken, you have to update the theme manually. In order to do this, **Open your CMD / Powershell / Terminal / Gitbash, CD into the Nebula folder, and enter the following:**
+**Since Powercord's updater is currently broken, you have to update the theme manually. In order to do this, Open your CMD / Powershell / Terminal / Gitbash, CD into the Nebula folder, and enter the following:**
 ```
 git pull
 ```
-If you've found any bugs, and issues with this theme, please DM my discord.
 
 # Credits
 
@@ -27,6 +26,8 @@ If you've found any bugs, and issues with this theme, please DM my discord.
 # Known Bugs
 
 - **The floating bars will go back up, then down to its modified position when leaving the settings tab.**
+
+- **Some Linux users will see elements in the wrong position or may look very morphed**
 
 **If you find any bugs or elements with uncolored parts, please notify me.**
 

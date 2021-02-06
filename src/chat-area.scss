@@ -30,14 +30,18 @@
     opacity: 1;
     border-radius: 10px;
     width:350px;
-    padding:2px 1px;
-    left:810px;
-    bottom:824px;
-    position: fixed;
+    padding:3px 1px;
+    height: 20px;
+    left:290px;
+    bottom:-10px;
+    position: relative;
 }
 .reactions-12N0jA div .reactionMe-wv5HKu .reactionCount-2mvXRV{
     color: white !important;
 }
 .reactions-12N0jA div .reactionMe-wv5HKu{
     background-color: var(--background-tertiary) !important;
+}
+.repliedMessage-VokQwo:before{
+    border-color: white;
 }
