@@ -27,6 +27,10 @@
      .nicknames-1XK4Zt, .spacer-3kEb8l{
          padding-right:5px;
      }
+     .iconWrapper-2OrFZ1:last-child,
+     .iconWrapper-2OrFZ1[aria-label="Inbox"]{
+         display: none;
+     }
  .toolbar-1t6TWx{
     position: fixed;
     right:110px;
@@ -36,10 +40,6 @@
     border-radius: 10px;
     flex: 0 0 auto;
     padding:3px 1px;
-   }
-   .iconWrapper-2OrFZ1:last-child,
-   .iconWrapper-2OrFZ1[aria-label="Inbox"]{
-       display: none;
    }
    /* Compressed Search Bar */
 .search-2oPWTC .searchBar-3dMhjb {width:80px;transition-duration:600ms;}
