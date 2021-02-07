@@ -24,6 +24,10 @@
     border-radius:10px;
     margin-right: 10px;
 }
+.colorBrand-3pXr91:not(.buttonColor-7qQbGO)[aria-label="Open GIF picker"],
+.colorBrand-3pXr91:not(.buttonColor-7qQbGO)[aria-label="Send a gift"]{
+    display: none;
+}
 .container-2fRDfG{
     position: fixed;
     bottom:75px;
