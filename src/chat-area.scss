@@ -22,7 +22,7 @@
 .members-1998pB{
     margin-top: 60px;
     margin-bottom: 30px;
-    border-radius:10px;
+    border-radius:30px;
     margin-right: 10px;
 }
 .colorBrand-3pXr91:not(.buttonColor-7qQbGO)[aria-label="Open GIF picker"],
@@ -39,14 +39,15 @@
     top:11px;
 }
 .jumpToPresentBar-G1R9s6{
-    background-color: var(--background-tertiary); 
+    background-color: var(--background-secondary); 
     opacity: 1;
-    border-radius: 10px;
+    border-radius: 30px;
     width:133px;
     padding:3px 1px;
+    z-index: 0;
     height: 20px;
-    left:290px;
-    bottom:-10px;
+    left:760px;
+    top:760px;
     position: relative;
 }
 .reactions-12N0jA div .reactionMe-wv5HKu .reactionCount-2mvXRV{
