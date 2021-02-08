@@ -258,9 +258,9 @@
 
 /*Custom Tags*/
 .avatar-1BDn8e[src*="359175647257690113"] + h2 .username-1A8OIy::after {
-  content: 'Contributer';
+  content: '✔';
   color: rgb(255, 255, 255);
-  background: linear-gradient(90deg, hsla(180, 100%, 50%, 1) 0%, hsla(330, 100%, 50%, 1) 100%);
+  background: linear-gradient(90deg, #00ffff 0%, #ff0080 100%);
   display: inline-block;
   font-size: 15px;
   font-weight: 500;
@@ -271,7 +271,7 @@
   margin-left: 4px;
 }
 .avatar-1BDn8e[src*="597072695875600385"] + h2 .username-1A8OIy::after {
-  content: 'Developer';
+  content: '✔';
   color: rgb(255, 255, 255);
   background: linear-gradient(90deg, #373c67 , #5860a0);
   display: inline-block;
