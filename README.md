@@ -25,7 +25,7 @@ git pull
 
 # Known Bugs
 
-- **The floating bars will go back up, then down to its modified position when leaving the settings tab.**
+- **The floating bars will go back up, then down to its modified position when leaving the settings tab. (FIXED)**
 
 - **Some Linux users will see elements in the wrong position or may look very morphed**
 
