@@ -301,3 +301,34 @@
       }
   }
 }
+
+
+
+
+
+
+  /*Thanks Devin*/
+/* Variables */ :root
+{
+  --HoverScale: 1.025;
+  --TransitionTime: 600ms;
+  --EaseType: cubic-bezier(0, 0.75, 0, 1.75);
+}
+
+/* List Items */ .member-3-YXUe:hover, .item-PXvHYJ:hover, .channel-2QD9_O:hover, .peopleListItem-2nzedh:hover, .item-3HknzM:hover, .flexCenter-3_1bcw:hover, .item-26Dhrx:hover, .control-2BBjec:hover, .formNotice-2_hHWR:hover, .item-1tOPte:hover, .content-1x5b-n:hover, .select-2fjwPw:hover, .itemCard-v9viV7:hover, .input-2VB9rf:hover,
+/* Call Profiles */ .tile-kezkfV:hover,
+/* Control Buttons */ .button-1YfofB:hover, .button-14-BFJ:hover,
+/* Images */ .imageWrapper-2p5ogY:hover
+{
+  transform: scale(var(--HoverScale));
+}
+
+/* List Items */ .member-3-YXUe, .item-PXvHYJ, .channel-2QD9_O, .peopleListItem-2nzedh, .item-3HknzM, .flexCenter-3_1bcw, .item-26Dhrx, .control-2BBjec, .formNotice-2_hHWR, .item-1tOPte, .content-1x5b-n, .select-2fjwPw, .itemCard-v9viV7, .input-2VB9rf,
+/* Call Profiles */ .tile-kezkfV,
+/* Control Buttons */ .button-1YfofB, .button-14-BFJ,
+/* Message Profiles */ .avatar-1BDn8e,
+/* Images */ .imageWrapper-2p5ogY
+{
+  transition: var(--EaseType) var(--TransitionTime);
+  box-shadow: none;
+}
