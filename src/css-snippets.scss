@@ -317,8 +317,8 @@
 
 /* List Items */ .member-3-YXUe:hover, .item-PXvHYJ:hover, .channel-2QD9_O:hover, .peopleListItem-2nzedh:hover, .item-3HknzM:hover, .flexCenter-3_1bcw:hover, .item-26Dhrx:hover, .control-2BBjec:hover, .formNotice-2_hHWR:hover, .item-1tOPte:hover, .content-1x5b-n:hover, .select-2fjwPw:hover, .itemCard-v9viV7:hover, .input-2VB9rf:hover,
 /* Call Profiles */ .tile-kezkfV:hover,
-/* Control Buttons */ .button-1YfofB:hover, .button-14-BFJ:hover,
-/* Images */ .imageWrapper-2p5ogY:hover
+/* Control Buttons */ .button-1YfofB:hover, .button-14-BFJ:hover
+/* Images */
 {
   transform: scale(var(--HoverScale));
 }
@@ -331,4 +331,10 @@
 {
   transition: var(--EaseType) var(--TransitionTime);
   box-shadow: none;
+}
+.imageWrapper-2p5ogY:hover{
+  transform: rotate(1deg) scale(1);
+}
+.theme-dark .root-1gCeng{
+  background-color: transparent !important;
 }
