@@ -1,8 +1,7 @@
 <h1 align="center">Nebula</h1>
-<p align="center">A complete overhaul of Discord.</p>
-<p align="center">Enjoy!</p>
+<p align="center">The dark blue redesign of discord.</p>
 
-![Preview](https://i.imgur.com/oquNERB.png)
+![Preview](https://i.imgur.com/WrcB1O3.png)
 
 # Installation
 **To install this theme, if you dont have the Theme Downloader Plugin, cd into your Powercord themes folder using your Terminal, Command prompt, or Git Bash. Then copy and past the text below:**
@@ -23,9 +22,15 @@ git pull
 
 **Thank you LuckFire for allowing me to use your themes.**
 
-# Known Bugs
+# Changelogs
+## 2-10-21
+- Major Settings Changes!
+- Modified the Jump to present and Mark as read bar.
+- Color fixes
+- Position fixes
+- Animation Changes
 
-- **The floating bars will go back up, then down to its modified position when leaving the settings tab. (FIXED)**
+# Known Bugs
 
 - **Some Linux users will see elements in the wrong position or may look very morphed**
 
