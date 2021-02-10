@@ -1,6 +1,19 @@
 .theme-dark .headerNormal-T_seeN{
     background-color: var(--background-primary);
 }
-.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6{
+.theme-dark .body-3iLsc4, .theme-dark .footer-1fjuF6,
+.lookInverted-2D7oAl.colorGreen-29iAKY,
+.lookFilled-1Gx00P.colorGreen-29iAKY{
     background-color: var(--background-secondary);
+}
+/* Badges */
+.headerInfo-30uryT > .profileBadges-2vWUYb { display: flex; flex-wrap: wrap; }
+.headerInfo-30uryT > .profileBadges-2vWUYb > .profileBadgeWrapper-1rGSsp { padding-bottom: 7px; }
+
+.lookInverted-2D7oAl.colorGreen-29iAKY:hover,
+.lookFilled-1Gx00P.colorGreen-29iAKY:hover{
+    background-color: var(--background-tertiary)
+}
+.topSectionSpotify-1lI0-P{
+    background: var(--background-primary);
 }
