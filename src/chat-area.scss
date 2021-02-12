@@ -32,7 +32,11 @@
 .container-2fRDfG{
     position: fixed;
     bottom:75px;
+    width:322px;
     border-radius: 30px;
+}
+.colorBrand-2tjs5J{
+    color:white;
 }
 .members-1998pB, .members-1998pB>div ::-webkit-scrollbar{
     position: relative;
@@ -42,11 +46,12 @@
     background-color: var(--background-tertiary); 
     opacity: 1;
     border-radius: 30px;
-    width:185px;
-    padding:3px 1px;
+    width:130px;
+    padding:3px 0;
+    padding-right: 6px;
     z-index: 1;
     height: 20px;
-    left:710px;
+    left:150px;
     top:756px;
     position: relative;
 }
