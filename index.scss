@@ -1,8 +1,4 @@
-@use "./src/import.scss";
-
-@import url('https://raw.githack.com/Snapperito/Settings-Icons/main/source.css');
-@import url("https://corellanstoma.github.io/Powercord/Removed/gif-nitro-chat.css");
-
+@import "./src/import";
 
 .theme-dark, 
 .theme-light, 
@@ -41,37 +37,3 @@
     --background-mentioned-hover: #383d6836 !important;
     --background-mentioned:#383d685e;
 }
-
-html.light-dark::before {
-    content: "This theme is specifically for light mode, A dark theme will not be in development, If you dislike this color scheme, please find another theme, or modify this theme to your liking.";
-    font-family: Whitney, Helvetica Neue, Helvetica, Arial, sans-serif;
-    color: rgb(255, 0, 0);
-    background-color:var(--background-extra);
-    text-align: center;
-    position: absolute;
-    z-index: 10001;
-    height:50px;
-    top:1px;
-    right: 0;
-    left: 0;
-}
-
-:root {
-    --burple: var(--background-tertiary);
-    --scrollbar-thumb-dark: #f8f9fa00 !important;
-    --scrollbar-track-dark: --burple !important;
-  }
-  
-  
-  ::-webkit-scrollbar {
-      width: 10px;
-      border-radius: 25px;
-      background-color: transparent !important;
-  }
-  ::-webkit-scrollbar-thumb {
-      border-radius: 25px;
-      background-color: var(--burple) !important;
-  }
-  ::-webkit-scrollbar-track {
-      display: none;
-  }
