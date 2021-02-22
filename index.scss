@@ -1,4 +1,4 @@
-@import "./src/import";
+@import "./source/src/import";
 
 .theme-dark, 
 .theme-light, 
@@ -8,12 +8,12 @@
     --background-secondary-alt: #2d325a !important;
     --background-tertiary: #1b1f38 !important;
     --background-accent: var(--background-secondary) !important;
-    --background-extra: #dbdff2;
+    --background-extra: #e2e4f0;
     --background-extra-alt:#2d325a;
     --background-floating: var(--background-tertiary) !important;
-    --background-modifier-hover: rgba(255,255,255,0.01) !important;	
+    --background-modifier-hover: var(--background-secondary-alt) !important;	
     --background-modifier-active: rgba(255,255,255,0.03) !important;
-    --background-modifier-selected: rgba(255,255,255,0.04) !important;	
+    --background-modifier-selected: var(--background-secondary-alt) !important;	
     --background-modifier-accent: hsla(0,0%,100%,0.06) !important;
     --channeltextarea-background: var(--background-secondary) !important;
     --focus-primary: rgba(0, 0, 0, 0.219) !important;
@@ -21,11 +21,11 @@
     --deprecated-card-editable-bg: rgba(0,0,0,0.1) !important;
     --deprecated-text-input-border-disabled: var(--background-tertiary) !important;
     --activity-card-background: var(--background-primary) !important;
-    --channels-default: #9f9f9f !important;
-    --text-muted: #b6b6b6 !important;
+    --channels-default: var(--background-extra) !important;
+    --text-muted: var(--background-extra) !important;
     --text-normal: #e8eaf8 !important;
-    --interactive-normal: #f1f3ff !important;
-    --interactive-hover: #c7ceff !important;
+    --interactive-normal: #ffffff !important;
+    --interactive-hover: var(--background-extra) !important;
     --interactive-active: var(--text-normal) !important;
     --interactive-muted: #747474 !important;
     --header-secondary: #c9c9c9 !important;
@@ -36,4 +36,6 @@
     --toast-border: var(--background-tertiary) !important;
     --background-mentioned-hover: #383d6836 !important;
     --background-mentioned:#383d685e;
+    --header-primary: var(--background-extra) !important;
+    --border-radius:18px;
 }

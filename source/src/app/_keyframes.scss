@@ -1,0 +1,8 @@
+@keyframes border-flash {
+    0% {
+      border:solid 2px var(--background-extra); }
+    50% {
+      border:solid 2px var(--background-tertiary); }
+    100% {
+      border: solid 2px var(--background-extra); } }
+      
