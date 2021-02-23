@@ -50,6 +50,11 @@ Or you may add your own css in the addons folder But make sure your addon is abl
 ## Things To Note
 Some files are empty becuse i have not started working on that part of that part of this theme.
 
+## Future Updates
+- New fonts
+- Icon replacements
+- BD support
+
 ## Disclaimer
 This theme is only supported for [Powercord](https://powercord.dev) and [Vizality](https://vizality.com/). Support for other client mods such as [Better Discord](https://betterdiscord.net/home/?__cf_chl_jschl_tk__=60f87a061d63e6f228056ce4eebe2cbb19468e15-1613867693-0-AROc4TWXcg27_52QFzNr9IVeHvOnYiuQygiTO4wRRv-ucN7WSUEtEBhZ7lGUcT1yrh7zdvc7-v7FaRlZBKFXHAEiQ_xfnqe2uD6WZpCVaxLGTE939WVkBxmpO87Tmx5dTlrq2HBGDr5rg9hQGvdxN8tk8TQk3gMetp8PfXrD0in6FNcYQTxNJ43o702DUs_anY6Ndp5za5kZ-QsGiTYaexUk-Yg41ZW42xe3VYNh-irQNx10Ggr8shYr-O5CMB-y6BbxrstwvodP75sm5I-oTrht_3xr60wNk3QXS2M3-fELuXenShOIUaWX18KiaqhZPg) will be added in the near future, Thank you. 
 
