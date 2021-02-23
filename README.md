@@ -1,5 +1,3 @@
-# Nebula 
-
 ![](https://i.imgur.com/sYPNqok.png)
 
 ## About Nebula
