@@ -26,8 +26,19 @@
     .vz-dashboard-home-features-card{
         border-radius: var(--border-radius);
     }
-    .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG{
-        background-color: var(--background-primary) !important;
-        border-radius: var(--border-radius);
-    }
+}
+.categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG{
+    border-radius: 25px;
+    background-color: var(--background-secondary-alt);
+}
+.vz-dashboard-sidebar{
+    background-color: var(--background-primary);
+    margin-bottom: 20px;
+    border-radius: var(--border-radius);
+}
+.layout-2DM8Md{
+   border-radius: var(--border-radius);
+}
+.content-3QAtGj{
+    line-height: 20px;
 }
