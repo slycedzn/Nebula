@@ -155,3 +155,30 @@
 /* Center profile tabs */
 .tabBar-2MuP6-{ justify-content: center; }
 .top-28JiJ-:last-child .item-PXvHYJ:last-child { margin-right: 0; }
+
+
+
+.listItem-2P_4kh:nth-child(1) .listItemWrapper-3X98Pc .wrapper-25eVIn svg foreignObject .wrapper-1BJsBx .childWrapper-anI2G9 .homeIcon-tEMBK1 {
+  background: url(https://i.imgur.com/idTgTn2.png); /* image url */
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  margin-top: -2px;
+}
+
+.listItem-2P_4kh:nth-child(1) .listItemWrapper-3X98Pc .wrapper-25eVIn svg foreignObject .wrapper-1BJsBx:hover .childWrapper-anI2G9 .homeIcon-tEMBK1,
+.listItem-2P_4kh:nth-child(1) .listItemWrapper-3X98Pc .wrapper-25eVIn svg foreignObject .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9 .homeIcon-tEMBK1 {
+  background: url("https://i.imgur.com/idTgTn2.png"); /* second image url */
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 50px;
+  height: 50px;
+  margin-top: -2px;
+}
+
+.homeIcon-tEMBK1 path {
+  fill: transparent;
+}
