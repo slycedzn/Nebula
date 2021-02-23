@@ -21,9 +21,9 @@
 :root {
     --unread-badge: var(--background-extra);
     --unread-bg: rgba(255, 255, 255, 0);
-    --selected-badge: var(--background-secondary-alt);
-    --selected-bg: rgba(112, 135, 215, 0.1);
-    --selected-bg-hover: var(--background-secondary-alt);
+    --selected-badge: var(--background-tertiary);
+    --selected-bg: var(--background-tertiary);
+    --selected-bg-hover: var(--background-secondary);
     --hovered-bg: var(--background-secondary);
     --bg-rounding: 0 50px 50px 0;
     --border-info: 2px solid;
