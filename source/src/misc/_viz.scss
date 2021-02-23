@@ -1,0 +1,29 @@
+.vz-dashboard{
+    height:820px;
+    .vz-addon-card{
+        border-radius: 100px;
+        .vz-addon-card-icon-img{
+            border-radius: 100px;
+        }
+        .vz-addon-card-footer-section-right > div{
+            position: relative;
+            right:60px;
+            margin: 0;
+        }
+    }
+    .vz-addons-list-sticky-bar-wrapper{
+        border-radius: 50px;
+        background-color: var(--background-tertiary);
+        .topPill-30KHOu .item-PXvHYJ{
+            border-radius: var(--border-radius);
+        }
+        .input-3Xdcic{
+            background-color: var(--background-secondary-alt);
+            border-radius: var(--border-radius);
+            padding: 12px 6px;
+        }
+    }
+    .vz-dashboard-home-features-card{
+        border-radius: var(--border-radius);
+    }
+}

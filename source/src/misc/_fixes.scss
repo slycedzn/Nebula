@@ -68,19 +68,3 @@
 .name-uJV0GL{
     line-height: 25px;
 }
-
-//Vizality Fixes//
-.vz-dashboard{
-    height:820px;
-    .vz-addon-card{
-        border-radius: 100px;
-        .vz-addon-card-icon-img{
-            border-radius: 100px;
-        }
-        .vz-addon-card-footer-section-right > div{
-            position: relative;
-            right:60px;
-            margin: 0;
-        }
-    }
-}
