@@ -4,7 +4,7 @@
 
 ## About Nebula
  Nebula is my third theme iv worked on, and my favorite theme. Inspired by the Comfy theme and the Neumorphism UI concept design.
-
+ 
 ## Preview
 #### Main
 ![](https://i.imgur.com/1MzsDOT.png)

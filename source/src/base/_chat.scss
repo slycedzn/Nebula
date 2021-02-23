@@ -32,7 +32,7 @@
             min-height: 35px;
             border-bottom-right-radius: var(--border-radius);
             border-top-right-radius: var(--border-radius);
-            .iconWrapper-2OrFZ1:last-child{
+            .iconWrapper-2OrFZ1[aria-label="Help"]{
                 display: none;
             }
             .searchBar-3dMhjb{
