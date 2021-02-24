@@ -1,26 +1,8 @@
-/*
- * @name Nebula
- * @author Pavol#0296
- * @version 2.20
- * @description An optimized, consistent, and functional theme for Discord based on GitHub's design language.
- * @source https://github.com/Euphorianic/Nebula
- * @website
-*/                                                                                                    
-                                                                                                           
-/*
-|||||||||||||||||||||||||||||||||
-|||||||||| Import Code ||||||||||
-|||||||||||||||||||||||||||||||||
-
-You can add your own import if you'd like
+/**
+* @name Nebula
+* @author Pavol#0269
+* @description A blue redesign of discord.
+* @version 2.21
 */
 
 @import url(https://raw.githubusercontent.com/Euphorianic/Nebula/main/source/src/misc/compiled.scss);
-
-/*
-||||||||||||||||||||||||||||
-||||| Custom Css Code ||||||
-||||||||||||||||||||||||||||
-
-You can put your own csshere if you'd like
-*/
