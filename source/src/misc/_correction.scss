@@ -104,3 +104,10 @@
 .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O){
     background-color: var(--background-primary);
 }
+.lookInverted-2D7oAl.colorGreen-29iAKY{
+    background-color: var(--background-tertiary);
+
+    &:hover{
+        background-color: var(--background-secondary-alt);
+    }
+}
