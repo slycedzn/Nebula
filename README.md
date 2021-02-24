@@ -53,11 +53,6 @@ Some files are empty becuse i have not started working on that part of that part
 - Icon replacements
 - BD support
 
-## Disclaimer
-Support for web mods such as Stylus and userstyles will be added in the near future.
-
-Thank you.
-
 # Credits
 Thank you [LuckFire](https://github.com/LuckFire) for allowing me to use some of your own code.
 
