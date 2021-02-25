@@ -27,7 +27,7 @@
     --unread-bg: rgba(255, 255, 255, 0);
     --selected-badge: var(--background-tertiary);
     --selected-bg: var(--background-tertiary);
-    --selected-bg-hover: var(--background-secondary);
+    --selected-bg-hover: var(--background-secondary-alt);
     --hovered-bg: var(--background-secondary);
     --bg-rounding: 0 50px 50px 0;
     --border-info: 2px solid;
@@ -64,19 +64,6 @@
 #app-mount .channel-2QD9_O.selected-aXhQR6::before {
     border-left: var(--border-info) var(--selected-badge);
 }
-#app-mount .unread-2lAfLh {
-    display: absolute;
-    border-radius: 0 20px 20px 0;
-    background:var(--background-secondary-alt);
-    top: 5px;
-    width:290px;
-    padding: 2px 0;
-    height:30px;
-
-    &:hover{
-      background: var(--background-secondary) !important;
-    }
-}
 #app-mount .modeUnread-1qO3K1 {
     background: var(--unread-bg);
     border-radius: var(--bg-rounding);
@@ -98,59 +85,12 @@
     margin-left: 5px;
 }
 
-
-/*Wide screen setings*/
-.sidebarRegion-VFTUkN {
-    flex-grow: 0;
-  }
-  
-  .contentColumnDefault-1VQkGM {
-    max-width: calc(100% - 60px);
-  }
-  
-  /* https://canary.discord.com/channels/538759280057122817/755015869914152981/768999383672815618 */
-  /* Winston#0441 (156990761366192128) for the original snippets */
-  /* spooky snapper#0001 (431883840483491850) for the compiled version */
-  .contentRegion-3nDuYy .contentColumn-2hrIYH {
-    max-width: 100%;
-  }
-  .contentRegion-3nDuYy .contentColumn-2hrIYH .features-2npk2D .video-34IsHk {
-    width: fit-content;
-    margin-right: auto;
-    margin-left: auto;
-  }
-  .contentRegion-3nDuYy .contentColumn-2hrIYH .features-2npk2D .feature-BGH8y4 > div:last-child {
-    width: 100%;
-  }
-  .contentRegion-3nDuYy .contentColumn-2hrIYH .features-2npk2D .feature-BGH8y4 > div:last-child > .title-PMZpEi, .contentRegion-3nDuYy .contentColumn-2hrIYH .features-2npk2D .feature-BGH8y4 > div:last-child .description-1W0DiL {
-    text-align: end;
-  }
-  .contentRegion-3nDuYy .contentColumn-2hrIYH .attendeeCTA-3ZZQWt {
-    border: 0;
-  }
-  .contentRegion-3nDuYy .content-1rPSz4 {
-    max-width: 100%;
-  }
-  .contentRegion-3nDuYy .customColumn-Rb6toI {
-    max-width: 100%;
-  }
-  .contentRegion-3nDuYy .customColumn-Rb6toI .customScroller-26gWhv > .flex-1xMQg5 {
-    max-width: 100%;
-  }
-  .contentRegion-3nDuYy .customColumn-Rb6toI .content-3YMskv {
-    max-width: 100%;
-  }
-  .customScroller-26gWhv>div {
-    max-width: 100%;
-    /* max-width: calc(83vw) !important; */
-    /* I used this to fix the QuickCSS editor, it might not work for you*/
-  }
-  .repliedMessage-VokQwo:before{
+.repliedMessage-VokQwo:before{
     border-color: var(--background-extra);
-  }
-  .side-8zPYf6 .item-PXvHYJ{
-      border-radius: var(--border-radius);
-    }
+}
+.side-8zPYf6 .item-PXvHYJ{
+      border-radius: 0 18px 18px 0;
+}
 
 /* Center profile tabs */
 .tabBar-2MuP6-{ justify-content: center; }
@@ -182,3 +122,6 @@
 .homeIcon-tEMBK1 path {
   fill: transparent;
 }
+.sidebar-CFHs9e{padding-top: 10px;padding-bottom: 10px;padding-left: 0px;}
+.sidebarRegion-VFTUkN {flex: 0 0 auto;}
+.contentColumn-2hrIYH, .customColumn-Rb6toI {max-width: unset;}

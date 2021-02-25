@@ -1,5 +1,6 @@
 .sidebar-2K8pFh{
-    margin: 0px 20px 20px 31px;  border-radius: var(--border-radius) !important;
+    margin: 0px 20px 20px 31px;
+    border-radius: var(--border-radius) !important;
     background-color: var(--background-tertiary);  width:300px;
     .searchBar-6Kv8R2{
         display: none;
@@ -11,10 +12,13 @@
         }
     }
     .container-3w7J-x{
-        margin-bottom: 20px; border-radius: var(--border-radius) !important;
+        margin-bottom: 20px;
+        background-color: var(--background-primary);
+        border-radius: var(--border-radius) !important;
     }
     .scroller-RmtA4e{
-        border-radius: var(--border-radius);
+        border-radius: 0 0 18px 18px;
+        background-color: var(--background-primary);
     }
     .bannerImage-3KhIJ6{
         width:300px;
