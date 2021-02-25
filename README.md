@@ -52,6 +52,7 @@ Some files are empty becuse i have not started working on that part of that part
 - New fonts
 - Icon replacements
 - BD support
+- Usrbg support
 
 # Credits
 Thank you [LuckFire](https://github.com/LuckFire) for allowing me to use some of your own code.
