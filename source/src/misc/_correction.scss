@@ -22,8 +22,7 @@
 }
 .grow-q77ONN, .sizeIcon-1-kvKI,
 .lookFilled-1Gx00P.colorGrey-2DXtkV,
-.phoneField-38N1bJ,
-.root-SR8cQa{
+.phoneField-38N1bJ{
     border-radius: var(--border-radius);
 }
 .theme-dark .uploadModal-2ifh8j{
@@ -94,11 +93,15 @@
         display: none;
     }
 }
-.lookInverted-2D7oAl.colorBrand-3pXr91{
+.lookInverted-2D7oAl.colorBrand-3pXr91,
+.lookFilled-1Gx00P.colorGreen-29iAKY{
+    position: relative;
+    top:18px;
+    left:15px;
     background-color: var(--background-tertiary);
 
     &:hover{
-        background-color: var(--background-secondary-alt);
+        background-color: var(--background-secondary);
     }
 }
 .colorDefault-2K3EoJ:active:not(.hideInteraction-1iHO1O){
