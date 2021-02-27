@@ -35,6 +35,7 @@ As of now Powercord's updater isnt working unfortunately. To update themes, CD i
 ```
 git pull
 ```
+Also this theme is pretty big so there alot going to alot of things needing fixing, hence the need for constant updating.
 # Customization
 If your wishing to customize this theme you can change the colors in the index.scss if you wish.
 
