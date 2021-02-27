@@ -101,8 +101,12 @@
             margin-right:8px;
             margin-bottom: -30px;
             border-radius: 18px 18px 18px 18px;
+            background-color: var(--background-secondary-alt);
             &::-webkit-scrollbar{
                 display:none;
+            }
+            div{
+                background-color: transparent;
             }
         }
     }
