@@ -5,13 +5,13 @@
  
 ## Preview
 #### Main
-![](https://i.imgur.com/1MzsDOT.png)
+![](https://i.imgur.com/4SzKqEG.png)
 
 #### Settings
-![](https://i.imgur.com/uDa4u3e.png)
+![](https://i.imgur.com/ewD8NvI.png)
 
 # Changelogs
-## Feburary
+## Feburary 22nd
 - Multiple added features such as:
   - Better channel Indicators
   - Floating pills and Elements
@@ -22,6 +22,13 @@
 - Redone entire code
 - Attempt at better optimizations
 - Fixes chat bubbles cutting of when resizing window
+
+## Feburary 28th
+- Redone alot of files.
+- Better Search.
+- Separated chat and top bar.
+- Separated Member list from chat.\
+- Redone indicators
 
 # Installation and Updating
 

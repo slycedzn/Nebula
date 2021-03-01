@@ -22,5 +22,9 @@
     .body-3ND3kc{
         background-color: var(--background-primary);
         border-radius: var(--border-radius);
+
+        ::-webkit-scrollbar{
+            display: none;
+        }
     }
 }
