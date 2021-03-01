@@ -7,11 +7,14 @@
         background-color: var(--background-primary);
         border-radius: var(--border-radius);
         margin-bottom: 30px;
-        .tabBarContainer-1s1u-z:not(.tabBarItem-1b8RUP){
+        .tabBarContainer-1s1u-z{
             background-color: var(--background-secondary-alt);
             border-radius: var(--border-radius);
             margin:10px;
             border: none;
+            .top-28JiJ- .selected-3s45Ha.themed-OHr7kt.item-PXvHYJ, .top-28JiJ- .themed-OHr7kt.item-PXvHYJ:active{
+                border-radius: 0;
+            }
         }
         .header-QKLPzZ{
             background-color: var(--background-secondary-alt);
