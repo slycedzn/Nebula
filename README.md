@@ -27,8 +27,9 @@
 - Redone alot of files.
 - Better Search.
 - Separated chat and top bar.
-- Separated Member list from chat.\
+- Separated Member list from chat.
 - Redone indicators
+- Better Discord and GooseMod Support!
 
 # Installation and Updating
 
