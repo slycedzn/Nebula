@@ -31,6 +31,11 @@
 - Redone indicators
 - Better Discord and GooseMod Support!
 
+## Future Updates
+- New Fonts
+- New Icons
+- And A Special Surprise
+
 # Installation and Updating
 
 ## Installation
