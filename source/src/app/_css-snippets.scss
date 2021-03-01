@@ -1,7 +1,7 @@
 //Better Channel Indicatiors, Thanks LuckFire//
 
 :root {
-    --unread-badge: #e8eafd00;
+    --unread-badge: #e8eafdce;
     --unread-bg: transparent;
     --selected-badge: rgba(255, 0, 0, 0);
     --selected-bg: var(--background-tertiary);
@@ -128,3 +128,8 @@ div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after 
     content: "Nebula 2.5.4";
     display: block;
   }
+
+//Round Button Container, Thanks mo//
+.wrapper-2aW0bm,.button-1ZiXG9.selected-LCBEAU,.button-1ZiXG9,.powercord-snippet-apply:not(.applied) div:hover,.powercord-snippet-apply div  {
+    border-radius: 24px !important;
+    }

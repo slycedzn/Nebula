@@ -44,9 +44,10 @@ git pull
 ```
 Also this theme is pretty big so there alot going to alot of things needing fixing, hence the need for constant updating.
 # Customization
-If your wishing to customize this theme you can change the colors in the index.scss if you wish.
+If your wishing to customize this theme you can change the colors in the index.scss if you wish, or you can import an addon youd like thats compatible with the theme. 
 
-Or you may add your own css in the addons folder But make sure your addon is able to be imported from one file. 
+If you like to have a css that cant be imported via ``@import``, you can request it. Thank you.
+
 
 # Misc
 

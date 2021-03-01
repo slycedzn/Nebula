@@ -7,7 +7,7 @@
         background-color: var(--background-primary);
         border-radius: var(--border-radius);
         margin-bottom: 30px;
-        .tabBarContainer-1s1u-z{
+        .tabBarContainer-1s1u-z:not(.tabBarItem-1b8RUP){
             background-color: var(--background-secondary-alt);
             border-radius: var(--border-radius);
             margin:10px;
@@ -19,12 +19,23 @@
             border-radius: var(--border-radius);
             }
         }
+        .headerFill-adLl4x{
+            background-color: transparent;
+        }
     .body-3ND3kc{
         background-color: var(--background-primary);
         border-radius: var(--border-radius);
 
         ::-webkit-scrollbar{
             display: none;
+        }
+        .listRow-hutiT_{
+            border-radius: 25px;
+            margin-right: 7px;
+            .listAvatar-1NlAhb{
+                position: relative;
+                right:3px;
+            }
         }
     }
 }

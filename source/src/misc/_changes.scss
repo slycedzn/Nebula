@@ -1,11 +1,25 @@
+/*This File is for changes and fixes I forgot to
+do while I was doing the main files, also Im to
+put them in the main files so...yea*/
+
+
+
+
+
+
 //Round Buttons and button changes//
 .app-2rEoOp button{
     border-radius: 20px;
 }
 .lookFilled-1Gx00P.colorGreen-29iAKY,
-.lookFilled-1Gx00P.colorBrand-3pXr91{
+.lookFilled-1Gx00P.colorBrand-3pXr91,
+.lookInverted-2D7oAl.colorBrand-3pXr91,
+.lookFilled-1Gx00P.colorRed-1TFJan,
+.theme-dark .lookFilled-1Gx00P.colorPrimary-3b3xI6{
     border-radius: var(--border-radius);
-    background-color: var(--background-secondary);
+    background-color: #343c6c;
+    color:#fff;
+    transition: 250ms;
 
     &:hover{
         background-color: var(--background-tertiary);
@@ -29,19 +43,19 @@
 .userPopout-3XzG_A{
     box-shadow: none;
     .header-2BwW8b{
-        background-color: var(--background-secondary);
+        background-color:#343c6c;
         border-radius: var(--border-radius);
         margin-bottom: 20px;
     }
     .body-3iLsc4{
-        background-color: var(--background-secondary);
+        background-color: #343c6c;
         border-radius: 20px 20px 0 0;
     }
     .lookOutlined-3sRXeN.colorWhite-rEQuAQ{
         border-radius: var(--border-radius);
     }
     .footer-1fjuF6{
-        background-color: var(--background-secondary);
+        background-color: #343c6c;
         border-radius: 0 0 20px 20px;
         .input-cIJ7To{
             border-radius: var(--border-radius);
@@ -50,6 +64,9 @@
                 border-color: var(--background-secondary-alt);
             }
         }
+    }
+    .activity-11LB_k{
+        background-color: transparent;
     }
 }
 
@@ -148,4 +165,14 @@
 .theme-dark .selected-1Tbx07{
     background-color: var(--background-secondary-alt);
     border-radius: var(--border-radius);
+}
+
+//Hover Fixes//
+.theme-dark .card-FDVird:before{
+    background-color: var(--background-tertiary);
+    border-color: var(--background-secondary-alt);
+    border-radius: var(--border-radius);
+}
+.theme-dark .emojiAliasInput-1y-NBz .emojiInput-1aLNse{
+    background-color: var(--background-primary);
 }
