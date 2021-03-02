@@ -213,3 +213,33 @@
     border-radius: var(--border-radius);
     margin-top: 15px;
 }
+
+//Mentions//
+.theme-dark .autocomplete-1vrmpx{
+    background-color: var(--background-secondary-alt);
+    border-radius: var(--border-radius);
+}
+
+.iconWrapper-2OrFZ1+.iconWrapper-2OrFZ1[id*="-"],
+.qma3u9c-pfvakxr,.xenoLib-notifications{display:none;}
+.iconWrapper-2OrFZ1+.iconWrapper-2OrFZ1[id*="-"]~.iconWrapper-2OrFZ1::after{
+  content:"Message Logger Alert";
+  position:fixed;
+  left:0px;
+  top:0px;
+  background:var(--background-tertiary);
+  padding-left:calc(50% - calc(228.066px * .5));
+  padding-right:calc(50% - calc(228.066px * .5));
+  padding-top:calc(50% - calc(20px));
+  padding-bottom:calc(50% - calc(20px));
+  font-size:25px;
+  pointer-events:none;
+  border-radius:8px;
+}
+.iconWrapper-2OrFZ1+.iconWrapper-2OrFZ1[id*="-"]~.iconWrapper-2OrFZ1{
+  z-index:3001!important;
+}
+.theme-dark .selected-1Tbx07{
+    background-color: var(--background-tertiary) !important;
+    border-radius: var(--border-radius);
+}
