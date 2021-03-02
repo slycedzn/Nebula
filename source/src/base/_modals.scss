@@ -1,0 +1,92 @@
+//User Modals//
+
+.root-SR8cQa{
+    background-color: transparent;
+    border-radius: var(--border-radius);
+    .topSectionPlaying-1J5E4n,
+    .topSectionNormal-2-vo2m,
+    .topSectionSpotify-1lI0-P,
+    .topSectionStreaming-1Tpf5X{
+        margin-bottom: 20px;
+        background-color: var(--background-primary);
+        border-radius: var(--border-radius);
+        .header-QKLPzZ{
+            margin: 10px;
+            border:none;
+            background-color: var(--background-secondary-alt);
+            border-radius: var(--border-radius);
+            .lookInverted-2D7oAl.colorBrand-3pXr91,
+            .lookFilled-1Gx00P.colorGreen-29iAKY,
+            .buttonInvertedPurple-WtBglX{
+                background-color: var(--background-tertiary);
+                border-radius: var(--border-radius);
+                color:#fff;
+
+                &:hover{
+                    background-color: var(--background-primary);
+                }
+            }
+        }
+        .tabBarContainer-1s1u-z{
+            background-color: var(--background-secondary-alt);
+            border-radius: var(--border-radius);
+            border:none;
+            margin: 10px;
+        }
+        .headerFill-adLl4x{
+            background-color: transparent;
+            .lookOutlined-3sRXeN.colorWhite-rEQuAQ{
+                border-radius: var(--border-radius);
+            }
+        }
+    }
+    .body-3ND3kc{
+        background-color: var(--background-primary);
+        border-radius: var(--border-radius);
+        .connectedAccount-36nQx7{
+            border-radius: 25px;
+            border-color: var(--background-extra);
+        }
+        .listRow-hutiT_{
+            border-radius: 25px;
+            margin-right: 8px;
+            .iconSizeMedium-2OqPjI{
+                position: relative;
+                right:3px;
+            }
+        }
+        ::-webkit-scrollbar{
+            display: none;
+        }
+    }
+}
+
+//Nitro//
+.panningAnimation-38NjY9{
+    border-radius: var(--border-radius);
+}
+.content-1LAB8Z{
+    background-color: var(--background-secondary-alt);
+    border-radius: var(--border-radius);
+    .lookFilled-1Gx00P.colorBrand-3pXr91{
+        background-color: var(--background-tertiary);
+        border-radius: var(--border-radius);
+
+        &:hover{
+            background-color: var(--background-primary);
+        }
+    }
+}
+.footer-2gL1pp{
+    margin-top: 20px;
+    background-color: var(--background-secondary-alt) !important;
+    border-radius: var(--border-radius);
+    .lookFilled-1Gx00P.colorBrand-3pXr91{
+        background-color: var(--background-tertiary);
+        border-radius: var(--border-radius);
+
+        &:hover{
+            background-color: var(--background-primary);
+        }
+    }
+}
