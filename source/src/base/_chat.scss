@@ -1,10 +1,11 @@
 .chat-3bRxxu{
     background-color: transparent;
+    margin-right: 20px;
     .container-1r6BKw{
         background-color: var(--background-primary);
         border-radius: var(--border-radius);
+        padding: 0;
         max-height: 40px;
-        max-width: 1095px;
         .children-19S4PO{
             .title-29uC1r{
                 font-size: 18px;
@@ -34,7 +35,6 @@
         .chatContent-a9vAAp{
             background-color: var(--background-primary);
             border-radius: var(--border-radius);
-            margin-right: 20px;
             .cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j:not(:empty) {
                 background-color: var(--background-secondary-alt);
                 display: inline-block;
@@ -67,7 +67,7 @@
             }
         }
         .membersWrap-2h-GB4{
-            margin-right: 20px;
+            margin-left: 20px;
             .members-1998pB{
                 background-color: var(--background-primary);
                 border-radius: var(--border-radius);
