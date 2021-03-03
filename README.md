@@ -58,6 +58,7 @@ If you like to have a css that cant be imported via ``@import``, you can request
 # Misc
 
 ## Known Bugs
+ - **IMPORTANT** Channel list scrollbar glitches preventing users to click until scrolled again.
  - Applying other themes or plugins breaks elements.
 
 ## Things To Note

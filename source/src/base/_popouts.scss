@@ -36,6 +36,34 @@
     }
 }
 
+
+
+.searchResultsWrap-3-pOjs{
+    margin-left: 20px;
+    background-color: transparent;
+    border-radius: var(--border-radius);
+    .searchHeader-2XoQg7{
+        background-color: var(--background-secondary-alt);
+        border-radius: var(--border-radius);
+        margin-bottom: 20px;
+    }
+    .scroller-3GIiMh{
+        background-color: var(--background-secondary-alt);
+        border-radius: var(--border-radius);
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
+    .roundButton-CEHyUp{
+        background-color: var(--background-secondary);
+
+        &:hover{
+            background-color: var(--background-primary);
+            transition: 250ms;
+        }
+    }
+}
+
 //Menu//
 .menu-3sdvDG{
     background: var(--background-secondary-alt);
@@ -45,201 +73,86 @@
         border-radius: var(--border-radius);
     }
 }
-//Search Results//
-.searchResultsWrap-3-pOjs{
-    margin-left: 20px;
-    background-color: transparent;
-    .searchHeader-2XoQg7{
-        background-color: var(--background-primary);
-        border-radius: var(--border-radius);
-        .tab-2j5AEF{
-            background-color: var(--background-secondary-alt);
-            border-radius: var(--border-radius);
-
-            &:hover{
-                background-color: var(--background-tertiary);
-                transition: 250ms ease;
-            }
-        }
-    }
-    .scroller-3GIiMh{
-        margin-top: 20px;
-        background-color: var(--background-primary);
-        border-radius: var(--border-radius);
-    }
-    .roundButton-CEHyUp{
-        background-color: var(--background-tertiary);
-
-        &:hover{
-            background-color: var(--background-secondary-alt);
-            transition: 250ms;
-        }
-    }
-}
-//Searching//
-.theme-dark .elevationBorderHigh-2WYJ09{
-    box-shadow: none;
-}
-.container-3ayLPN{
-    background-color: transparent !important;
-    box-shadow: none;
+//Select Friend//
+.popout-103y-5{
     border-radius: var(--border-radius);
-    .resultsGroup-r_nuzN{
-         background-color: var(--background-secondary-alt);
+    background-color: var(--background-secondary-alt) !important;
+    .lookFilled-1Gx00P.colorBrand-3pXr91{
+        background-color: var(--background-tertiary);
         border-radius: var(--border-radius);
-        box-shadow: none;
-        margin-bottom: 20px;
-
-        &:before{
-            display: none;
-        }
     }
+    .container-2XeR5Z{
+        border-radius: var(--border-radius);
+    }
+}
+//Search and Search Results//
+.container-3ayLPN{
+    background-color: var(--background-secondary-alt) !important;
+    border-radius: var(--border-radius);
 }
 .theme-dark .option-96V44q.selected-rZcOL-{
     background-color: var(--background-tertiary);
     border-radius: var(--border-radius);
 }
 .theme-dark .option-96V44q:after{
-    display: none;
+    display: none
 }
-
-.theme-dark .calendarPicker-2yf6Ci .react-datepicker{
-    background-color: var(--background-secondary-alt);
+//Upload Modal//
+.uploadModal-2ifh8j{
+    background-color: var(--background-secondary-alt) !important;
     border-radius: var(--border-radius);
 }
-.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--disabled:hover,
-.theme-dark .calendarPicker-2yf6Ci .react-datepicker__week:last-of-type .react-datepicker__day,
-.calendarPicker-2yf6Ci .react-datepicker__week:first-of-type>.react-datepicker__day:first-of-type,
-.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day,
-.calendarPicker-2yf6Ci .react-datepicker__week:first-of-type>.react-datepicker__day:last-of-type{
+.uploadModal-2ifh8j .footer-3mqk7D.hasSpoilers-1IRtQC{
+    background-color: var(--background-secondary);
     border-radius: var(--border-radius);
-    background-color: var(--background-secondary-alt);
-    border:solid 1px var(--background-tertiary);
-    margin-left: 0px;
-}
-.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:hover, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__day:hover{
-    background-color: var(--background-tertiary);
-    border-radius: var(--border-radius);
-}
-.theme-dark .calendarPicker-2yf6Ci .react-datepicker__day.react-datepicker__day--selected:after{
-    background-color: var(--background-secondary-alt);
-    border-radius: var(--border-radius);
-}
-.theme-dark .calendarPicker-2yf6Ci .react-datepicker__header{
-    background-color: var(--background-tertiary);
-    border-radius: var(--border-radius);
-}
-.theme-dark .calendarPicker-2yf6Ci .react-datepicker__navigation.react-datepicker__navigation--next, .theme-dark .calendarPicker-2yf6Ci .react-datepicker__navigation.react-datepicker__navigation--previous{
-    border-radius: var(--border-radius);
-    background-color: var(--background-secondary-alt);
-}
-.theme-dark .datePicker--XZbmJ .datePickerHint-3Q1Udw{
-    position: relative;
-    right:20px;
-    background-color: var(--background-secondary-alt);
-    border-radius: var(--border-radius);
-    width:320px
-}
-.theme-dark .queryContainer-RKFJW-{
-    background-color: var(--background-secondary-alt);
-    border-radius: var(--border-radius);
-    margin-bottom: 20px;
-}
-
-//Select Friends//
-.root-1gCeng{
-    background-color: transparent !important;
-    box-shadow: none !important;
-    .header-1TKi98{
+    margin: 10px;
+    .lookFilled-1Gx00P.colorBrand-3pXr91{
         background-color: var(--background-secondary-alt);
         border-radius: var(--border-radius);
-        margin-bottom: 20px;
-    }
-    .noResults-ZTbl5V, .scroller-hUf6zQ{
-        background-color: var(--background-secondary-alt);
-        border-radius: 18px 18px 0 0;
-    }
-    .friend-3KALPe:hover,
-    .friendWrapper-2SrUFF:hover,
-    .friendSelected-1sa4bG,
-    .container-2XeR5Z{
-        background-color: var(--background-tertiary);
-        border-radius: 25px;
-    }
-    .theme-dark .friendSelected-1sa4bG{
-        background-color: var(--background-tertiary);
-    }
-    .footerSeparator-M9dQY1{
-        display: none;
-    }
-    .footer-1eyGBa{
-        background-color: var(--background-secondary-alt);
-        border-radius: 0 0 18px 18px;
-        .lookFilled-1Gx00P.colorBrand-3pXr91:disabled{
-            background-color:var(--background-secondary);
-            border-radius: 20px;
+
+        &:hover{
+            background-color: var(--background-tertiary);
         }
     }
 }
-//Inbox//
-.messagesPopoutWrap-1MQ1bW{
-    background-color: transparent;
-    box-shadow: none;
-    height:500px;
-    .header-2-Imhb{
-        background-color: var(--background-secondary-alt);
+
+//Nitro//
+.small-3iVZYw{
+    background-color: var(--background-secondary-alt) !important;
+    border-radius: var(--border-radius);
+}
+.children-rWhLdy{
+    .lookFilled-1Gx00P.colorBrand-3pXr91{
+        background-color: var(--background-primary);
         border-radius: var(--border-radius);
-        margin-bottom: 20px;
+
+        &:hover{
+            background-color: var(--background-tertiary);
+        }
     }
-    .messagesPopout-24nkyi{
-        background-color: var(--background-secondary-alt);
+}
+.form-77IDep{
+    .footer-2gL1pp{
+        background-color: var(--background-secondary);
         border-radius: var(--border-radius);
-        border:solid 15px var(--background-secondary-alt);
+        margin: 10px;
     }
-    ::-webkit-scrollbar{
-        display: none;
+    .lookOutlined-3sRXeN.colorBrand-3pXr91{
+        border-radius: var(--border-radius);
     }
 }
+.small-3iVZYw{
+    .footer-2gL1pp{
+        background-color: var(--background-secondary);
+        border-radius: var(--border-radius);
+        margin: 10px;
+        .lookFilled-1Gx00P.colorBrand-3pXr91{
+            border-radius: var(--border-radius);
+            background-color: var(--background-secondary-alt);
 
-//Pinned Mesages//
-.header-ykumBX{
-    background-color: var(--background-secondary-alt);
-    border-radius: var(--border-radius);
-    margin-bottom: 10px;
-    box-shadow: none;
-}
-.footer-1kmXd4{
-    background-color: var(--background-secondary-alt);
-    border-radius: var(--border-radius);
-    margin-top: 15px;
-}
-
-//Mentions//
-.theme-dark .autocomplete-1vrmpx{
-    background-color: var(--background-secondary-alt);
-    border-radius: var(--border-radius);
-}
-
-.iconWrapper-2OrFZ1+.iconWrapper-2OrFZ1[id*="-"],
-.qma3u9c-pfvakxr,.xenoLib-notifications{display:none;}
-.iconWrapper-2OrFZ1+.iconWrapper-2OrFZ1[id*="-"]~.iconWrapper-2OrFZ1::after{
-  content:"Message Logger Alert";
-  position:fixed;
-  left:0px;
-  top:0px;
-  background:var(--background-tertiary);
-  padding-left:calc(50% - calc(228.066px * .5));
-  padding-right:calc(50% - calc(228.066px * .5));
-  padding-top:calc(50% - calc(20px));
-  padding-bottom:calc(50% - calc(20px));
-  font-size:25px;
-  pointer-events:none;
-  border-radius:8px;
-}
-.iconWrapper-2OrFZ1+.iconWrapper-2OrFZ1[id*="-"]~.iconWrapper-2OrFZ1{
-  z-index:3001!important;
-}
-.theme-dark .selected-1Tbx07{
-    background-color: var(--background-tertiary) !important;
-    border-radius: var(--border-radius);
+            &:hover{
+                background-color: var(--background-primary);
+            }
+        }
+    }
 }

@@ -17,7 +17,8 @@
             border-radius: var(--border-radius);
             .lookInverted-2D7oAl.colorBrand-3pXr91,
             .lookFilled-1Gx00P.colorGreen-29iAKY,
-            .buttonInvertedPurple-WtBglX{
+            .buttonInvertedPurple-WtBglX,
+            .lookInverted-2D7oAl.colorGreen-29iAKY{
                 background-color: var(--background-tertiary);
                 border-radius: var(--border-radius);
                 color:#fff;
@@ -61,58 +62,3 @@
     }
 }
 
-//Nitro//
-.panningAnimation-38NjY9{
-    border-radius: var(--border-radius);
-}
-.content-1LAB8Z{
-    background-color: var(--background-secondary-alt);
-    border-radius: var(--border-radius);
-    .lookFilled-1Gx00P.colorBrand-3pXr91{
-        background-color: var(--background-tertiary);
-        border-radius: var(--border-radius);
-
-        &:hover{
-            background-color: var(--background-primary);
-        }
-    }
-}
-.footer-2gL1pp{
-    margin-top: 20px;
-    background-color: var(--background-secondary-alt) !important;
-    border-radius: var(--border-radius);
-    .lookFilled-1Gx00P.colorBrand-3pXr91{
-        background-color: var(--background-tertiary);
-        border-radius: var(--border-radius);
-
-        &:hover{
-            background-color: var(--background-primary);
-        }
-    }
-}
-//Upload File//
-.uploadModal-2ifh8j{
-    background-color: var(--background-secondary-alt) !important;
-    box-shadow: none !important;
-    border-radius: var(--border-radius);
-    .inner-3nWsbo{
-        background-color: var(--background-secondary-alt);
-        border-radius: var(--border-radius);
-        .scrollableContainer-2NUZem{
-            border-radius: 25px;
-        }
-    }
-}
-.theme-dark .footer-3mqk7D{
-    background-color: var(--background-secondary) !important;
-    border-radius: var(--border-radius);
-    margin: 10px;
-    .lookFilled-1Gx00P.colorBrand-3pXr91{
-        background-color: var(--background-secondary-alt);
-        border-radius: var(--border-radius);
-
-        &:hover{
-            background-color: var(--background-tertiary);
-        }
-    }
-}
