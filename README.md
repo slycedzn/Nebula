@@ -41,7 +41,7 @@
 ## Installation
 To install this [Powercord](https://powercord.dev) theme incase you dont have this plugin installed, [Powercord Theme Downloader](https://github.com/ploogins/PowercordThemeDownloader), CD into your themes folder using your Terminal/ Command Prompt/ Gitbash, and enter the following code:
 ```
-git clone https://github.com/Euphorianic/Nebula
+git clone https://github.com/Pavui/Nebula
 ```
 ## Updating
 As of now Powercord's updater isnt working unfortunately. To update themes, CD into your theme folder, and enter the following code:
