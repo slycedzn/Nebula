@@ -1,64 +1,51 @@
-//User Modals//
-
 .root-SR8cQa{
-    background-color: transparent;
+    background-color: var(--background-primary);
     border-radius: var(--border-radius);
-    .topSectionPlaying-1J5E4n,
+    min-width:800px;
     .topSectionNormal-2-vo2m,
-    .topSectionSpotify-1lI0-P,
-    .topSectionStreaming-1Tpf5X{
-        margin-bottom: 20px;
-        background-color: var(--background-primary);
-        border-radius: var(--border-radius);
+    .topSectionPlaying-1J5E4n,
+    .topSectionSpotify-1lI0-P{
+        background-color: transparent;
         .header-QKLPzZ{
-            margin: 10px;
-            border:none;
             background-color: var(--background-secondary-alt);
             border-radius: var(--border-radius);
+            margin: 10px;
             .lookInverted-2D7oAl.colorBrand-3pXr91,
-            .lookFilled-1Gx00P.colorGreen-29iAKY,
-            .buttonInvertedPurple-WtBglX,
             .lookInverted-2D7oAl.colorGreen-29iAKY{
-                background-color: var(--background-tertiary);
+                background-color: var(--background-secondary);
                 border-radius: var(--border-radius);
                 color:#fff;
 
                 &:hover{
-                    background-color: var(--background-primary);
+                    background-color: var(--background-tertiary);
+                }
+            }
+            .additionalActionsIcon-1FoUlE{
+                opacity: 99%;
+                transition: 250ms ease all;
+
+                &:hover{
+                    opacity: 38%;
                 }
             }
         }
-        .tabBarContainer-1s1u-z{
-            background-color: var(--background-secondary-alt);
-            border-radius: var(--border-radius);
-            border:none;
-            margin: 10px;
-        }
         .headerFill-adLl4x{
             background-color: transparent;
-            .lookOutlined-3sRXeN.colorWhite-rEQuAQ{
-                border-radius: var(--border-radius);
-            }
+        }
+        .tabBarContainer-1s1u-z{
+            background-color: var(--background-secondary-alt);
+            border-radius:var(--border-radius);
+            margin:20px 10px 10px 10px;
+            border: none;
         }
     }
     .body-3ND3kc{
-        background-color: var(--background-primary);
+        background-color: var(--background-secondary-alt);
         border-radius: var(--border-radius);
-        .connectedAccount-36nQx7{
-            border-radius: 25px;
-            border-color: var(--background-extra);
-        }
-        .listRow-hutiT_{
-            border-radius: 25px;
-            margin-right: 8px;
-            .iconSizeMedium-2OqPjI{
-                position: relative;
-                right:3px;
-            }
-        }
+        margin: 10px;
+
         ::-webkit-scrollbar{
             display: none;
         }
     }
 }
-

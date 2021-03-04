@@ -45,6 +45,9 @@
                 position: relative;
                 overflow: visible;
             }
+            .repliedMessage-VokQwo:before{
+                border-color: var(--background-extra);
+            }
             .newMessagesBar-265mhP{
                 top:10px;
                 border-radius: var(--border-radius);
