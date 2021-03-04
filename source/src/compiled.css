@@ -926,7 +926,7 @@ Some addons will break this theme*/
   --interactive-normal: #ffffff !important;
   --interactive-hover: var(--background-extra) !important;
   --interactive-active: var(--text-normal) !important;
-  --interactive-muted: #747474 !important;
+  --interactive-muted: #4d517e !important;
   --header-secondary: #c9c9c9 !important;
   --toast-background: var(--background-primary) !important;
   --toast-header: var(--background-tertiary) !important;
