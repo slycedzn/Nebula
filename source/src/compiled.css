@@ -134,6 +134,10 @@
   width: 180%;
 }
 
+.sidebarRegion-VFTUkN .side-8zPYf6 .item-PXvHYJ {
+  border-radius: 0 20px 20px 0;
+}
+
 .search-36MZv- {
   order: -1;
 }
@@ -334,7 +338,7 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 .chat-3bRxxu .content-yTz4x3 .chatContent-a9vAAp .cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j:not(:empty) {
   background-color: var(--background-secondary-alt);
   display: inline-block;
-  max-width: 650ms;
+  max-width: 650px;
   margin: 0;
   padding: 5px 10px;
   border-radius: 15px;
@@ -403,6 +407,10 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
   animation: border-flash 2s linear infinite;
 }
 
+.chat-3bRxxu .content-yTz4x3 .form-2fGMdU .wrapper-39oAo3 {
+  border-radius: var(--border-radius);
+}
+
 .chat-3bRxxu .content-yTz4x3 .scroller-11cdZM {
   background-color: var(--background-primary);
   border-radius: var(--border-radius);
@@ -417,7 +425,9 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 }
 
 .chat-3bRxxu .content-yTz4x3 .message-2qnXI6 .markup-2BOw-j code {
-  width: max-content;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
   border-radius: var(--border-radius);
 }
 
@@ -672,14 +682,17 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
   background-color: var(--background-secondary);
   border-radius: var(--border-radius);
   margin: 10px;
+  box-shadow: none;
 }
 
-.small-3iVZYw .footer-2gL1pp .lookFilled-1Gx00P.colorBrand-3pXr91 {
+.small-3iVZYw .footer-2gL1pp .lookFilled-1Gx00P.colorBrand-3pXr91,
+.small-3iVZYw .footer-2gL1pp .lookFilled-1Gx00P.colorGrey-2DXtkV {
   border-radius: var(--border-radius);
   background-color: var(--background-secondary-alt);
 }
 
-.small-3iVZYw .footer-2gL1pp .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+.small-3iVZYw .footer-2gL1pp .lookFilled-1Gx00P.colorBrand-3pXr91:hover,
+.small-3iVZYw .footer-2gL1pp .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
   background-color: var(--background-primary);
 }
 
@@ -855,6 +868,13 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 
 .contentColumnDefault-1VQkGM .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
   background-color: var(--background-secondary-alt);
+}
+
+.lookFilled-1Gx00P.colorYellow-2JqYwt,
+.lookFilled-1Gx00P.colorRed-1TFJan,
+.lookFilled-1Gx00P.colorGreen-29iAKY,
+.lookFilled-1Gx00P.colorBrand-3pXr91 {
+  border-radius: var(--border-radius);
 }
 
 /*Slide Bar*/
