@@ -38,7 +38,7 @@
             .cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j:not(:empty) {
                 background-color: var(--background-secondary-alt);
                 display: inline-block;
-                max-width: 650px;
+                max-width: max-content;
                 margin: 0;
                 padding: 5px 10px ;
                 border-radius: 15px;
@@ -110,6 +110,12 @@
             bottom:5px;
             background-color: var(--background-tertiary);
             border-radius: var(--border-radius);
+        }
+        .message-2qnXI6{
+            .markup-2BOw-j code{
+                width: max-content;
+                border-radius: var(--border-radius);
+            }
         }
     }
 }
