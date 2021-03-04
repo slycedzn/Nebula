@@ -73,6 +73,7 @@
             background: var(--hovered-bg);
             border-radius: var(--bg-rounding);
             max-width: 285px;
+            transition: 200ms ease all;
         }
     }
 
@@ -99,6 +100,7 @@
 .sidebarRegion-VFTUkN{
     .side-8zPYf6 .item-PXvHYJ{
         border-radius: 0 20px 20px 0;
+        transition: 250ms ease all;
     }
 }
 
