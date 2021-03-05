@@ -28,3 +28,41 @@
     z-index:1;
     position:relative;
   }
+
+
+//User Popouts//
+.reduce-motion .userPopout-3XzG_A {
+	transform:translateZ(0);
+}
+
+.userPopout-3XzG_A .wrapper-3t9DeA::after {
+	content: '';
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	z-index: 1;
+	pointer-events: none;
+	opacity: 1;
+  filter: brightness(.8);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: var(--user-popout-position) center;
+	background-image: var(--user-background);
+	-webkit-mask-image: linear-gradient(#000, #000);
+  border-radius: var(--border-radius);
+}
+
+.userPopout-3XzG_A  .header-2BwW8b,
+.userPopout-3XzG_A  .scroller-2FKFPG,
+.userPopout-3XzG_A  .footer-1fjuF6,
+.userPopout-3XzG_A  .body-3iLsc4,
+.userPopout-3XzG_A  .headerTop-3C2Zn0{
+	z-index: 1;
+}
+.userPopout-3XzG_A  .avatarWrapper-3H_478 svg,
+.userPopout-3XzG_A  .headerText-2sdzFM,
+.userPopout-3XzG_A  .customStatus-1bh2V9{
+  z-index: 10;
+}

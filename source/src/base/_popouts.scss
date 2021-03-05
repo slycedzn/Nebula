@@ -8,18 +8,20 @@
     background-color: var(--background-secondary);
     border-radius: var(--border-radius);
     box-shadow: none;
+    width: 320px;
     .headerPlaying-j0WQBV{
-        background-color: transparent;
+        background-color: var(--background-secondary-alt);
         border-radius: var(--border-radius);
         margin: 10px;
         .activity-11LB_k{
-            background-color: var(--background-secondary-alt);
+            background-color: transparent;
             border-radius: var(--border-radius);
         }
         .headerTop-3C2Zn0{
             background-color: var(--background-secondary-alt);
             border-radius: var(--border-radius);
             margin-bottom: 20px;
+            height:200px;
         }
     }
     .headerNormal-T_seeN,
@@ -29,6 +31,10 @@
             background-color: var(--background-secondary-alt);
             border-radius: var(--border-radius);
             margin:10px;
+            height:200px;
+        }
+        .activity-11LB_k{
+            background-color: transparent;
         }
     }
     .body-3iLsc4{
