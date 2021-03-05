@@ -1,6 +1,7 @@
 .chat-3bRxxu{
     background-color: transparent;
     margin-right: 20px;
+    border-radius: var(--border-radius);
     .container-1r6BKw{
         background-color: var(--background-primary);
         border-radius: var(--border-radius);
@@ -159,5 +160,14 @@
                 }
             }
         }
+    }
+}
+.pageWrapper-1PgVDX{
+    background-color: var(--background-primary) !important;
+    border-radius: var(--border-radius);
+    margin-right: 20px;
+
+    ::-webkit-scrollbar{
+        display: none;
     }
 }
