@@ -1,41 +1,53 @@
-//Vizality Support//
+.vz-dashboard-sidebar{
+    background-color: var(--background-primary);
+    border-radius: 0 0 18px 18px;
+    .layout-2DM8Md{
+        position: relative;
+        right:8px;
+        border-radius: 0 18px 18px 0;
+        margin-top: 5px;
+        transition: 250ms all;
 
-.vz-dashboard{
-    .vz-addon-card{
-        border-radius: 100px;
-        .vz-addon-card-icon-img{
-            border-radius: 100px;
-        }
-        .vz-addon-card-footer-section-right > div{
-            position: relative;
-            right:50px;
-            margin: 0;
+        &:hover{
+            background-color: var(--background-secondary);
         }
     }
-    .vz-addons-list-sticky-bar-wrapper{
-        border-radius: 50px;
-        background-color: var(--background-tertiary);
-        .topPill-30KHOu .item-PXvHYJ{
-            border-radius: var(--border-radius);
+    .categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG{
+        background-color: var(--background-secondary-alt);
+
+        &:hover{
+            background-color: var(--background-secondary);
         }
-        .input-3Xdcic{
+    }
+}
+.content-98HsJk{
+    margin-bottom: 20px;
+    .vz-dashboard.perksModal-fSYqOq{
+        background-color: var(--background-primary);
+        border-radius: var(--border-radius);
+        margin-right: 20px;
+
+        ::-webkit-scrollbar{
+            display:none;
+        }
+        .lookFilled-1Gx00P.colorBrand-3pXr91{
+            background-color: var(--background-primary);
+            border-radius: 25px;
+
+            &:hover{
+                background-color: var(--background-secondary);
+            }
+        }
+        .vz-dashboard-home-features-card {
+            border-radius: 10px;
+        }
+        .vz-addon-card{
             background-color: var(--background-secondary-alt);
             border-radius: var(--border-radius);
-            padding: 12px 6px;
+            border: none;
+            .vz-addon-card-icon{
+                border-radius: var(--border-radius);
+            }
         }
     }
-    .vz-dashboard-home-features-card{
-        border-radius: var(--border-radius);
-    }
 }
-.categoryItem-3zFJns.selectedCategoryItem-3X8ujp .itemInner-3gVXMG{
-    border-radius: 25px;
-    background-color: var(--background-secondary-alt);
-}
-.content-3QAtGj{
-    line-height: 20px;
-}
-
-//BD support//
-
-//GooseMod Support//
