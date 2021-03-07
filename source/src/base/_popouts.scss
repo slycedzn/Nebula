@@ -5,11 +5,11 @@
 
 //User popouts//
 .userPopout-3XzG_A{
-    background-color: var(--background-primary);
+    background-color: var(--background-secondary);
     border-radius: var(--border-radius);
     width:400px;
     .headerNormal-T_seeN{
-        height:180px;
+        height:210px;
         background-color: var(--background-secondary-alt);
         border-radius: 0 0 18px 18px;
         }
@@ -21,15 +21,11 @@
     .headerSpotify-zpWxgT{
         background-color: transparent;
         .headerTop-3C2Zn0{
-            background-color: var(--background-secondary-alt);
-            height:180px;
+            background-color: var(--background-primary);
+            height:210px;
         }
         .activity-11LB_k{
-            background-color: var(--background-secondary-alt);
-            border-radius: 0 0 18px 18px;
-            .buttonSize-AQY2mE{
-                border-radius: var(--border-radius);
-            }
+            display: none;
         }
     }
     .customStatus-1bh2V9,
