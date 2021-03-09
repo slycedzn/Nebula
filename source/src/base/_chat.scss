@@ -118,8 +118,10 @@
             border-radius: var(--border-radius);
         }
         .message-2qnXI6{
+            border-radius: 0 18px 18px 0;
             .markup-2BOw-j code{
-                width: max-content;
+                width: fit-content;
+                max-width: initial;
                 border-radius: var(--border-radius);
             }
         }
