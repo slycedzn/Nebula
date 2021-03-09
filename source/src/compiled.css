@@ -266,6 +266,11 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
   border-radius: 0px 0px 20px 20px;
 }
 
+.sidebar-2K8pFh .container-3w7J-x .scroller-RmtA4e .content-3YMskv,
+.platform-win .sidebar-2K8pFh .container-3w7J-x .scroller-RmtA4e .content-3YMskv {
+  overflow: scroll;
+}
+
 .sidebar-2K8pFh .container-3w7J-x .bannerImage-3KhIJ6,
 .platform-win .sidebar-2K8pFh .container-3w7J-x .bannerImage-3KhIJ6 {
   width: 300px;
