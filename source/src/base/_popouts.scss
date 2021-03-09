@@ -12,7 +12,8 @@
     height:230px;
     .headerNormal-T_seeN, // Avatar and Status
     .headerPlaying-j0WQBV,
-    .headerSpotify-zpWxgT{
+    .headerSpotify-zpWxgT,
+    .headerXbox-3G-4PF{
         background-color: var(--background-secondary);
         border-radius: var(--border-radius);
         margin:10px;
@@ -37,7 +38,7 @@
         background-color: var(--background-secondary);
         border-radius: 18px 0 0 18px;
         margin: 10px 0 10px 0;
-        width: min-content;
+        width: fit-content;
         max-width: 250px;
         .input-cIJ7To{
             border-radius: var(--border-radius);
