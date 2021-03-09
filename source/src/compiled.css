@@ -667,7 +667,8 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 .userPopout-3XzG_A .headerNormal-T_seeN,
 .userPopout-3XzG_A .headerPlaying-j0WQBV,
 .userPopout-3XzG_A .headerSpotify-zpWxgT,
-.userPopout-3XzG_A .headerXbox-3G-4PF {
+.userPopout-3XzG_A .headerXbox-3G-4PF,
+.userPopout-3XzG_A .headerStreaming-2FjmGz {
   background-color: var(--background-secondary);
   border-radius: var(--border-radius);
   margin: 10px;
@@ -680,7 +681,8 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 .userPopout-3XzG_A .headerNormal-T_seeN .activity-11LB_k,
 .userPopout-3XzG_A .headerPlaying-j0WQBV .activity-11LB_k,
 .userPopout-3XzG_A .headerSpotify-zpWxgT .activity-11LB_k,
-.userPopout-3XzG_A .headerXbox-3G-4PF .activity-11LB_k {
+.userPopout-3XzG_A .headerXbox-3G-4PF .activity-11LB_k,
+.userPopout-3XzG_A .headerStreaming-2FjmGz .activity-11LB_k {
   background-color: rgba(0, 0, 0, 0.089);
   border-radius: var(--border-radius);
   max-width: 260px;
@@ -690,14 +692,16 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 .userPopout-3XzG_A .headerNormal-T_seeN .customStatus-1bh2V9,
 .userPopout-3XzG_A .headerPlaying-j0WQBV .customStatus-1bh2V9,
 .userPopout-3XzG_A .headerSpotify-zpWxgT .customStatus-1bh2V9,
-.userPopout-3XzG_A .headerXbox-3G-4PF .customStatus-1bh2V9 {
+.userPopout-3XzG_A .headerXbox-3G-4PF .customStatus-1bh2V9,
+.userPopout-3XzG_A .headerStreaming-2FjmGz .customStatus-1bh2V9 {
   max-width: 260px;
 }
 
 .userPopout-3XzG_A .headerNormal-T_seeN::-webkit-scrollbar,
 .userPopout-3XzG_A .headerPlaying-j0WQBV::-webkit-scrollbar,
 .userPopout-3XzG_A .headerSpotify-zpWxgT::-webkit-scrollbar,
-.userPopout-3XzG_A .headerXbox-3G-4PF::-webkit-scrollbar {
+.userPopout-3XzG_A .headerXbox-3G-4PF::-webkit-scrollbar,
+.userPopout-3XzG_A .headerStreaming-2FjmGz::-webkit-scrollbar {
   display: none;
 }
 
