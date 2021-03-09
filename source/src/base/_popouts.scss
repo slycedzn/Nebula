@@ -2,43 +2,76 @@
 .backdrop-1wrmKB, .backdropWithLayer-3_uhz4{
     backdrop-filter: blur(5px);
 }
-
-//User popouts//
+// User Popouts //
 .userPopout-3XzG_A{
-    background-color: var(--background-primary);
+    background-color: var(--background-secondary-alt);
     border-radius: var(--border-radius);
-    width:400px;
-    height:500px;
-    .headerNormal-T_seeN{
-        height:250px;
-        background-color: var(--background-secondary-alt);
-        border-radius: 0 0 18px 18px;
-        }
-        .body-3iLsc4,
-        .footer-1fjuF6{
-            background-color: var(--background-primary);
-    }
+    flex-direction: row;
+    width:fit-content;
+    max-width: 800px;
+    height:230px;
+    .headerNormal-T_seeN, // Avatar and Status
     .headerPlaying-j0WQBV,
     .headerSpotify-zpWxgT{
-        background-color: transparent;
-        .headerTop-3C2Zn0{
-            background-color: var(--background-primary);
-            height:210px;
+        background-color: var(--background-secondary);
+        border-radius: var(--border-radius);
+        margin:10px;
+        width: max-content;
+        min-width: 200px;
+        overflow: scroll;
+        .activity-11LB_k{ // Its in the name.
+            background-color: rgba(0, 0, 0, 0.089);
+            border-radius: var(--border-radius);
+            max-width: 260px;
+            margin: 10px;
         }
-        .activity-11LB_k{
+        .customStatus-1bh2V9{
+            max-width: 260px;
+        }
+
+        &::-webkit-scrollbar{
             display: none;
         }
     }
-    .customStatus-1bh2V9,
-    .headerText-2sdzFM{
-        background-color: var(--background-secondary-alt);
-        border-radius: 10px;
-        padding: 4px 5px;
-        color:#fff;
-        width: fit-content;
+    .body-3iLsc4{ // Roles Area
+        background-color: var(--background-secondary);
+        border-radius: 18px 0 0 18px;
+        margin: 10px 0 10px 0;
+        width: min-content;
+        max-width: 250px;
+        .input-cIJ7To{
+            border-radius: var(--border-radius);
+            transition: 250ms ease all;
+
+            &:hover{
+                background-color: var(--background-secondary-alt);
+            }
+        }
+
+        &::-webkit-scrollbar{
+            display: none;
+        }
+    }
+    .footer-1fjuF6{ // Message User
+        background-color: var(--background-secondary);
+        border-radius: 0 18px 18px 0;
+        margin: 10px  10px 10px 0;
+        .input-cIJ7To{
+            position: relative;
+            border-radius: var(--border-radius);
+            top:30px;
+            transition: 250ms ease all;
+
+            &:focus-within{
+                border-color:var(--background-extra);
+            }
+        }
+        .protip-YaFfgO{
+            position: relative;
+            top:30px;
+        }
     }
 }
-
 
 //Search Results//
 .searchResultsWrap-3-pOjs{

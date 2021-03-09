@@ -31,6 +31,10 @@
 - Redone indicators
 - Better Discord and GooseMod Support!
 
+## March 9th
+- A much better USRBG/User Popout look.
+- Fixes 
+
 ## Future Updates
 - New Fonts
 - New Icons

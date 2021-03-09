@@ -119,7 +119,7 @@
         }
         .message-2qnXI6{
             .markup-2BOw-j code{
-                width: fit-content;
+                width: max-content;
                 border-radius: var(--border-radius);
             }
         }
@@ -169,5 +169,22 @@
 
     ::-webkit-scrollbar{
         display: none;
+    }
+}
+.notice-3uyY6c{
+    background-color: var(--background-primary);
+    border-radius: var(--border-radius);
+    width:500px;
+    left:505px;
+    top:40px;
+    .button-gP4R86{
+        background-color: var(--background-tertiary);
+        padding: 6px;
+        border-radius: var(--border-radius);
+        border: none;
+
+        &:hover{
+            background-color: var(--background-secondary-alt);
+        }
     }
 }
