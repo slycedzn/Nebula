@@ -184,7 +184,7 @@
 }
 
 div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
-  content: "Nebula 2.5.4";
+  content: "Nebula 2.13.14";
   display: block;
 }
 
@@ -322,6 +322,11 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
   display: none;
 }
 
+.chat-3bRxxu .container-1r6BKw .toolbar-1t6TWx {
+  margin-right: 130px;
+  border-right: solid 1px rgba(255, 255, 255, 0.219);
+}
+
 .chat-3bRxxu .container-1r6BKw .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Help],
 .chat-3bRxxu .container-1r6BKw .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label="Start Video Call"] {
   display: none;
@@ -343,12 +348,20 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 .chat-3bRxxu .content-yTz4x3 .chatContent-a9vAAp .cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j:not(:empty) {
   background-color: var(--background-secondary-alt);
   display: inline-block;
-  max-width: 650px;
+  width: auto;
+  max-width: 600px;
   margin: 0;
   padding: 5px 10px;
   border-radius: 15px;
   position: relative;
   overflow: visible;
+}
+
+.chat-3bRxxu .content-yTz4x3 .chatContent-a9vAAp .markup-2BOw-j code {
+  border-radius: 10px;
+  width: -webkit-max-content;
+  width: max-content;
+  max-width: inherit;
 }
 
 .chat-3bRxxu .content-yTz4x3 .chatContent-a9vAAp .repliedMessage-VokQwo:before {
@@ -439,13 +452,6 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 
 .chat-3bRxxu .content-yTz4x3 .message-2qnXI6:hover {
   background-color: var(--background-tertiary);
-}
-
-.chat-3bRxxu .content-yTz4x3 .message-2qnXI6 .markup-2BOw-j code {
-  width: -webkit-max-content;
-  width: max-content;
-  max-width: 500px;
-  border-radius: var(--border-radius);
 }
 
 .applicationStore-1pNvnv {

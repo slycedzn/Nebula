@@ -37,13 +37,19 @@
             border-radius: var(--border-radius);
             .cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j:not(:empty) {
                 background-color: var(--background-secondary-alt);
-                display: inline-block;
-                max-width: 650px;
+                display:inline-block;
+                width:auto;
+                max-width: 600px;
                 margin: 0;
                 padding: 5px 10px ;
                 border-radius: 15px;
                 position: relative;
                 overflow: visible;
+            }
+            .markup-2BOw-j code{
+                border-radius: 10px;
+                width:max-content;
+                max-width: inherit;
             }
             .repliedMessage-VokQwo:before{
                 border-color: var(--background-extra);
@@ -122,11 +128,6 @@
 
             &:hover{
                 background-color: var(--background-tertiary);
-            }
-            .markup-2BOw-j code{
-                width: max-content;
-                max-width: 500px;
-                border-radius: var(--border-radius);
             }
         }
     }
