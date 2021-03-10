@@ -119,9 +119,13 @@
         }
         .message-2qnXI6{
             border-radius: 0 18px 18px 0;
+
+            &:hover{
+                background-color: var(--background-tertiary);
+            }
             .markup-2BOw-j code{
-                width: fit-content;
-                max-width: initial;
+                width: max-content;
+                max-width: 500px;
                 border-radius: var(--border-radius);
             }
         }
@@ -189,4 +193,14 @@
             background-color: var(--background-secondary-alt);
         }
     }
+}
+.colorStreamerMode-2SJAUN{
+    position: relative;
+    border-radius: var(--border-radius);
+    font-size: 15px;
+    text-transform: capitalize;
+    height:35px;
+    left:32px;
+    width:1382px;
+    margin-bottom: 20px;
 }
