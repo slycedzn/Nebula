@@ -1,61 +1,54 @@
-.sidebar-2K8pFh,
-.platform-win .sidebar-2K8pFh{
+.sidebar-2K8pFh{
+    background-color: transparent;
+    border-radius: var(--border-radius) !important;
     width:300px;
-    border-radius: var(--border-radius);
-    background: transparent;
-    margin:0 20px 0 35px;
+    margin: 0 20px 0 35px;
     .privateChannels-1nO12o{
+        background-color: transparent;
         border-radius: var(--border-radius);
         .searchBar-6Kv8R2{
-            display: none;
+            background-color: var(--background-primary);
+            border-radius: var(--border-radius);
+            box-shadow: none;
+            margin-bottom: 20px;
+            height:40px;
+            .searchBarComponent-32dTOx{
+                border-radius: var(--border-radius);
+            }
         }
         .scroller-1JbKMe{
             background-color: var(--background-primary);
+            border-radius: var(--border-radius);
             .channel-2QD9_O{
-                margin-top: 10px;
-                .layout-2DM8Md{
-                    position: relative;
-                    right:8px;
-                    border-radius: 0px 20px 20px 0px;
-                }
+                margin-top: 6px;
             }
-            .selected-aXhQR6 .layout-2DM8Md{
-                background-color: var(--background-tertiary);
-            }
+        }
+
+        ::-webkit-scrollbar{
+            display: none;
         }
     }
     .container-3w7J-x{
-        border-radius: var(--border-radius);
         background-color: var(--background-primary);
-        .scroller-RmtA4e{
-            border-radius: 0px 0px 20px 20px;
-            overflow: scroll !important;
-            .content-3YMskv{
-                overflow:scroll;
-            }
-        }
+        border-radius: var(--border-radius);
         .bannerImage-3KhIJ6{
-            width: 300px;
+            width:300px;
+        }
+        .scroller-RmtA4e{
+            border-radius: 0 0 18px 18px;
+
+            &::-webkit-scrollbar{
+                display: none;
+            }
         }
     }
     .panels-j1Uci_{
-        margin-top: 20px;
-        border-radius: var(--border-radius);
         background-color: var(--background-primary);
+        border-radius: var(--border-radius);
+        margin-top: 20px;
         .container-3baos1{
             background-color: var(--background-primary);
             border-radius: var(--border-radius);
         }
     }
-    ::-webkit-scrollbar{
-        display: none;
-    }
-    .unread-1xRYoj{
-        background-color: var(--background-tertiary);
-        opacity: 1;
-    }
-    .scrollerBase-289Jih{
-        background-color: var(--background-primary);
-        border-radius: var(--border-radius);
-    }
-}   
+}

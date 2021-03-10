@@ -4,77 +4,93 @@
 }
 // User Popouts //
 .userPopout-3XzG_A{
-    background-color: var(--background-secondary-alt);
+    background-color: #343a6b;
     border-radius: var(--border-radius);
+    box-shadow: var(--elevation-high);
     flex-direction: row;
-    width:fit-content;
-    max-width: 800px;
-    height:230px;
-    .headerNormal-T_seeN, // Avatar and Status
-    .headerPlaying-j0WQBV,
+    width:600px;
+    max-width: 740px;
+    height:225px;
+    .headerNormal-T_seeN,
     .headerSpotify-zpWxgT,
     .headerXbox-3G-4PF,
-    .headerStreaming-2FjmGz{
-        background-color: var(--background-secondary);
+    .headerStreaming-2FjmGz,
+    .headerPlaying-j0WQBV{
         border-radius: var(--border-radius);
-        margin:10px;
-        width: max-content;
-        min-width: 200px;
+        background-color: var(--background-primary);
         overflow: scroll;
-        .activity-11LB_k{ // Its in the name.
-            background-color: rgba(0, 0, 0, 0.089);
-            border-radius: var(--border-radius);
-            max-width: 260px;
-            margin: 10px;
+        margin: 10px;
+        min-width: 240px;
+        max-width: 240px;
+        
+        &::-webkit-scrollbar{
+            display: none;
         }
-        .customStatus-1bh2V9{
-            max-width: 260px;
+
+        .activity-11LB_k{
+            background-color: rgba(0, 0, 0, 0.25);
+            backdrop-filter: blur(5px);
+            border-radius: 14px;
+            margin: 10px 10px 10px 10px;
+            height:155px;
         }
+    }
+    .body-3iLsc4{
+        position: fixed;
+        margin: 10px 0 10px 0px;
+        border-radius: var(--border-radius);
+        background-color: var(--background-primary);
+        width:fit-content;
+        min-width: 327px;
+        max-width: 327px;
+        left:260px;
+        height:130px;
 
         &::-webkit-scrollbar{
             display: none;
         }
-    }
-    .body-3iLsc4{ // Roles Area
-        background-color: var(--background-secondary);
-        border-radius: 18px 0 0 18px;
-        margin: 10px 0 10px 0;
-        width: fit-content;
-        max-width: 250px;
         .input-cIJ7To{
-            border-radius: var(--border-radius);
+            border-radius: 7px;
             transition: 250ms ease all;
-
-            &:hover{
+            &:hover:not(:focus-within){
                 background-color: var(--background-secondary-alt);
             }
-        }
-
-        &::-webkit-scrollbar{
-            display: none;
+            &:focus-within{
+                background-color: var(--background-tertiary);
+            }
         }
     }
-    .footer-1fjuF6{ // Message User
-        background-color: var(--background-secondary);
-        border-radius: 0 18px 18px 0;
-        margin: 10px  10px 10px 0;
-        .input-cIJ7To{
+    .footer-1fjuF6{
+        position: fixed;
+        background-color: var(--background-primary);
+        margin: 10px 10px 10px 0;
+        border-radius: var(--border-radius);
+        height:45px;
+        width:295px;
+        left: 260px;
+        top:143px;
+        .inputWrapper-31_8H8{
             position: relative;
-            border-radius: var(--border-radius);
-            top:30px;
-            transition: 250ms ease all;
+            top: 10px;
+            right:8px;
+            width:310px;
+            .input-cIJ7To{
+                border-radius: 13px;
+                transition: 250ms ease all;
+                &:hover:not(:focus-within){
+                    border-color: var(--background-extra);
+                }
 
-            &:focus-within{
-                border-color:var(--background-extra);
+                &:focus-within{
+                    border-color: var(--background-secondary-alt);
+                }
             }
         }
         .protip-YaFfgO{
-            position: relative;
-            top:30px;
+            display: none;
         }
     }
 }
-
 //Search Results//
 .searchResultsWrap-3-pOjs{
     margin-left: 20px;
