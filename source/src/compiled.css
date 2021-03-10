@@ -215,6 +215,22 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
   border: none;
 }
 
+.wrapper-3t9DeA .svg-2V3M55 [mask*=status-online] {
+  fill: #43B480;
+}
+
+.wrapper-3t9DeA .svg-2V3M55 [mask*=status-idle] {
+  fill: #F8A51A;
+}
+
+.wrapper-3t9DeA .svg-2V3M55 [mask*=status-dnd] {
+  fill: #F04747;
+}
+
+.wrapper-3t9DeA .svg-2V3M55 [mask*=status-streaming] {
+  fill: #9059F6;
+}
+
 .sidebar-2K8pFh {
   background-color: transparent;
   border-radius: var(--border-radius) !important;
@@ -682,7 +698,7 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
           backdrop-filter: blur(5px);
   border-radius: 14px;
   margin: 10px 10px 10px 10px;
-  height: 155px;
+  max-height: 155px;
 }
 
 .userPopout-3XzG_A .body-3iLsc4 {
@@ -696,7 +712,7 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
   min-width: 327px;
   max-width: 327px;
   left: 260px;
-  height: 130px;
+  max-height: 130px;
 }
 
 .userPopout-3XzG_A .body-3iLsc4::-webkit-scrollbar {
