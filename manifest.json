@@ -3,6 +3,6 @@
     "version": "2.15.14",
     "author": "Pavol#0296",
     "license": "MIT",
-    "theme": "nebula.theme.css",
+    "theme": "index.scss",
     "description": "The dark blue redesign of discord."
 }
