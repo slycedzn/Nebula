@@ -5,10 +5,10 @@
  
 ## Preview
 #### Main
-![](https://i.imgur.com/bFGkqbE.png)
+![](https://i.imgur.com/BPcNOi1.png)
 
 #### Settings
-![](https://i.imgur.com/ewD8NvI.png)
+![](https://i.imgur.com/b1qtLaZ.png)
 
 # Changelogs
 ## Feburary 22nd
@@ -19,7 +19,7 @@
   - Close/Maximize/Minimize Icons
   - Animations
   - Blur!
-- Redone entire code
+- Redone all code
 - Attempt at better optimizations
 - Fixes chat bubbles cutting of when resizing window
 
@@ -31,16 +31,12 @@
 - Redone indicators
 - Better Discord and GooseMod Support!
 
-## March 9th-10th
+## March 9th-11th
 - A much better USRBG/User Popout look.
 - Redone Sidebar Code.
 - Fixes 
 - Entire TopBar!
-
-## Future Updates
-- New Fonts
-- New Icons
-- And A Special Surprise
+- Added Setting Icons by Snapper.
 
 # Installation and Updating
 
@@ -67,7 +63,7 @@ If you like to have a css that cant be imported via ``@import``, you can request
  - **IMPORTANT** Channel list scrollbar glitches preventing users to click until scrolled again.
 
 
- - Applying other themes or plugins breaks elements.
+ - Applying other themes or plugins breaks may elements.
 
 ## Things To Note
 Some files are empty becuse i have not started working on that part of that part of this theme.

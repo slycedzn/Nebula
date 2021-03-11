@@ -1,4 +1,15 @@
-/*Add your imported addons here
+// Add your imported addons here
+
+@import url('https://raw.githack.com/Snapperito/Settings-Icons/main/source.css');
 
 
-Some addons will break this theme*/
+:root {
+--settings-icon-color: var(--interactive-normal);
+--settings-subscriptions: var(--interactive-normal);
+--settings-hypesquad: var(--interactive-normal);
+--settings-logout: #f04747;
+--settings-alt-focused: var(--interactive-normal);
+--settings-guild-premium: var(--interactive-normal);
+--settings-guild-delete: #f04747;
+}
+// Some addons will break this theme

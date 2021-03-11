@@ -1,5 +1,5 @@
 .base-3dtUhz{
-    left:70px;
+    left:85px;
  }
 .wrapper-1Rf91z{
     left:13px;
@@ -24,15 +24,39 @@
      .childWrapper-anI2G9{
          background-color: var(--background-tertiary);
     }
+    .bar-30k2ka{
+        opacity: 1;
+    }
     
 }
-.unreadMentionsIndicatorBottom-BXS58x{
-    position: absolute;
-    left:-4px;
-    width:80px;
-    .mention-1f5kbO{
-        background-color: var(--background-extra);
-        color:black;
-        opacity: 1;
+
+
+// Guilds
+.scroller-2TZvBN {
+margin-top: 60px;
+}
+
+// Remove guild Separator
+.guildSeparator-3s64Iy,
+.pill-2uzAFe {display: none;}
+
+// Background
+.tutorialContainer-1v44GL {
+    border-radius:18px 0 0 18px;
+    background: var(--background-primary);
+    position: fixed;
+    height:40px;
+    top: 22px;
+    .childWrapper-anI2G9{
+        position: relative;
+        border-radius: var(--border-radius);
+        background-color: transparent !important;
+        bottom:4px;
+        height:25px;
+        transition: 250ms ease all;
+
+        &:hover{
+            color:rgba(255, 255, 255, 0.411);
+        }
     }
 }

@@ -1,5 +1,6 @@
 @import url("https://corellanstoma.github.io/Powercord/Database/usrbg-crearts.css");
 @import url("https://discord-custom-covers.github.io/usrbg/dist/usrbg.css");
+@import url("https://raw.githack.com/Snapperito/Settings-Icons/main/source.css");
 :root {
   --thumb: var(--background-tertiary);
   --scrollbar-thumb-dark: #f8f9fa00 !important;
@@ -233,19 +234,19 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 
 .sidebar-2K8pFh {
   background-color: transparent;
-  border-radius: 18px 0 0 0;
-  width: 300px;
-  margin: 0 0 0 35px;
+  border-radius: 0 !important;
+  width: 320px;
+  margin: 0 0 0 0;
 }
 
 .sidebar-2K8pFh .privateChannels-1nO12o {
   background-color: transparent;
-  border-radius: 18px 0 18px 18px;
+  border-radius: 0;
 }
 
 .sidebar-2K8pFh .privateChannels-1nO12o .searchBar-6Kv8R2 {
   background-color: var(--background-primary);
-  border-radius: 0 0 0 18px;
+  border-radius: 0;
   box-shadow: none;
   margin-bottom: 20px;
   height: 40px;
@@ -253,11 +254,13 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 
 .sidebar-2K8pFh .privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
   border-radius: var(--border-radius);
+  margin-left: 20px;
 }
 
 .sidebar-2K8pFh .privateChannels-1nO12o .scroller-1JbKMe {
   background-color: var(--background-primary);
   border-radius: var(--border-radius);
+  margin-left: 20px;
 }
 
 .sidebar-2K8pFh .privateChannels-1nO12o .scroller-1JbKMe .channel-2QD9_O {
@@ -276,7 +279,8 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 .sidebar-2K8pFh .container-3w7J-x .container-1taM1r,
 .sidebar-2K8pFh .container-3w7J-x .header-2V-4Sw {
   background-color: var(--background-primary);
-  border-radius: 18px 0 0 18px;
+  border-radius: 0;
+  text-transform: capitalize;
   height: 40px;
   box-shadow: none;
   margin-bottom: 20px;
@@ -285,9 +289,10 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 .sidebar-2K8pFh .container-3w7J-x .animatedContainer-1NSq4T {
   position: absolute;
   top: 15px;
+  left: 20px;
   border-radius: 18px 0 0 0;
   box-shadow: none;
-  z-index: 1;
+  z-index: 2;
 }
 
 .sidebar-2K8pFh .container-3w7J-x .animatedContainer-1NSq4T .bannerImage-3KhIJ6 {
@@ -297,16 +302,28 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 .sidebar-2K8pFh .container-3w7J-x .scroller-RmtA4e {
   background-color: var(--background-primary);
   border-radius: var(--border-radius);
+  margin-left: 20px;
 }
 
 .sidebar-2K8pFh .container-3w7J-x .scroller-RmtA4e::-webkit-scrollbar {
   display: none;
 }
 
+.sidebar-2K8pFh .container-3w7J-x .scroller-RmtA4e .content-3YMskv {
+  overflow: scroll hidden;
+}
+
+.sidebar-2K8pFh .container-3w7J-x .bar-30k2ka {
+  background-color: var(--background-secondary-alt);
+  margin-left: 20px;
+  opacity: 1;
+}
+
 .sidebar-2K8pFh .panels-j1Uci_ {
   background-color: var(--background-primary);
   border-radius: var(--border-radius);
   margin-top: 20px;
+  margin-left: 20px;
 }
 
 .sidebar-2K8pFh .panels-j1Uci_ .container-3baos1 {
@@ -314,10 +331,18 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
   border-radius: var(--border-radius);
 }
 
+.sidebar-2K8pFh .panels-j1Uci_ .lookFilled-1Gx00P.colorBrand-3pXr91 {
+  background-color: var(--background-secondary-alt);
+}
+
+.sidebar-2K8pFh .panels-j1Uci_ .lookFilled-1Gx00P.colorBrand-3pXr91:hover {
+  background-color: var(--background-tertiary);
+}
+
 .chat-3bRxxu {
   background-color: transparent;
   margin-right: 20px;
-  border-radius: 0 18px 18px 18px;
+  border-radius: 0 18px 18px 0;
 }
 
 .chat-3bRxxu .container-1r6BKw {
@@ -418,7 +443,7 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 }
 
 .chat-3bRxxu .content-yTz4x3 .chatContent-a9vAAp .scroller-2LSbBU {
-  border-radius: 20px;
+  border-radius: 17px;
 }
 
 .chat-3bRxxu .content-yTz4x3 .membersWrap-2h-GB4 {
@@ -479,8 +504,19 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 }
 
 .applicationStore-1pNvnv {
-  border-radius: var(--border-radius);
+  border-radius: 0 18px 18px 18px;
   margin-right: 20px;
+  background-color: transparent;
+}
+
+.applicationStore-1pNvnv .container-1r6BKw {
+  border-radius: 0 18px 18px 0;
+  height: 40px;
+}
+
+.applicationStore-1pNvnv .scroller-9moviB {
+  margin: 20px 0 0 20px;
+  border-radius: var(--border-radius);
 }
 
 .theme-dark .container-1D34oG {
@@ -489,9 +525,13 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 }
 
 .theme-dark .container-1D34oG .container-1r6BKw.themed-ANHk51 {
-  border-radius: var(--border-radius);
+  border-radius: 0 18px 18px 0;
   max-height: 40px;
   width: auto;
+}
+
+.theme-dark .container-1D34oG .tabBody-3YRQ8W {
+  margin-left: 20px;
 }
 
 .theme-dark .container-1D34oG .tabBody-3YRQ8W::before {
@@ -562,7 +602,7 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 }
 
 .base-3dtUhz {
-  left: 70px;
+  left: 85px;
 }
 
 .wrapper-1Rf91z {
@@ -596,16 +636,38 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
   background-color: var(--background-tertiary);
 }
 
-.unreadMentionsIndicatorBottom-BXS58x {
-  position: absolute;
-  left: -4px;
-  width: 80px;
+.wrapper-1Rf91z .bar-30k2ka {
+  opacity: 1;
 }
 
-.unreadMentionsIndicatorBottom-BXS58x .mention-1f5kbO {
-  background-color: var(--background-extra);
-  color: black;
-  opacity: 1;
+.scroller-2TZvBN {
+  margin-top: 60px;
+}
+
+.guildSeparator-3s64Iy,
+.pill-2uzAFe {
+  display: none;
+}
+
+.tutorialContainer-1v44GL {
+  border-radius: 18px 0 0 18px;
+  background: var(--background-primary);
+  position: fixed;
+  height: 40px;
+  top: 22px;
+}
+
+.tutorialContainer-1v44GL .childWrapper-anI2G9 {
+  position: relative;
+  border-radius: var(--border-radius);
+  background-color: transparent !important;
+  bottom: 4px;
+  height: 25px;
+  transition: 250ms ease all;
+}
+
+.tutorialContainer-1v44GL .childWrapper-anI2G9:hover {
+  color: rgba(255, 255, 255, 0.411);
 }
 
 :root {
@@ -967,10 +1029,13 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 
 .root-SR8cQa .topSectionNormal-2-vo2m .header-QKLPzZ .lookInverted-2D7oAl.colorBrand-3pXr91,
 .root-SR8cQa .topSectionNormal-2-vo2m .header-QKLPzZ .lookInverted-2D7oAl.colorGreen-29iAKY,
+.root-SR8cQa .topSectionNormal-2-vo2m .header-QKLPzZ .lookFilled-1Gx00P.colorGrey-2DXtkV,
 .root-SR8cQa .topSectionPlaying-1J5E4n .header-QKLPzZ .lookInverted-2D7oAl.colorBrand-3pXr91,
 .root-SR8cQa .topSectionPlaying-1J5E4n .header-QKLPzZ .lookInverted-2D7oAl.colorGreen-29iAKY,
+.root-SR8cQa .topSectionPlaying-1J5E4n .header-QKLPzZ .lookFilled-1Gx00P.colorGrey-2DXtkV,
 .root-SR8cQa .topSectionSpotify-1lI0-P .header-QKLPzZ .lookInverted-2D7oAl.colorBrand-3pXr91,
-.root-SR8cQa .topSectionSpotify-1lI0-P .header-QKLPzZ .lookInverted-2D7oAl.colorGreen-29iAKY {
+.root-SR8cQa .topSectionSpotify-1lI0-P .header-QKLPzZ .lookInverted-2D7oAl.colorGreen-29iAKY,
+.root-SR8cQa .topSectionSpotify-1lI0-P .header-QKLPzZ .lookFilled-1Gx00P.colorGrey-2DXtkV {
   background-color: var(--background-secondary);
   border-radius: var(--border-radius);
   color: #fff;
@@ -978,10 +1043,13 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 
 .root-SR8cQa .topSectionNormal-2-vo2m .header-QKLPzZ .lookInverted-2D7oAl.colorBrand-3pXr91:hover,
 .root-SR8cQa .topSectionNormal-2-vo2m .header-QKLPzZ .lookInverted-2D7oAl.colorGreen-29iAKY:hover,
+.root-SR8cQa .topSectionNormal-2-vo2m .header-QKLPzZ .lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
 .root-SR8cQa .topSectionPlaying-1J5E4n .header-QKLPzZ .lookInverted-2D7oAl.colorBrand-3pXr91:hover,
 .root-SR8cQa .topSectionPlaying-1J5E4n .header-QKLPzZ .lookInverted-2D7oAl.colorGreen-29iAKY:hover,
+.root-SR8cQa .topSectionPlaying-1J5E4n .header-QKLPzZ .lookFilled-1Gx00P.colorGrey-2DXtkV:hover,
 .root-SR8cQa .topSectionSpotify-1lI0-P .header-QKLPzZ .lookInverted-2D7oAl.colorBrand-3pXr91:hover,
-.root-SR8cQa .topSectionSpotify-1lI0-P .header-QKLPzZ .lookInverted-2D7oAl.colorGreen-29iAKY:hover {
+.root-SR8cQa .topSectionSpotify-1lI0-P .header-QKLPzZ .lookInverted-2D7oAl.colorGreen-29iAKY:hover,
+.root-SR8cQa .topSectionSpotify-1lI0-P .header-QKLPzZ .lookFilled-1Gx00P.colorGrey-2DXtkV:hover {
   background-color: var(--background-tertiary);
 }
 
@@ -1156,10 +1224,16 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
   border-radius: var(--border-radius);
 }
 
-/*Add your imported addons here
+:root {
+  --settings-icon-color: var(--interactive-normal);
+  --settings-subscriptions: var(--interactive-normal);
+  --settings-hypesquad: var(--interactive-normal);
+  --settings-logout: #f04747;
+  --settings-alt-focused: var(--interactive-normal);
+  --settings-guild-premium: var(--interactive-normal);
+  --settings-guild-delete: #f04747;
+}
 
-
-Some addons will break this theme*/
 .theme-dark,
 .theme-light,
 :root {
