@@ -33,6 +33,17 @@
     border: solid 2px var(--background-extra);
   }
 }
+@keyframes Home {
+  0% {
+    transform: rotate(-6deg);
+  }
+  50% {
+    transform: rotate(6deg) scale(1.01);
+  }
+  100% {
+    transform: rotate(-6deg);
+  }
+}
 :root {
   --unread-badge: #e8eafdce;
   --unread-bg: transparent;
@@ -667,7 +678,8 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 }
 
 .tutorialContainer-1v44GL .childWrapper-anI2G9:hover {
-  color: rgba(255, 255, 255, 0.411);
+  color: white;
+  animation: Home 1s infinite ease-in-out;
 }
 
 :root {

@@ -56,7 +56,8 @@ margin-top: 60px;
         transition: 250ms ease all;
 
         &:hover{
-            color:rgba(255, 255, 255, 0.411);
+            color:rgb(255, 255, 255);
+            animation: Home 1s infinite ease-in-out ;
         }
     }
 }
