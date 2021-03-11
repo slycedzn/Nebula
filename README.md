@@ -35,6 +35,7 @@
 - A much better USRBG/User Popout look.
 - Redone Sidebar Code.
 - Fixes 
+- Entire TopBar!
 
 ## Future Updates
 - New Fonts

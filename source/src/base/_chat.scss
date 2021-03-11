@@ -1,14 +1,16 @@
 .chat-3bRxxu{
     background-color: transparent;
     margin-right: 20px;
-    border-radius: var(--border-radius);
+    border-radius: 0 18px 18px 18px;
     .container-1r6BKw{
         background-color: var(--background-primary);
-        border-radius: var(--border-radius);
+        border-radius: 0 18px 18px 0;
         padding: 0;
         max-height: 40px;
         .children-19S4PO{
-            .title-29uC1r{
+            border-left: solid 1px rgba(255, 255, 255, 0.082);
+            .title-29uC1r,
+            .channelName-qsg_a_{
                 font-size: 20px;
                 text-transform: capitalize;
             }
@@ -18,6 +20,9 @@
             .akaBadge-1M-1Gw,
             .nicknames-1XK4Zt{
                 display: none;
+            }
+            .iconWrapper-2OrFZ1:first-child{
+                margin-left: 21px;
             }
         }
         .toolbar-1t6TWx{
@@ -29,6 +34,7 @@
     }
     .content-yTz4x3{
         margin-top: 20px;
+        margin-left: 20px;
         &::before{
             display: none;
         }
@@ -93,6 +99,7 @@
             }
             .layout-2DM8Md:hover{
                 border-radius: 20px;
+                background-color: var(--background-secondary);
             }
             ::-webkit-scrollbar{
                 display: none;

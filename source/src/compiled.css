@@ -184,7 +184,7 @@
 }
 
 div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
-  content: "Nebula 2.13.14";
+  content: "Nebula 2.14.14";
   display: block;
 }
 
@@ -233,19 +233,19 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 
 .sidebar-2K8pFh {
   background-color: transparent;
-  border-radius: var(--border-radius) !important;
+  border-radius: 0;
   width: 300px;
-  margin: 0 20px 0 35px;
+  margin: 0 0 0 35px;
 }
 
 .sidebar-2K8pFh .privateChannels-1nO12o {
   background-color: transparent;
-  border-radius: var(--border-radius);
+  border-radius: 18px 0 18px 18px;
 }
 
 .sidebar-2K8pFh .privateChannels-1nO12o .searchBar-6Kv8R2 {
   background-color: var(--background-primary);
-  border-radius: var(--border-radius);
+  border-radius: 0 0 0 18px;
   box-shadow: none;
   margin-bottom: 20px;
   height: 40px;
@@ -269,8 +269,17 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 }
 
 .sidebar-2K8pFh .container-3w7J-x {
-  background-color: var(--background-primary);
+  background-color: transparent;
   border-radius: var(--border-radius);
+}
+
+.sidebar-2K8pFh .container-3w7J-x .container-1taM1r,
+.sidebar-2K8pFh .container-3w7J-x .header-2V-4Sw {
+  background-color: var(--background-primary);
+  border-radius: 18px 0 0 18px;
+  height: 40px;
+  box-shadow: none;
+  margin-bottom: 20px;
 }
 
 .sidebar-2K8pFh .container-3w7J-x .bannerImage-3KhIJ6 {
@@ -278,7 +287,8 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 }
 
 .sidebar-2K8pFh .container-3w7J-x .scroller-RmtA4e {
-  border-radius: 0 0 18px 18px;
+  background-color: var(--background-primary);
+  border-radius: var(--border-radius);
 }
 
 .sidebar-2K8pFh .container-3w7J-x .scroller-RmtA4e::-webkit-scrollbar {
@@ -299,17 +309,22 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 .chat-3bRxxu {
   background-color: transparent;
   margin-right: 20px;
-  border-radius: var(--border-radius);
+  border-radius: 0 18px 18px 18px;
 }
 
 .chat-3bRxxu .container-1r6BKw {
   background-color: var(--background-primary);
-  border-radius: var(--border-radius);
+  border-radius: 0 18px 18px 0;
   padding: 0;
   max-height: 40px;
 }
 
-.chat-3bRxxu .container-1r6BKw .children-19S4PO .title-29uC1r {
+.chat-3bRxxu .container-1r6BKw .children-19S4PO {
+  border-left: solid 1px rgba(255, 255, 255, 0.082);
+}
+
+.chat-3bRxxu .container-1r6BKw .children-19S4PO .title-29uC1r,
+.chat-3bRxxu .container-1r6BKw .children-19S4PO .channelName-qsg_a_ {
   font-size: 20px;
   text-transform: capitalize;
 }
@@ -322,9 +337,8 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
   display: none;
 }
 
-.chat-3bRxxu .container-1r6BKw .toolbar-1t6TWx {
-  margin-right: 130px;
-  border-right: solid 1px rgba(255, 255, 255, 0.219);
+.chat-3bRxxu .container-1r6BKw .children-19S4PO .iconWrapper-2OrFZ1:first-child {
+  margin-left: 21px;
 }
 
 .chat-3bRxxu .container-1r6BKw .toolbar-1t6TWx .iconWrapper-2OrFZ1[aria-label=Help],
@@ -334,6 +348,7 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 
 .chat-3bRxxu .content-yTz4x3 {
   margin-top: 20px;
+  margin-left: 20px;
 }
 
 .chat-3bRxxu .content-yTz4x3::before {
@@ -413,6 +428,7 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 
 .chat-3bRxxu .content-yTz4x3 .membersWrap-2h-GB4 .layout-2DM8Md:hover {
   border-radius: 20px;
+  background-color: var(--background-secondary);
 }
 
 .chat-3bRxxu .content-yTz4x3 .membersWrap-2h-GB4 ::-webkit-scrollbar {
@@ -694,6 +710,14 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
   display: none;
 }
 
+.userPopout-3XzG_A .headerNormal-T_seeN .headerTop-3C2Zn0,
+.userPopout-3XzG_A .headerSpotify-zpWxgT .headerTop-3C2Zn0,
+.userPopout-3XzG_A .headerXbox-3G-4PF .headerTop-3C2Zn0,
+.userPopout-3XzG_A .headerStreaming-2FjmGz .headerTop-3C2Zn0,
+.userPopout-3XzG_A .headerPlaying-j0WQBV .headerTop-3C2Zn0 {
+  height: 164px;
+}
+
 .userPopout-3XzG_A .headerNormal-T_seeN .activity-11LB_k,
 .userPopout-3XzG_A .headerSpotify-zpWxgT .activity-11LB_k,
 .userPopout-3XzG_A .headerXbox-3G-4PF .activity-11LB_k,
@@ -704,7 +728,7 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
           backdrop-filter: blur(5px);
   border-radius: 14px;
   margin: 10px 10px 10px 10px;
-  max-height: 155px;
+  max-height: 160px;
 }
 
 .userPopout-3XzG_A .body-3iLsc4 {
