@@ -1,6 +1,6 @@
 .sidebar-2K8pFh{
     background-color: transparent;
-    border-radius:0;
+    border-radius:18px 0 0 0 ;
     width:300px;
     margin: 0 0 0 35px;
     .privateChannels-1nO12o{
@@ -39,8 +39,15 @@
             box-shadow: none;
             margin-bottom: 20px;
         }
-        .bannerImage-3KhIJ6{
-            width:300px;
+        .animatedContainer-1NSq4T{
+            position: absolute;
+            top:15px;
+            border-radius: 18px 0 0 0;
+            box-shadow: none;
+            z-index: 1;
+            .bannerImage-3KhIJ6{
+                width:300px;
+            }
         }
         .scroller-RmtA4e{
             background-color: var(--background-primary);
