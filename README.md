@@ -5,7 +5,7 @@
  
 ## Preview
 #### Main
-![](https://i.imgur.com/4SzKqEG.png)
+![](https://i.imgur.com/bFGkqbE.png)
 
 #### Settings
 ![](https://i.imgur.com/ewD8NvI.png)
