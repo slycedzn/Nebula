@@ -233,7 +233,7 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 
 .sidebar-2K8pFh {
   background-color: transparent;
-  border-radius: 0;
+  border-radius: 18px 0 0 0;
   width: 300px;
   margin: 0 0 0 35px;
 }
@@ -282,7 +282,15 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
   margin-bottom: 20px;
 }
 
-.sidebar-2K8pFh .container-3w7J-x .bannerImage-3KhIJ6 {
+.sidebar-2K8pFh .container-3w7J-x .animatedContainer-1NSq4T {
+  position: absolute;
+  top: 15px;
+  border-radius: 18px 0 0 0;
+  box-shadow: none;
+  z-index: 1;
+}
+
+.sidebar-2K8pFh .container-3w7J-x .animatedContainer-1NSq4T .bannerImage-3KhIJ6 {
   width: 300px;
 }
 
