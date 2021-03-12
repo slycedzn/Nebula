@@ -310,10 +310,6 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
   display: none;
 }
 
-.sidebar-2K8pFh .container-3w7J-x .scroller-RmtA4e .content-3YMskv {
-  overflow: scroll hidden;
-}
-
 .sidebar-2K8pFh .container-3w7J-x .bar-30k2ka {
   background-color: var(--background-secondary-alt);
   margin-left: 20px;
@@ -365,6 +361,7 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 
 .chat-3bRxxu .container-1r6BKw .children-19S4PO::after,
 .chat-3bRxxu .container-1r6BKw .children-19S4PO .divider-3FBTu8,
+.chat-3bRxxu .container-1r6BKw .children-19S4PO .topic-TCb_qw,
 .chat-3bRxxu .container-1r6BKw .children-19S4PO .akaBadge-1M-1Gw,
 .chat-3bRxxu .container-1r6BKw .children-19S4PO .nicknames-1XK4Zt {
   display: none;
