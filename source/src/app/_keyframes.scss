@@ -7,14 +7,3 @@
       border: solid 2px var(--background-extra); 
     }
 }
-@keyframes Home {
-  0% {
-    transform: rotate(-6deg);
-  }
-  50% {
-    transform: rotate(6deg) scale(1.01);
-  }
-  100% {
-    transform: rotate(-6deg);
-  }
-}

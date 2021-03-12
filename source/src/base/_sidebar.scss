@@ -8,13 +8,13 @@
         border-radius:0;
         .searchBar-6Kv8R2{
             background-color: var(--background-primary);
-            border-radius: 0;
+            border-radius: 18px 0 0 18px;
             box-shadow: none;
             margin-bottom: 20px;
+            margin-left: 20px;
             height:40px;
             .searchBarComponent-32dTOx{
                 border-radius: var(--border-radius);
-                margin-left: 20px;
             }
         }
         .scroller-1JbKMe{
@@ -36,11 +36,12 @@
         .container-1taM1r,
         .header-2V-4Sw{
             background-color: var(--background-primary);
-            border-radius: 0;
+            border-radius: 18px 0 0 18px;
             text-transform: capitalize;
             height:40px;
             box-shadow: none;
             margin-bottom: 20px;
+            margin-left: 20px;
         }
         .animatedContainer-1NSq4T{
             position: absolute;

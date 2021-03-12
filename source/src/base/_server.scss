@@ -30,34 +30,31 @@
     
 }
 
+.titleBar-AC4pGV {
+    background: var(--background-secondary);
+}
+
+
+.app-1q1i1E {
+margin-top: 20px;
+}
 
 // Guilds
 .scroller-2TZvBN {
-margin-top: 60px;
+margin-top: 80px;
 }
 
 // Remove guild Separator
-.guildSeparator-3s64Iy,
-.pill-2uzAFe {display: none;}
+.guildSeparator-3s64Iy {display: none;}
 
 // Background
 .tutorialContainer-1v44GL {
-    border-radius:18px 0 0 18px;
+    border-radius: 20px;
     background: var(--background-primary);
     position: fixed;
-    height:40px;
-    top: 22px;
-    .childWrapper-anI2G9{
-        position: relative;
-        border-radius: var(--border-radius);
-        background-color: transparent !important;
-        bottom:4px;
-        height:25px;
-        transition: 250ms ease all;
 
-        &:hover{
-            color:rgb(255, 255, 255);
-            animation: Home 1s infinite ease-in-out ;
-        }
-    }
+    top: 40px;
+
+    padding-top: 12px;
+    padding-bottom: 4px;
 }
