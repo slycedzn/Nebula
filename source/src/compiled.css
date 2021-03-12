@@ -402,7 +402,8 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 .chat-3bRxxu .content-yTz4x3 .chatContent-a9vAAp .cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j:not(:empty) {
   background-color: var(--background-secondary-alt);
   display: inline-block;
-  width: auto;
+  width: -webkit-max-content;
+  width: max-content;
   max-width: 600px;
   margin: 0;
   padding: 5px 10px;
@@ -415,7 +416,7 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
   border-radius: 10px;
   width: -webkit-max-content;
   width: max-content;
-  max-width: inherit;
+  max-width: 600px;
 }
 
 .chat-3bRxxu .content-yTz4x3 .chatContent-a9vAAp .repliedMessage-VokQwo:before {
