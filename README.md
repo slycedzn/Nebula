@@ -68,6 +68,8 @@ If you like to have a css that cant be imported via ``@import``, you can request
 ## Things To Note
 Some files are empty becuse i have not started working on that part of that part of this theme.
 
+This theme only supports Windows as of now, support for other OS will be added soon.
+
 # Credits
 Thank you [LuckFire](https://github.com/LuckFire) for allowing me to use some of your own code.
 
