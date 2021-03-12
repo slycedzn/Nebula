@@ -640,31 +640,6 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
   opacity: 1;
 }
 
-.titleBar-AC4pGV {
-  background: var(--background-secondary);
-}
-
-.app-1q1i1E {
-  margin-top: 20px;
-}
-
-.scroller-2TZvBN {
-  margin-top: 80px;
-}
-
-.guildSeparator-3s64Iy {
-  display: none;
-}
-
-.tutorialContainer-1v44GL {
-  border-radius: 20px;
-  background: var(--background-primary);
-  position: fixed;
-  top: 40px;
-  padding-top: 12px;
-  padding-bottom: 4px;
-}
-
 :root {
   --usrbg-modal-x-offset:-20px;
   /*Distance from the avatar container to the edge of the modal (x)*/
