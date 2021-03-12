@@ -354,6 +354,7 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 
 .chat-3bRxxu .container-1r6BKw .children-19S4PO {
   border-left: solid 1px rgba(255, 255, 255, 0.082);
+  border-right: solid 1px rgba(255, 255, 255, 0.082);
 }
 
 .chat-3bRxxu .container-1r6BKw .children-19S4PO .title-29uC1r,
@@ -659,7 +660,7 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 
 .tutorialContainer-1v44GL .childWrapper-anI2G9 {
   position: relative;
-  border-radius: var(--border-radius);
+  border-radius: 0;
   background-color: transparent !important;
   bottom: 4px;
   height: 25px;

@@ -49,12 +49,11 @@ margin-top: 60px;
     top: 22px;
     .childWrapper-anI2G9{
         position: relative;
-        border-radius: var(--border-radius);
+        border-radius: 0;
         background-color: transparent !important;
         bottom:4px;
         height:25px;
         transition: 250ms ease all;
-
         &:hover{
             color:rgba(255, 255, 255, 0.411);
         }
