@@ -61,7 +61,7 @@ If you like to have a css that cant be imported via ``@import``, you can request
 
 ## Known Bugs
  - **IMPORTANT** Channel list scrollbar glitches preventing users to click until scrolled again.
-
+ - BD Users will have a broken home button, ill try to fix this soon.
 
  - Applying other themes or plugins breaks may elements.
 
