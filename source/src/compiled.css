@@ -33,17 +33,6 @@
     border: solid 2px var(--background-extra);
   }
 }
-@keyframes Home {
-  0% {
-    transform: rotate(-6deg);
-  }
-  50% {
-    transform: rotate(6deg) scale(1.01);
-  }
-  100% {
-    transform: rotate(-6deg);
-  }
-}
 :root {
   --unread-badge: #e8eafdce;
   --unread-bg: transparent;
@@ -257,15 +246,15 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 
 .sidebar-2K8pFh .privateChannels-1nO12o .searchBar-6Kv8R2 {
   background-color: var(--background-primary);
-  border-radius: 0;
+  border-radius: 18px 0 0 18px;
   box-shadow: none;
   margin-bottom: 20px;
+  margin-left: 20px;
   height: 40px;
 }
 
 .sidebar-2K8pFh .privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
   border-radius: var(--border-radius);
-  margin-left: 20px;
 }
 
 .sidebar-2K8pFh .privateChannels-1nO12o .scroller-1JbKMe {
@@ -290,11 +279,12 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 .sidebar-2K8pFh .container-3w7J-x .container-1taM1r,
 .sidebar-2K8pFh .container-3w7J-x .header-2V-4Sw {
   background-color: var(--background-primary);
-  border-radius: 0;
+  border-radius: 18px 0 0 18px;
   text-transform: capitalize;
   height: 40px;
   box-shadow: none;
   margin-bottom: 20px;
+  margin-left: 20px;
 }
 
 .sidebar-2K8pFh .container-3w7J-x .animatedContainer-1NSq4T {
@@ -375,7 +365,6 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 
 .chat-3bRxxu .container-1r6BKw .children-19S4PO::after,
 .chat-3bRxxu .container-1r6BKw .children-19S4PO .divider-3FBTu8,
-.chat-3bRxxu .container-1r6BKw .children-19S4PO .topic-TCb_qw,
 .chat-3bRxxu .container-1r6BKw .children-19S4PO .akaBadge-1M-1Gw,
 .chat-3bRxxu .container-1r6BKw .children-19S4PO .nicknames-1XK4Zt {
   display: none;
@@ -651,35 +640,29 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
   opacity: 1;
 }
 
-.scroller-2TZvBN {
-  margin-top: 60px;
+.titleBar-AC4pGV {
+  background: var(--background-secondary);
 }
 
-.guildSeparator-3s64Iy,
-.pill-2uzAFe {
+.app-1q1i1E {
+  margin-top: 20px;
+}
+
+.scroller-2TZvBN {
+  margin-top: 80px;
+}
+
+.guildSeparator-3s64Iy {
   display: none;
 }
 
 .tutorialContainer-1v44GL {
-  border-radius: 18px 0 0 18px;
+  border-radius: 20px;
   background: var(--background-primary);
   position: fixed;
-  height: 40px;
-  top: 22px;
-}
-
-.tutorialContainer-1v44GL .childWrapper-anI2G9 {
-  position: relative;
-  border-radius: var(--border-radius);
-  background-color: transparent !important;
-  bottom: 4px;
-  height: 25px;
-  transition: 250ms ease all;
-}
-
-.tutorialContainer-1v44GL .childWrapper-anI2G9:hover {
-  color: white;
-  animation: Home 1s infinite ease-in-out;
+  top: 40px;
+  padding-top: 12px;
+  padding-bottom: 4px;
 }
 
 :root {
