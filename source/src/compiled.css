@@ -286,6 +286,11 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
   margin-bottom: 20px;
 }
 
+.sidebar-2K8pFh .container-3w7J-x .container-1taM1r .name-1jkAdW,
+.sidebar-2K8pFh .container-3w7J-x .header-2V-4Sw .name-1jkAdW {
+  margin-left: 10px;
+}
+
 .sidebar-2K8pFh .container-3w7J-x .animatedContainer-1NSq4T {
   position: absolute;
   top: 15px;
@@ -643,6 +648,10 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 
 .scroller-2TZvBN {
   margin-top: 60px;
+}
+
+.scroller-2TZvBN {
+  contain: none;
 }
 
 .guildSeparator-3s64Iy,
