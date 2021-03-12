@@ -246,15 +246,15 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 
 .sidebar-2K8pFh .privateChannels-1nO12o .searchBar-6Kv8R2 {
   background-color: var(--background-primary);
-  border-radius: 18px 0 0 18px;
+  border-radius: 0;
   box-shadow: none;
   margin-bottom: 20px;
-  margin-left: 20px;
   height: 40px;
 }
 
 .sidebar-2K8pFh .privateChannels-1nO12o .searchBar-6Kv8R2 .searchBarComponent-32dTOx {
   border-radius: var(--border-radius);
+  margin-left: 20px;
 }
 
 .sidebar-2K8pFh .privateChannels-1nO12o .scroller-1JbKMe {
@@ -279,12 +279,11 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 .sidebar-2K8pFh .container-3w7J-x .container-1taM1r,
 .sidebar-2K8pFh .container-3w7J-x .header-2V-4Sw {
   background-color: var(--background-primary);
-  border-radius: 18px 0 0 18px;
+  border-radius: 0;
   text-transform: capitalize;
   height: 40px;
   box-shadow: none;
   margin-bottom: 20px;
-  margin-left: 20px;
 }
 
 .sidebar-2K8pFh .container-3w7J-x .animatedContainer-1NSq4T {
@@ -308,6 +307,10 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 
 .sidebar-2K8pFh .container-3w7J-x .scroller-RmtA4e::-webkit-scrollbar {
   display: none;
+}
+
+.sidebar-2K8pFh .container-3w7J-x .scroller-RmtA4e .content-3YMskv {
+  overflow: scroll hidden;
 }
 
 .sidebar-2K8pFh .container-3w7J-x .bar-30k2ka {
@@ -635,6 +638,36 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 
 .wrapper-1Rf91z .bar-30k2ka {
   opacity: 1;
+}
+
+.scroller-2TZvBN {
+  margin-top: 60px;
+}
+
+.guildSeparator-3s64Iy,
+.pill-2uzAFe {
+  display: none;
+}
+
+.tutorialContainer-1v44GL {
+  border-radius: 18px 0 0 18px;
+  background: var(--background-primary);
+  position: fixed;
+  height: 40px;
+  top: 22px;
+}
+
+.tutorialContainer-1v44GL .childWrapper-anI2G9 {
+  position: relative;
+  border-radius: var(--border-radius);
+  background-color: transparent !important;
+  bottom: 4px;
+  height: 25px;
+  transition: 250ms ease all;
+}
+
+.tutorialContainer-1v44GL .childWrapper-anI2G9:hover {
+  color: rgba(255, 255, 255, 0.411);
 }
 
 :root {
