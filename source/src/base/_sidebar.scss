@@ -1,94 +1,51 @@
 .sidebar-2K8pFh{
     background-color: transparent;
-    border-radius:0 !important;
-    width:320px;
-    margin: 0 0 0 0;
-    .privateChannels-1nO12o{
-        background-color: transparent;
-        border-radius:0;
-        .searchBar-6Kv8R2{
-            background-color: var(--background-primary);
-            border-radius: 0;
-            box-shadow: none;
-            margin-bottom: 20px;
-            height:40px;
-            .searchBarComponent-32dTOx{
-                border-radius: var(--border-radius);
-                margin-left: 20px;
-            }
-        }
-        .scroller-1JbKMe{
-            background-color: var(--background-primary);
-            border-radius: var(--border-radius);
-            margin-left:20px;
-            .channel-2QD9_O{
-                margin-top: 6px;
-            }
-        }
-
-        ::-webkit-scrollbar{
-            display: none;
-        }
-    }
+    border-radius: 0 !important;
+    width: 320px;
     .container-3w7J-x{
         background-color: transparent;
-        border-radius: var(--border-radius);
         .container-1taM1r,
         .header-2V-4Sw{
             background-color: var(--background-primary);
-            border-radius: 0;
-            text-transform: capitalize;
-            height:40px;
             box-shadow: none;
-            margin-bottom: 20px;
-            .name-1jkAdW{
-                margin-left: 10px;
-            }
-        }
-        .animatedContainer-1NSq4T{
-            position: absolute;
-            top:15px;
-            left:20px;
-            border-radius: 18px 0 0 0;
-            box-shadow: none;
-            z-index: 2;
-            .bannerImage-3KhIJ6{
-                width:300px;
-            }
+            height: 40px;
         }
         .scroller-RmtA4e{
             background-color: var(--background-primary);
             border-radius: var(--border-radius);
-            margin-left: 20px;
-
-            &::-webkit-scrollbar{
-                display: none;
-            }
-            .content-3YMskv{
-                overflow: scroll hidden;
-            }
+            margin:20px 0 20px 20px;
         }
         .bar-30k2ka{
-            background-color: var(--background-secondary-alt);
-            margin-left: 20px;
             opacity: 1;
+            margin-left: 20px;
+        }
+    }
+    .privateChannels-1nO12o{
+        background-color: transparent;
+        .searchBar-6Kv8R2{
+            background-color: var(--background-primary);
+            box-shadow: none;
+            height:40px;
+        }
+        .scroller-1JbKMe{
+            background-color: var(--background-primary);
+            border-radius: var(--border-radius);
+            margin: 20px 0 20px 20px;
+            .channel-2QD9_O{
+                margin-top: 5px;
+            }
         }
     }
     .panels-j1Uci_{
         background-color: var(--background-primary);
-        border-radius: var(--border-radius);
-        margin-top: 20px;
         margin-left: 20px;
+        border-radius: var(--border-radius);
         .container-3baos1{
-            background-color: var(--background-primary);
-            border-radius: var(--border-radius);
+            background-color: transparent;
         }
-        .lookFilled-1Gx00P.colorBrand-3pXr91{
-            background-color: var(--background-secondary-alt);
+    }
 
-            &:hover{
-                background-color: var(--background-tertiary);
-            }
-        }
+    ::-webkit-scrollbar{
+        display: none;
     }
 }
