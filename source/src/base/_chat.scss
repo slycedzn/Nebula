@@ -1,0 +1,225 @@
+.chat-3bRxxu{
+    background-color: transparent;
+    margin-right: 20px;
+    border-radius: 0 18px 18px 0;
+    .container-1r6BKw{
+        background-color: var(--background-primary);
+        border-radius: 0 18px 18px 0;
+        padding: 0;
+        max-height: 40px;
+        .children-19S4PO{
+            border-left: solid 1px rgba(255, 255, 255, 0.082);
+            border-right: solid 1px rgba(255, 255, 255, 0.082);
+            .title-29uC1r,
+            .channelName-qsg_a_{
+                font-size: 20px;
+                text-transform: capitalize;
+            }
+            &::after,
+            .divider-3FBTu8,
+            .topic-TCb_qw,
+            .akaBadge-1M-1Gw,
+            .nicknames-1XK4Zt{
+                display: none;
+            }
+            .iconWrapper-2OrFZ1:first-child{
+                margin-left: 21px;
+            }
+        }
+        .toolbar-1t6TWx{
+            .iconWrapper-2OrFZ1[aria-label="Help"],
+            .iconWrapper-2OrFZ1[aria-label="Start Video Call"]{
+                display: none;
+            }
+        }
+    }
+    .content-yTz4x3{
+        margin-top: 20px;
+        margin-left: 20px;
+        &::before{
+            display: none;
+        }
+        .chatContent-a9vAAp{
+            background-color: var(--background-primary);
+            border-radius: var(--border-radius);
+            .cozyMessage-3V1Y8y .contents-2mQqc9 > .markup-2BOw-j:not(:empty) {
+                background-color: var(--background-secondary-alt);
+                display:inline-block;
+                width:max-content;
+                max-width: 600px;
+                margin: 0;
+                padding: 5px 10px ;
+                border-radius: 15px;
+                position: relative;
+                overflow: visible;
+            }
+            .markup-2BOw-j code{
+                border-radius: 10px;
+                width:max-content;
+                max-width: 600px;
+            }
+            .repliedMessage-VokQwo:before{
+                border-color: var(--background-extra);
+            }
+            .newMessagesBar-265mhP{
+                top:10px;
+                border-radius: var(--border-radius);
+                background-color: var(--background-tertiary);
+                padding: 3px;
+                box-shadow: none;
+                opacity: 1;
+            }
+            .jumpToPresentBar-G1R9s6{
+                position: absolute;
+                bottom:16px;
+                max-height: 20px;
+                border-radius: var(--border-radius);
+                padding: 5px 3px;
+                opacity: 1;
+                background-color: var(--background-tertiary);
+            }
+            .messagesErrorBar-nyJGU7{
+                position: absolute;
+                bottom: 15px;
+                padding: 3px;
+                border-radius: var(--border-radius);
+            }
+            .scroller-2LSbBU{
+                border-radius: 17px;
+            }
+        }
+        .membersWrap-2h-GB4{
+            margin-left: 20px;
+            .members-1998pB{
+                background-color: var(--background-primary);
+                border-radius: var(--border-radius);
+
+                div{
+                    background-color: transparent;
+                }
+            }
+            .layout-2DM8Md:hover{
+                border-radius: 20px;
+                background-color: var(--background-secondary);
+            }
+            ::-webkit-scrollbar{
+                display: none;
+            }
+        }
+        .form-2fGMdU{
+            .scrollableContainer-2NUZem{
+                background-color: var(--background-secondary-alt);
+                border-radius: 25px;
+                border:solid 2px var(--background-secondary);
+
+                &:hover{
+                    animation: border-flash 2s linear infinite;
+                }
+            }
+            .wrapper-39oAo3{
+                border-radius: var(--border-radius);
+            }
+        }
+        .scroller-11cdZM{
+            background-color: var(--background-primary);
+            border-radius: var(--border-radius);
+            margin-right: 20px;
+        }
+        .container-2fRDfG{
+            position: relative;
+            bottom:5px;
+            background-color: var(--background-tertiary);
+            border-radius: var(--border-radius);
+        }
+        .message-2qnXI6{
+            border-radius: 0 18px 18px 0;
+
+            &:hover{
+                background-color: var(--background-tertiary);
+            }
+        }
+    }
+}
+.applicationStore-1pNvnv{
+    border-radius: 0 18px 18px 18px;
+    margin-right: 20px;
+    background-color: transparent;
+    .container-1r6BKw{
+        border-radius:  0 18px 18px 0;
+        height:40px;
+    }
+    .scroller-9moviB{
+        margin:20px 0 0 20px;
+        border-radius: var(--border-radius);
+    }
+}
+.theme-dark .container-1D34oG{
+    background-color: transparent;
+    margin-right: 20px;
+    .container-1r6BKw.themed-ANHk51{
+        border-radius: 0 18px 18px 0;
+        max-height:40px;
+        width:auto;
+    }
+    .tabBody-3YRQ8W{
+        margin-left: 20px;
+        &::before{
+            display: none;
+        }
+        .peopleList-3c4jOR{
+            background-color: var(--background-primary);
+            margin-top: 20px;
+            margin-right: 20px;
+            border-radius: var(--border-radius);
+        }
+        .nowPlayingColumn-2sl4cE{
+            background-color: var(--background-primary);
+            margin-top: 20px;
+            border-radius: var(--border-radius);
+            .wrapper-3D2qGf{
+                background-color: var(--background-secondary-alt);
+                border-radius: var(--border-radius);
+                .body-1ld4H7{
+                    border-radius: 20px;
+                    background-color: var(--background-secondary);
+                }
+            }
+        }
+    }
+}
+.pageWrapper-1PgVDX{
+    background-color: var(--background-primary) !important;
+    border-radius: var(--border-radius);
+    margin-right: 20px;
+
+    ::-webkit-scrollbar{
+        display: none;
+    }
+}
+.notice-3uyY6c{
+    background-color: var(--background-primary);
+    border-radius: var(--border-radius);
+    width:500px;
+    left:505px;
+    top:40px;
+    .button-gP4R86{
+        background-color: var(--background-tertiary);
+        padding: 6px;
+        border-radius: var(--border-radius);
+        border: none;
+
+        &:hover{
+            background-color: var(--background-secondary-alt);
+        }
+    }
+}
+.colorStreamerMode-2SJAUN{
+    position: relative;
+    border-radius: var(--border-radius);
+    font-size: 15px;
+    text-transform: capitalize;
+    height:35px;
+    left:32px;
+    width:1382px;
+    margin-bottom: 20px;
+}
