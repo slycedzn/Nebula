@@ -1248,10 +1248,10 @@ div[aria-label=USER_SETTINGS] .info-1VyQPT:last-child > div:last-child::after {
 .theme-dark,
 .theme-light,
 :root {
-  --background-primary: #25294a !important;
+  --background-primary: #1e1f21 !important;
   --background-secondary: #202442 !important;
   --background-secondary-alt: #2d325a !important;
-  --background-tertiary: #1b1f38 !important;
+  --background-tertiary: #111214 !important;
   --background-accent: var(--background-secondary) !important;
   --background-extra: #e2e4f0;
   --background-extra-alt:#3a4070;
