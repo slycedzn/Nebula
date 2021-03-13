@@ -1,0 +1,179 @@
+//Better Channel Indicatiors, Thanks LuckFire//
+
+:root {
+    --unread-badge: #e8eafdce;
+    --unread-bg: transparent;
+    --selected-badge: rgba(255, 0, 0, 0);
+    --selected-bg: var(--background-tertiary);
+    --selected-bg-hover: rgba(112, 135, 215, 0.18);
+    --hovered-bg: var(--background-modifier-hover);
+    --bg-rounding: 0 50px 50px 0;
+    --border-info: 2px solid;
+}
+
+
+#app-mount {
+    // Removes Original Indiactors
+    .content-1x5b-n, 
+    .channel-2QD9_O .layout-2DM8Md {
+        background: none;
+    }
+
+    // Badges
+    .modeSelected-346R90,
+    .modeUnread-1qO3K1 {
+        &::before {
+            content: "";
+            position: absolute;
+            height: 34px;
+            top: 0;
+        }
+    }
+    .channel-2QD9_O.selected-aXhQR6::before {
+        content: "";
+        position: absolute;
+        height: 44px;
+        top: 0;
+    }
+
+    // Channel Selected
+    .modeSelected-346R90,
+    .channel-2QD9_O.selected-aXhQR6 {
+        background: var(--selected-bg);
+        border-radius: var(--bg-rounding);
+        max-width: 285px;
+
+        &:hover {
+            background: var(--selected-bg-hover);
+        }
+
+        &::before {
+            border-left: var(--border-info) var(--selected-badge);
+        }
+    }
+
+    // Channel Unread
+    .unread-2lAfLh {
+        display: none;
+    }
+    .modeUnread-1qO3K1 {
+        background: var(--unread-bg);
+        border-radius: var(--bg-rounding);
+
+        &::before {
+            border-left: var(--border-info) var(--unread-badge);
+        }
+    }
+
+    // Channel Hover
+    .modeUnread-1qO3K1,
+    .wrapper-2jXpOf:not(.modeSelected-346R90),
+    .channel-2QD9_O.container-2Pjhx-:not(.selected-aXhQR6) {
+        &:hover {
+            background: var(--hovered-bg);
+            border-radius: var(--bg-rounding);
+            max-width: 285px;
+            transition: 200ms ease all;
+        }
+    }
+
+    // Fixes
+    .channel-2QD9_O.container-2Pjhx- {
+        margin-left: 0;
+        max-width: 285px;
+
+        div .avatar-3uk_u9 {
+            margin-left: 5px;
+        }
+    }
+    .containerDefault--pIXnN, .containerDragAfter-3Fp7LC, .containerDragBefore-3iTCc7, .containerUserOver-2mv1jO{
+        padding-top: 5px;
+    }
+}
+//Full screen settings, Thanks DoggyBootsy//
+.sidebar-CFHs9e{padding-top: 10px;padding-bottom: 10px;padding-left: 0px;}
+.sidebarRegion-VFTUkN {flex: 0 0 auto;}
+.contentColumn-2hrIYH, .customColumn-Rb6toI {max-width: unset;}
+.platform-osx .sidebar-CFHs9e{padding-top: 30px;}
+.container-2VW0UT{width:180%;}
+
+.sidebarRegion-VFTUkN{
+    .side-8zPYf6 .item-PXvHYJ{
+        border-radius: 0 20px 20px 0;
+        transition: 250ms ease all;
+    }
+}
+
+//Make search bar an Icon, Thanks DogyBootsy//
+.search-36MZv- {order: -1;}
+.searchBar-3dMhjb {
+    width: 28px;
+    transition: width 0.6s ease-in-out;
+    color:#fff;
+    background: none;
+    border-radius: 18px 10px 0 18px;
+}
+.focused-31_ccS .searchBar-3dMhjb,
+.open-6_Y_aH .searchBar-3dMhjb,
+.searchBar-3dMhjb:hover {
+    width: 210px;
+    background: var(--background-tertiary);
+}
+.icon-3cZ1F_{height: 24px;width: 24px;color:var(--interactive-normal);}
+.iconContainer-O4O2CN{bottom: 3px;}
+.search-36MZv-{margin-left: 0px;}
+
+//Center profile tabs, Thanks Robzyy//
+.tabBar-2MuP6-{ justify-content: center; }
+.top-28JiJ-:last-child .item-PXvHYJ:last-child { margin-right: 0; }
+
+//Add text to settings info section//
+div[aria-label="USER_SETTINGS"] .info-1VyQPT:last-child > div:last-child::after {
+    content: "Nebula 2.14.14";
+    display: block;
+  }
+
+//Round Button Container, Thanks mo//
+.wrapper-2aW0bm,.button-1ZiXG9.selected-LCBEAU,.button-1ZiXG9,.powercord-snippet-apply:not(.applied) div:hover,.powercord-snippet-apply div  {
+    border-radius: 24px !important;
+    }
+
+//Better Roles, Thanks Cynthia//
+.role-2irmRk {
+    position: relative;
+    overflow: hidden;
+    border: none;
+    padding: 5px;
+  }
+  .roleCircle-3xAZ1j::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: inherit;
+    opacity: .2;
+    pointer-events: none;
+  }
+  .footer-1fjuF6 {
+    border: none;
+}
+// Status Recolor for Popouts- Thanks LuckFire
+.wrapper-3t9DeA .svg-2V3M55 {
+    [mask*="status-online"] {
+            fill: #43B480;
+    }
+
+    [mask*="status-idle"] {
+            fill: #F8A51A;
+    }
+
+    [mask*="status-dnd"] {
+            fill: #F04747;
+    }
+
+    [mask*="status-streaming"] {
+            fill: #9059F6;
+    }
+}

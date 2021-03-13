@@ -1,0 +1,18 @@
+:root {
+    --thumb: var(--background-tertiary);
+    --scrollbar-thumb-dark: #f8f9fa00 !important;
+    --scrollbar-track-dark: --burple !important;
+  }
+  
+  ::-webkit-scrollbar {
+      width: 10px;
+      border-radius: 25px;
+      background-color: transparent !important;
+  }
+  ::-webkit-scrollbar-thumb {
+      border-radius: 25px;
+      background-color: var(--thumb) !important;
+  }
+  ::-webkit-scrollbar-track {
+      display: none;
+  }

@@ -1,0 +1,51 @@
+.sidebar-2K8pFh{
+    background-color: transparent;
+    border-radius: 0 !important;
+    width: 320px;
+    .container-3w7J-x{
+        background-color: transparent;
+        .container-1taM1r,
+        .header-2V-4Sw{
+            background-color: var(--background-primary);
+            box-shadow: none;
+            height: 40px;
+        }
+        .scroller-RmtA4e{
+            background-color: var(--background-primary);
+            border-radius: var(--border-radius);
+            margin:20px 0 20px 20px;
+        }
+        .bar-30k2ka{
+            opacity: 1;
+            margin-left: 20px;
+        }
+    }
+    .privateChannels-1nO12o{
+        background-color: transparent;
+        .searchBar-6Kv8R2{
+            background-color: var(--background-primary);
+            box-shadow: none;
+            height:40px;
+        }
+        .scroller-1JbKMe{
+            background-color: var(--background-primary);
+            border-radius: var(--border-radius);
+            margin: 20px 0 20px 20px;
+            .channel-2QD9_O{
+                margin-top: 5px;
+            }
+        }
+    }
+    .panels-j1Uci_{
+        background-color: var(--background-primary);
+        margin-left: 20px;
+        border-radius: var(--border-radius);
+        .container-3baos1{
+            background-color: transparent;
+        }
+    }
+
+    ::-webkit-scrollbar{
+        display: none;
+    }
+}

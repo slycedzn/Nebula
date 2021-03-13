@@ -1,0 +1,65 @@
+.base-3dtUhz{
+    left:85px;
+ }
+.wrapper-1Rf91z{
+    left:13px;
+    margin-bottom: 20px;
+ .scroller-2TZvBN{
+     padding-top:15px;
+     background-color: var(--background-primary);
+     border-radius: var(--border-radius);
+    }
+    .circleIconButton-jET_ig{
+        background-color: var(--background-tertiary);
+     }
+     .circleIconButton-jET_ig{
+         color:var(--background-extra);
+     }
+     .wrapper-1BJsBx.selected-bZ3Lue .childWrapper-anI2G9, .wrapper-1BJsBx:hover .childWrapper-anI2G9{
+         background-color: var(--background-secondary-alt);
+     }
+     .guildSeparator-3s64Iy{
+         width:50px;
+     }
+     .childWrapper-anI2G9{
+         background-color: var(--background-tertiary);
+    }
+    .bar-30k2ka{
+        opacity: 1;
+    }
+    
+}
+
+
+// Guilds
+.scroller-2TZvBN {
+margin-top: 60px;
+}
+
+.scroller-2TZvBN {
+    contain: none;
+}
+
+// Remove guild Separator
+.guildSeparator-3s64Iy,
+.pill-2uzAFe {display: none;}
+
+// Background
+.tutorialContainer-1v44GL {
+    border-radius:18px 0 0 18px;
+    background: var(--background-primary);
+    position: fixed;
+    height:40px;
+    top: 22px;
+    .childWrapper-anI2G9{
+        position: relative;
+        border-radius: 0;
+        background-color: transparent !important;
+        bottom:4px;
+        height:25px;
+        transition: 250ms ease all;
+        &:hover{
+            color:rgba(255, 255, 255, 0.411);
+        }
+    }
+}
