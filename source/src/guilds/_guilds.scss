@@ -2,7 +2,12 @@
 // Guilds
 .scroller-2TZvBN {
 margin-top: 40px;
+margin-left: 20px;
+z-index: 10;
 contain: none;
+}
+.unreadMentionsIndicatorTop-gA6RCh{
+    margin-left: var(--margin);
 }
 
 // Remove guild Separator
