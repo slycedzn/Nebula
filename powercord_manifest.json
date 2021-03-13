@@ -1,7 +1,7 @@
 {
     "name": "Nebula",
-    "version": "2.15.15",
-    "author": "Pavol#0296",
+    "version": "1.0 Dev Edition",
+    "author": "Pavol#0001",
     "license": "MIT",
     "theme": "index.scss",
     "description": "The dark blue redesign of discord."

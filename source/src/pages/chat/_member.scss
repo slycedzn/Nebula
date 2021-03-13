@@ -1,0 +1,15 @@
+.membersWrap-2h-GB4{
+    background-color: var(--background-primary);
+    margin: 0 0 var(--margin) var(--margin);
+    border-radius: var(--neb-border-radius1);
+    .members-1998pB{
+        background-color: var(--background-primary);
+        border-radius: var(--neb-border-radius1);
+        div{
+            background-color: transparent;
+        }
+    }
+    ::-webkit-scrollbar{
+        display: none;
+    }
+}
