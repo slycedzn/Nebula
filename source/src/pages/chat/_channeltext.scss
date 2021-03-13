@@ -1,0 +1,23 @@
+.form-2fGMdU{
+    .channelTextArea-rNsIhG{
+        background-color: transparent;
+        .scrollableContainer-2NUZem{
+            background-color: var(--input-background);
+            border-radius: var(--neb-border-radius2);
+            border: var(--input-border);
+            opacity: 1;
+            transition: 250ms ease all ;
+
+            &:hover{
+                border: solid 2px var(--neb-white);
+            }
+            [aria-label="Send a gift"],
+            [aria-label="Open GIF picker"]{
+                display: none;
+            }
+        }
+    }
+    &:before{
+        display: none;
+    }
+}

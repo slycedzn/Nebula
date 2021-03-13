@@ -1,42 +1,82 @@
-@import "./source/src/import";
+//╔═════════════════════╦╗
+//║     File Imports    ╠╣	
+//╚═════════════════════╩╝
 @import "./source/addons/import";
+@import "./source/src/import";
 
-.theme-dark, 
-.theme-light, 
-:root {
-    --background-primary: #25294a !important;
-    --background-secondary: #202442 !important;
-    --background-secondary-alt: #2d325a !important;
-    --background-tertiary: #1b1f38 !important;
-    --background-accent: var(--background-secondary) !important;
-    --background-extra: #e2e4f0;
-    --background-extra-alt:#3a4070;
-    --background-floating: var(--background-tertiary) !important;
-    --background-modifier-hover: var(--background-secondary-alt) !important;	
-    --background-modifier-active: rgba(45, 50, 90, 0.418) !important;
-    --background-modifier-selected: var(--background-secondary-alt) !important;	
-    --background-modifier-accent: hsla(0,0%,100%,0.06) !important;
-    --channeltextarea-background: var(--background-secondary) !important;
-    --focus-primary: rgba(0, 0, 0, 0.219) !important;
-    --deprecated-card-bg: rgba(0, 0, 0, 0.2) !important;
-    --deprecated-card-editable-bg: rgba(0,0,0,0.1) !important;
-    --deprecated-text-input-border-disabled: var(--background-tertiary) !important;
-    --activity-card-background: var(--background-primary) !important;
-    --channels-default: var(--background-extra) !important;
-    --text-muted: var(--background-extra) !important;
-    --text-normal: #e8eaf8 !important;
-    --interactive-normal: #ffffff !important;
-    --interactive-hover: var(--background-extra) !important;
-    --interactive-active: var(--text-normal) !important;
-    --interactive-muted: #4d517e !important;
-    --header-secondary: #c9c9c9 !important;
-    --toast-background: var(--background-primary) !important;
-    --toast-header: var(--background-tertiary) !important;
-    --toast-contents: var(--background-secondary) !important;
-    --toast-box-shadow: rgba(0, 0, 0, .2) !important;
-    --toast-border: var(--background-tertiary) !important;
-    --background-mentioned-hover: #383d6836 !important;
-    --background-mentioned:#383d685e;
-    --header-primary: var(--background-extra) !important;
-    --border-radius:18px;
+//╔══════════════════════╦╗
+//║   Nebula Variables   ╠╣	
+//╚══════════════════════╩╝
+:root{
+
+// Main Variables
+
+--neb-primary:#25294a;
+--neb-secondary:#202442;
+--neb-secondary-alt:#2d325a;
+--neb-tertiary:#1b1f38;
+--neb-white:#e2e4f0;
+
+
+
+// Misc Color Variables
+
+--neb-hover-background:var(--neb-secondary-alt);
+--neb-modal-background:var(--neb-primary);
+--neb-modal-background-secondary:var(--neb-secondary);
+--input-background:var(--neb-secondary-alt);
+--input-background-hover:var(--neb-white);
+--input-border:solid 2px var(--neb-tertiary);
+--button-background-light:var(--neb-primary);
+--button-hover-light:var(--background-secondary);
+--button-background-dark:var(--neb-tertiary);
+--button-hover-dark:var(--neb-primary);
+
+
+// Misc Variables
+
+--modal-backdrop-blur: 5px; // Default 5px
+
+
+
+
+// Status
+--neb-status-green: rgb(40, 167, 69);
+--neb-status-yellow: rgb(219, 171, 9);
+--neb-status-red: rgb(215, 58, 73);
+--neb-status-purple: rgb(89, 54, 149);
+--neb-status-grey: rgb(117, 128, 142);
+
+
+
+// Element Dependant Variables
+
+--neb-border-radius0:0px; // Default 0px
+--neb-border-radius1: 18px; // Default 15px
+--neb-border-radius2: 25px; // Default 25px
+--neb-guild-radius:8px; // Default 8px
+--neb-divider: solid .8px rgba(255, 255, 255, 0.06); 
+--neb-topbar-height: 40px; // Default 40px
+--neb-sidebar-width: 360px; // Default 300px;
+--margin:20px; // Default 20px
+--neb-version: "Dev Edition";
+
+
+
+// Scrollbar
+--neb-track:transparent;
+--neb-thumb:var(--neb-tertiary);
+
+
+//╔═════════════════════╦╗
+//║  Discord Variables  ╠╣	
+//╚═════════════════════╩╝
+
+--background-primary:var(--neb-primary);
+--background-secondary:var(--neb-secondary);
+--background-secondary-alt:var(--neb-primary);
+--background-tertiary:var(--neb-tertiary);
+--background-extra:var(--neb-white);
+--interactive-normal:var(--neb-white);
 }
+
