@@ -1,24 +1,12 @@
-.sidebar-2K8pFh{
+.container-3w7J-x{
     background-color: transparent;
-    width: var(--neb-sidebar-width);
-    border-radius: var(--neb-border-radius0) !important;
-    .container-3w7J-x{
-        background-color: transparent;
-        .header-2V-4Sw{
-            background-color: var(--background-primary);
-            height:40px;
-            box-shadow: none;
-            .name-1jkAdW{
-                margin-left: 25px;
-            }
-        }
-        .scroller-RmtA4e{
-            background-color: var(--background-primary);
-            border-radius: var(--neb-border-radius1);
-            margin:  var(--margin) 0 var(--margin) 40px;
-        }
+    .header-2V-4Sw{
+        background-color: var(--background-primary);
+        height:40px;
     }
-    ::-webkit-scrollbar{
-        display: none;
+    .scroller-RmtA4e{
+        background-color: var(--background-primary);
+        border-radius: var(--neb-border-radius1);
+        margin: var(--margin) 0 var(--margin) var(--margin);
     }
 }

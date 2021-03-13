@@ -1,8 +1,14 @@
 //╔═════════════════════╦╗
 //║     File Imports    ╠╣	
 //╚═════════════════════╩╝
-@import "./source/addons/import";
 @import "./source/src/import";
+
+
+//╔═════════════════════╦╗
+//║   Imported Addons   ╠╣	
+//╚═════════════════════╩╝
+@import url('https://raw.githack.com/Snapperito/Settings-Icons/main/source.css');
+
 
 //╔══════════════════════╦╗
 //║   Nebula Variables   ╠╣	
@@ -16,6 +22,17 @@
 --neb-secondary-alt:#2d325a;
 --neb-tertiary:#1b1f38;
 --neb-white:#e2e4f0;
+
+// Addon Variables
+
+// -Settings Icons
+--settings-icon-color: var(--interactive-normal);
+--settings-subscriptions: var(--interactive-normal);
+--settings-hypesquad: var(--interactive-normal);
+--settings-logout: #f04747;
+--settings-alt-focused: var(--interactive-normal);
+--settings-guild-premium: var(--interactive-normal);
+--settings-guild-delete: #f04747;
 
 
 
@@ -52,12 +69,12 @@
 // Element Dependant Variables
 
 --neb-border-radius0:0px; // Default 0px
---neb-border-radius1: 18px; // Default 15px
+--neb-border-radius1: 12px; // Default 15px
 --neb-border-radius2: 25px; // Default 25px
 --neb-guild-radius:8px; // Default 8px
 --neb-divider: solid .8px rgba(255, 255, 255, 0.06); 
 --neb-topbar-height: 40px; // Default 40px
---neb-sidebar-width: 320px; // Default 300px;
+--neb-sidebar-width: 340px; // Default 300px;
 --margin:20px; // Default 20px
 --neb-version: "Dev Edition";
 
@@ -78,5 +95,7 @@
 --background-tertiary:var(--neb-tertiary);
 --background-extra:var(--neb-white);
 --interactive-normal:var(--neb-white);
+--background-modifier-hover:var(--neb-secondary-alt);
+--background-modifier-active:var(--neb-secondary-alt);
 }
 

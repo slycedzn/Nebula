@@ -1,17 +1,29 @@
-.privateChannels-1nO12o{
-    background-color: transparent;
-    .searchBar-6Kv8R2{
-        background-color: var(--background-primary);
-        margin-bottom: var(--margin);
-        box-shadow: none;
-        height:40px;
-        .searchBarComponent-32dTOx{
-            margin-left: var(--margin);
+.base-3dtUhz{
+    left:85px;
+    .sidebar-2K8pFh{
+        background-color: transparent;
+        background: transparent;
+        width:var(--neb-sidebar-width);
+        border-radius: var(--neb-border-radius0) !important;
+        transition: 250ms ease all;
+        .privateChannels-1nO12o{
+            background-color: transparent;
+            .searchBar-6Kv8R2{
+                background-color: var(--background-primary);
+                box-shadow: none;
+                height:40px;
+                .searchBarComponent-32dTOx{
+                    margin-left: var(--margin);
+                }
+            }
+            .scroller-1JbKMe{
+                background-color: var(--background-primary);
+                border-radius: var(--neb-border-radius1);
+                margin: var(--margin) 0 var(--margin) var(--margin);
+            }
         }
-    }
-    .scroller-1JbKMe{
-        margin:0 0 var(--margin) 40px;
-        border-radius: var(--neb-border-radius1);
-        background-color: var(--background-primary);
+        ::-webkit-scrollbar{
+            display: none;
+        }
     }
 }
